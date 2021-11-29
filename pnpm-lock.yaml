@@ -8,6 +8,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.2.0
   '@vitejs/plugin-vue': ^1.9.3
   autoprefixer: ^10.4.0
+  axios: ^0.24.0
   element-plus: ^1.1.0-beta.24
   eslint: ^8.1.0
   eslint-config-prettier: ^8.3.0
@@ -31,6 +32,7 @@ specifiers:
 dependencies:
   '@iconify/iconify': 2.0.4
   '@iconify/json': 1.1.421
+  axios: 0.24.0
   element-plus: 1.1.0-beta.24_vue@3.2.20
   pinia: 2.0.0_typescript@4.4.4+vue@3.2.20
   vite-plugin-purge-icons: 0.7.0_vite@2.6.13
@@ -641,6 +643,14 @@ packages:
 
   /axios/0.21.4_debug@4.3.2:
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
+    dependencies:
+      follow-redirects: 1.14.4_debug@4.3.2
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
+  /axios/0.24.0:
+    resolution: {integrity: sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==}
     dependencies:
       follow-redirects: 1.14.4_debug@4.3.2
     transitivePeerDependencies:

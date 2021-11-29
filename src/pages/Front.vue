@@ -1,48 +1,63 @@
 <script lang="ts" setup="setup">
-  import useCounter from '@/store/useCounter';
-  import { storeToRefs } from 'pinia';
-  import AppIcon from '@/components/common/AppIcon.vue';
+  import useSiteConfig from '@/hooks/api/useSiteConfig';
+  import { computed } from 'vue';
 
-  const counter = useCounter();
-  const refCounter = storeToRefs(counter);
+  const { siteConfig } = useSiteConfig();
+  // siteSettings.background_image
+  const bgImg = computed(() => {
+    console.log(siteConfig.value?.background_image);
+    return `url('${siteConfig.value?.background_image}')`;
+  });
 </script>
 
 <template>
-  <div class="wrapper h-screen w-screen text-center p-10">
-    <div class="front w-96 mx-auto p-5 rounded border border-gray-300">
-      <div class="font-bold text-lg text-gray-700">Front</div>
-    </div>
-
-    <div class="box mt-4 w-96 mx-auto p-5 rounded border border-gray-300">
-      <div class="title font-bold text-left mb-3">Pinia:</div>
-      <p>
-        <el-button size="small" @click="counter.add(1)">+1</el-button>
-        <el-button size="small" @click="counter.add(10)">+10</el-button>
-      </p>
-      <p class="mt-5">
-        <span>{{ refCounter.count }}</span>
-      </p>
-    </div>
-
-    <div class="router mt-4 w-96 mx-auto p-5 rounded border border-gray-300">
-      <div class="title font-bold text-left mb-3">Router:</div>
-      <p>
-        <el-button type="primary" size="small" @click="$router.push({ name: 'Admin' })">
-          To Admin
-        </el-button>
-      </p>
-    </div>
-
-    <div class="iconify mt-4 w-96 mx-auto p-5 rounded border border-gray-300">
-      <div class="title font-bold text-left mb-3">Iconfiy:</div>
-      <p>
-        <app-icon icon="mdi:account-circle" />
-        <app-icon icon="ion:search" class="text-lg" />
-      </p>
+  <div class="front">
+    <div class="bg-wrapper">
+      <div class="headers flex justify-between">
+        <div class="left"><span>[厦门] 晴转多云 22℃</span></div>
+        <div class="right">
+          <ul class="flex space-x-2">
+            <li><a href="#">新闻</a></li>
+            <li><a href="#">留言</a></li>
+            <li><a href="#">最新</a></li>
+            <li><a href="#">设置</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
-  <!--  <div class="front w-screen h-screen mx-auto">-->
-  <!--  </div>-->
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+  .front {
+    @apply h-full w-full;
+  }
+
+  .bg-wrapper {
+    opacity: 0.8;
+    z-index: -10;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+    min-height: 100vh;
+    background-image: v-bind(bgImg);
+
+    :before {
+      content: ' ';
+      position: fixed;
+      z-index: -10;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-position: center 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+</style>
