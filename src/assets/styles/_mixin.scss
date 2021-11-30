@@ -1,0 +1,67 @@
+@mixin scroll($w: 5px, $hide: transparent) {
+  overflow: auto;
+  /* 设置滚动条的样式 */
+  &::-webkit-scrollbar {
+    transition: all 0.2s;
+    background-color: transparent;
+    width: $w;
+    height: $w;
+  }
+
+  &:hover::-webkit-scrollbar {
+    transition: all 0.2s;
+    width: $w;
+    height: $w;
+  }
+
+  /* 滚动槽 */
+  &::-webkit-scrollbar-track {
+    transition: all 0.2s ease-out;
+    background-color: transparent;
+    width: 5px;
+    border-radius: 10px;
+  }
+
+  &:hover::-webkit-scrollbar-thumb {
+    transition: all 0.2s ease-out;
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  /* 滚动条滑块 */
+  &::-webkit-scrollbar-thumb {
+    transition: all 0.2s ease-out;
+    border-radius: 4px;
+    background-color: $hide;
+  }
+}
+
+@mixin empty-scroll($w: 5px) {
+  @include scroll($w, rgba(0, 0, 0, 0.1));
+}
+
+@mixin hide-scroll {
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    transition: all 0.2s;
+    background-color: transparent;
+    width: 0;
+    height: 0;
+  }
+}
+
+@mixin my-area {
+  tab-size: 2;
+  @include scroll();
+  @apply h-full w-full text-base appearance-none rounded resize-none text-base text-gray-700 bg-transparent font-editor;
+  @apply outline-none border border-indigo-300 p-3 break-all;
+  @apply focus:border-indigo-400;
+}
+
+@mixin my-pre {
+  tab-size: 2;
+  @apply flex-1;
+  @apply rounded p-4 border border-indigo-300 whitespace-pre-wrap break-all;
+  @apply hover:border-indigo-400;
+  @apply focus:outline-none;
+  @include scroll();
+}
