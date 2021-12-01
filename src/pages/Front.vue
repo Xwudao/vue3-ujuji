@@ -1,21 +1,23 @@
 <script lang="ts" setup="setup">
-  import useSiteConfig from '@/hooks/api/useSiteConfig';
-  import { computed } from 'vue';
+  import useSiteConfig, { useSiteBoxes } from '@/hooks/api/useSiteConfig';
+  import { computed, ref, toRef, watch } from 'vue';
+  import FrontSearchBox from '@/components/front/FrontSearchBox.vue';
+  import FrontBoxes from '@/components/front/FrontBoxes.vue';
+  import FrontFooter from '@/components/front/FrontFooter.vue';
 
   const { siteConfig } = useSiteConfig();
   // siteSettings.background_image
   const bgImg = computed(() => {
     return `url('${siteConfig.value?.background_image}')`;
   });
-  const siteColor = computed(() => {
-    return siteConfig.value?.site_name_color || '#fff';
-  });
-  const boxTitleColor = computed(() => {
-    return siteConfig.value?.box_title_color || '#fff';
-  });
-  const boxLinkColor = computed(() => {
-    return siteConfig.value?.box_link_color || '#fff';
-  });
+  const userID = ref(-1);
+  watch(
+    () => siteConfig.value.user_id,
+    (id) => {
+      userID.value = id || -1;
+    }
+  );
+  const { boxes } = useSiteBoxes(userID);
 </script>
 
 <template>
@@ -36,25 +38,17 @@
     </div>
     <!--      title-->
     <div class="title text-center mt-8">
-      <h3 class="font-bold text-3xl">{{ siteConfig.site_name }}</h3>
-      <div class="desc mt-3 text-sm">{{ siteConfig.site_desc }}</div>
+      <h3 class="font-bold text-4xl">{{ siteConfig.site_name }}</h3>
+      <div class="desc mt-6 text-sm">{{ siteConfig.site_desc }}</div>
     </div>
+
+    <front-search-box />
 
     <!--    box-->
+    <front-boxes :boxes="boxes" />
 
-    <div class="boxes">
-      <div v-for="i in 10" :key="i" class="box">
-        <div class="box-title text-center font-bold text-base">你好</div>
-        <div class="box-desc">这是描述</div>
-        <div class="box-items">
-          <a v-for="m in 40" :key="m" class="box-link" href="#">站站点.点...</a>
-        </div>
-      </div>
-    </div>
-
-    <footer class="footer">
-      <p>&copy; 2021 &nbsp; Powered By wudao!</p>
-    </footer>
+    <!--    footer-->
+    <front-footer />
   </div>
 </template>
 
@@ -65,12 +59,10 @@
   }
 
   :global(.front) {
-    --site-name-color: v-bind(siteColor);
-    --box-title-color: v-bind(boxTitleColor);
-    --box-link-color: v-bind(boxLinkColor);
+    --site-name-color: v-bind('siteConfig.site_name_color');
+    --box-title-color: v-bind('siteConfig.box_title_color');
+    --box-link-color: v-bind('siteConfig.box_link_color');
     --box-background-color: v-bind('siteConfig.box_background_color');
-    /*box_back_hover_color*/
-    /*box_link_hover_color*/
     --box-link-hover-color: v-bind('siteConfig.box_link_hover_color');
     --box-back-hover-color: v-bind('siteConfig.box_back_hover_color');
   }
@@ -108,41 +100,6 @@
   }
 
   .title {
-    color: var(--site-name-color);
-  }
-  .box-title {
-    color: var(--box-title-color);
-  }
-  .box-link {
-    color: var(--box-link-color);
-  }
-  .boxes {
-    @apply mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4;
-
-    .box {
-      @apply bg-gray-600 bg-opacity-40 rounded-lg p-3 m-1 transition-all;
-      background: var(--box-background-color);
-      &:hover {
-        background: var(--box-back-hover-color);
-      }
-    }
-    .box-desc {
-      @apply text-xs text-center;
-      color: var(--box-title-color);
-    }
-    .box-items {
-      @apply flex flex-wrap items-center h-40 overflow-y-auto mt-2 space-y-4 text-sm text-center;
-      @include hide-scroll;
-    }
-    .box-link {
-      @apply w-1/3;
-      &:hover {
-        color: var(--box-link-hover-color);
-      }
-    }
-  }
-  .footer {
-    @apply text-center my-5;
     color: var(--site-name-color);
   }
 </style>
