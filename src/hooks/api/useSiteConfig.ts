@@ -1,4 +1,4 @@
-import type { IBoxesData, ISite_config } from '@/api/siteApi';
+import type { IBoxesData, ISearch_config, ISite_config } from '@/api/siteApi';
 import { reqSiteBoxes, reqSiteConfig } from '@/api/siteApi';
 import type { Ref } from 'vue';
 import { ref, watch } from 'vue';
@@ -7,18 +7,20 @@ import { OK_CODE } from '@/app/keys';
 const useSiteConfig = () => {
   const loading = ref(true);
   const siteConfig = ref<Partial<ISite_config>>({});
-  // const siteSettings = useSiteSettings();
+  const searchConfig = ref<ISearch_config[]>([]);
+  // const siteSettings = useSiteSettingsStore();
   reqSiteConfig()
     .then(({ data, code }) => {
       if (code === OK_CODE) {
         siteConfig.value = data.site_config;
-        // siteSettings.load(data.site_config);
+        searchConfig.value = data.search_config;
       }
     })
     .finally(() => (loading.value = false));
 
   return {
     siteConfig,
+    searchConfig,
     loading,
   };
 };
