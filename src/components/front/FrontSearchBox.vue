@@ -16,8 +16,8 @@
     </div>
     <div class="search-box relative mt-5 text-center w-full sm:w-96 mx-auto">
       <input class="search-input" placeholder="输入关键词搜索~" />
-      <button class="absolute top-2.5 right-2">
-        <app-icon class="text-xl text-gray-400" icon="bx:bx-search-alt" />
+      <button class="search-btn">
+        <app-icon class="text-xl" icon="bx:bx-search-alt" />
       </button>
     </div>
   </div>
@@ -29,7 +29,24 @@
   }
 
   .search-input {
-    @apply outline-none w-full pl-4 pr-6 py-1.5 text-base bg-gray-400 bg-opacity-40 rounded-xl
-    focus:bg-opacity-60 text-black;
+    @apply outline-none w-full pl-4 pr-6 py-1.5 text-base rounded-xl text-black;
+    background: var(--box-background-color);
+    color: var(--box-title-color);
+    &:hover {
+      background: var(--box-back-hover-color);
+    }
+    &:focus ~ .search-btn {
+      :deep(span, svg) {
+        color: var(--box-title-color);
+      }
+    }
+  }
+  .search-btn {
+    @apply absolute top-2.5 right-2;
+    color: var(--box-background-color);
+
+    :deep(span, svg) {
+      color: var(--box-background-color);
+    }
   }
 </style>

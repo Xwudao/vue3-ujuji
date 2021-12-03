@@ -1,23 +1,19 @@
 <script lang="ts" setup="setup">
-  import useSiteConfig, { useSiteBoxes } from '@/hooks/api/useSiteConfig';
-  import { computed, ref, toRef, watch } from 'vue';
+  import { computed } from 'vue';
   import FrontSearchBox from '@/components/front/FrontSearchBox.vue';
   import FrontBoxes from '@/components/front/FrontBoxes.vue';
   import FrontFooter from '@/components/front/FrontFooter.vue';
+  import useSiteData from '@/hooks/app/useSiteData';
+  import FrontHeader from '@/components/front/FrontHeader.vue';
+  import FrontTitle from '@/components/front/FrontTitle.vue';
 
-  const { siteConfig } = useSiteConfig();
+  const { boxes, siteConfig } = useSiteData();
+
+  // const { siteConfig } = useSiteConfig();
   // siteSettings.background_image
   const bgImg = computed(() => {
     return `url('${siteConfig.value?.background_image}')`;
   });
-  const userID = ref(-1);
-  watch(
-    () => siteConfig.value.user_id,
-    (id) => {
-      userID.value = id || -1;
-    }
-  );
-  const { boxes } = useSiteBoxes(userID);
 </script>
 
 <template>
@@ -25,22 +21,9 @@
     <div class="bg-wrapper" />
 
     <!--      header-->
-    <div class="headers flex justify-between">
-      <div class="left"><span>[厦门] 晴转多云 22℃</span></div>
-      <div class="right">
-        <ul class="flex space-x-2">
-          <li><a href="#">新闻</a></li>
-          <li><a href="#">留言</a></li>
-          <li><a href="#">最新</a></li>
-          <li><a href="#">设置</a></li>
-        </ul>
-      </div>
-    </div>
+    <front-header />
     <!--      title-->
-    <div class="title text-center mt-8">
-      <h3 class="font-bold text-4xl">{{ siteConfig.site_name }}</h3>
-      <div class="desc mt-6 text-sm">{{ siteConfig.site_desc }}</div>
-    </div>
+    <front-title />
 
     <front-search-box />
 

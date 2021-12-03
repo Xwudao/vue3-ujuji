@@ -13,6 +13,6 @@
 
 <style lang="scss" scoped>
   .iconify {
-    color: #303133;
+    color: inherit;
   }
 </style>
