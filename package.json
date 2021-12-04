@@ -16,6 +16,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@element-plus/icons": "^0.0.11",
     "@iconify/iconify": "^2.0.4",
     "@iconify/json": "^1.1.421",
     "axios": "^0.24.0",

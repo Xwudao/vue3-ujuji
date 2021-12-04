@@ -2,6 +2,8 @@ import useSiteConfig, { useSiteBoxes } from '@/hooks/api/useSiteConfig';
 import { ref, watch } from 'vue';
 import useSiteSettingsStore from '@/store/hooks/useSiteSettingsStore';
 import useSearchConfigStore from '@/store/hooks/useSearchConfigStore';
+import useWeather from '@/hooks/api/useWeather';
+import useWeatherStore from '@/store/hooks/useWeatherStore';
 
 //hooks
 const useSiteData = () => {
@@ -10,6 +12,7 @@ const useSiteData = () => {
 
   const siteSettings = useSiteSettingsStore();
   const searchConfigStore = useSearchConfigStore();
+  const weatherStore = useWeatherStore();
   watch(
     () => {
       return siteConfig.value.user_id;
@@ -24,6 +27,10 @@ const useSiteData = () => {
     }
   );
   const { boxes, loading: loadingBoxes } = useSiteBoxes(userID);
+  const { weather } = useWeather();
+  watch(weather, () => {
+    weatherStore.$patch({ data: weather.value });
+  });
 
   return {
     siteConfig,

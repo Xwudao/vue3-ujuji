@@ -6,8 +6,9 @@
   import useSiteData from '@/hooks/app/useSiteData';
   import FrontHeader from '@/components/front/FrontHeader.vue';
   import FrontTitle from '@/components/front/FrontTitle.vue';
+  import BoxLoading from '@/components/front/BoxLoading.vue';
 
-  const { boxes, siteConfig } = useSiteData();
+  const { boxes, siteConfig, loadingSiteConfig, loadingBoxes } = useSiteData();
 
   // const { siteConfig } = useSiteConfig();
   // siteSettings.background_image
@@ -17,7 +18,13 @@
 </script>
 
 <template>
-  <div class="front">
+  <div
+    v-loading="loadingSiteConfig"
+    class="front"
+    element-loading-text="Loading..."
+    element-loading-svg-view-box="-10, -10, 50, 50"
+    element-loading-background="rgba(0, 0, 0, 0.8)"
+  >
     <div class="bg-wrapper" />
 
     <!--      header-->
@@ -26,6 +33,9 @@
     <front-title />
 
     <front-search-box />
+
+    <!--    loading-->
+    <box-loading v-if="loadingBoxes">加载中...</box-loading>
 
     <!--    box-->
     <front-boxes :boxes="boxes" />
