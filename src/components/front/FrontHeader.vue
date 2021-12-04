@@ -1,19 +1,51 @@
 <script lang="ts" setup="setup">
   import useWeatherStore from '@/store/hooks/useWeatherStore';
-  import { computed } from 'vue';
+  import { computed, ref } from 'vue';
+  import city from '@/assets/data/city.json';
 
   const weatherStore = useWeatherStore();
+  const showPopover = ref(false);
+  const cityVal = ref<string[]>([]);
   const info = computed(() => {
     const i = weatherStore.data.data?.weather.content;
     if (!i) return '';
     return `[${i?.city}] ${i?.today.condition} ${i?.today.temp}`;
   });
+
+  const handleChange = (val: string[]) => {
+    if (!val.length) return;
+    weatherStore.changeCity(val[val.length - 1]);
+    showPopover.value = false;
+  };
 </script>
 
 <template>
-  <div class="headers flex justify-between text-xs">
+  <div class="headers flex justify-between text-xs px-2">
     <div class="left">
-      <span>{{ info }}</span>
+      <el-popover
+        placement="bottom"
+        title="城市选择"
+        :width="220"
+        trigger="click"
+        :visible="showPopover"
+      >
+        <template #default>
+          <el-cascader
+            v-model="cityVal"
+            placeholder="可搜索城市哟～"
+            filterable
+            size="mini"
+            :options="city"
+            @change="handleChange"
+          ></el-cascader>
+          <div class="mt-2 flex justify-end">
+            <el-button size="small" type="text" @click="showPopover = false">取消</el-button>
+          </div>
+        </template>
+        <template #reference>
+          <span class="cursor-pointer" @click="showPopover = true">{{ info }}</span>
+        </template>
+      </el-popover>
     </div>
     <div class="right">
       <ul class="flex space-x-2">

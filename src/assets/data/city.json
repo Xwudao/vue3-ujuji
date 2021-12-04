@@ -1,0 +1,10386 @@
+[
+  {
+    "label": "北京",
+    "value": "北京",
+    "children": [
+      {
+        "label": "北京",
+        "value": "北京"
+      },
+      {
+        "label": "昌平",
+        "value": "昌平"
+      },
+      {
+        "label": "朝阳",
+        "value": "朝阳"
+      },
+      {
+        "label": "大兴",
+        "value": "大兴"
+      },
+      {
+        "label": "房山",
+        "value": "房山"
+      },
+      {
+        "label": "丰台",
+        "value": "丰台"
+      },
+      {
+        "label": "海淀",
+        "value": "海淀"
+      },
+      {
+        "label": "怀柔",
+        "value": "怀柔"
+      },
+      {
+        "label": "门头沟",
+        "value": "门头沟"
+      },
+      {
+        "label": "密云",
+        "value": "密云"
+      },
+      {
+        "label": "平谷",
+        "value": "平谷"
+      },
+      {
+        "label": "石景山",
+        "value": "石景山"
+      },
+      {
+        "label": "顺义",
+        "value": "顺义"
+      },
+      {
+        "label": "延庆",
+        "value": "延庆"
+      },
+      {
+        "label": "通州",
+        "value": "通州"
+      }
+    ]
+  },
+  {
+    "label": "上海",
+    "value": "上海",
+    "children": [
+      {
+        "label": "上海",
+        "value": "上海"
+      },
+      {
+        "label": "宝山",
+        "value": "宝山"
+      },
+      {
+        "label": "崇明",
+        "value": "崇明"
+      },
+      {
+        "label": "奉贤",
+        "value": "奉贤"
+      },
+      {
+        "label": "嘉定",
+        "value": "嘉定"
+      },
+      {
+        "label": "金山",
+        "value": "金山"
+      },
+      {
+        "label": "闵行",
+        "value": "闵行"
+      },
+      {
+        "label": "浦东新区",
+        "value": "浦东新区"
+      },
+      {
+        "label": "青浦",
+        "value": "青浦"
+      },
+      {
+        "label": "松江",
+        "value": "松江"
+      },
+      {
+        "label": "徐汇",
+        "value": "徐汇"
+      }
+    ]
+  },
+  {
+    "label": "天津",
+    "value": "天津",
+    "children": [
+      {
+        "label": "天津",
+        "value": "天津"
+      },
+      {
+        "label": "宝坻",
+        "value": "宝坻"
+      },
+      {
+        "label": "北辰",
+        "value": "北辰"
+      },
+      {
+        "label": "东丽",
+        "value": "东丽"
+      },
+      {
+        "label": "蓟县",
+        "value": "蓟县"
+      },
+      {
+        "label": "津南",
+        "value": "津南"
+      },
+      {
+        "label": "静海",
+        "value": "静海"
+      },
+      {
+        "label": "宁河",
+        "value": "宁河"
+      },
+      {
+        "label": "武清",
+        "value": "武清"
+      },
+      {
+        "label": "西青",
+        "value": "西青"
+      }
+    ]
+  },
+  {
+    "label": "重庆",
+    "value": "重庆",
+    "children": [
+      {
+        "label": "重庆",
+        "value": "重庆"
+      },
+      {
+        "label": "巴南",
+        "value": "巴南"
+      },
+      {
+        "label": "北碚",
+        "value": "北碚"
+      },
+      {
+        "label": "璧山",
+        "value": "璧山"
+      },
+      {
+        "label": "城口",
+        "value": "城口"
+      },
+      {
+        "label": "大足",
+        "value": "大足"
+      },
+      {
+        "label": "垫江",
+        "value": "垫江"
+      },
+      {
+        "label": "丰都",
+        "value": "丰都"
+      },
+      {
+        "label": "奉节",
+        "value": "奉节"
+      },
+      {
+        "label": "涪陵",
+        "value": "涪陵"
+      },
+      {
+        "label": "合川",
+        "value": "合川"
+      },
+      {
+        "label": "江津",
+        "value": "江津"
+      },
+      {
+        "label": "开县",
+        "value": "开县"
+      },
+      {
+        "label": "梁平",
+        "value": "梁平"
+      },
+      {
+        "label": "南川",
+        "value": "南川"
+      },
+      {
+        "label": "彭水",
+        "value": "彭水"
+      },
+      {
+        "label": "綦江",
+        "value": "綦江"
+      },
+      {
+        "label": "黔江",
+        "value": "黔江"
+      },
+      {
+        "label": "荣昌",
+        "value": "荣昌"
+      },
+      {
+        "label": "石柱",
+        "value": "石柱"
+      },
+      {
+        "label": "铜梁",
+        "value": "铜梁"
+      },
+      {
+        "label": "潼南",
+        "value": "潼南"
+      },
+      {
+        "label": "万盛",
+        "value": "万盛"
+      },
+      {
+        "label": "万州",
+        "value": "万州"
+      },
+      {
+        "label": "巫山",
+        "value": "巫山"
+      },
+      {
+        "label": "巫溪",
+        "value": "巫溪"
+      },
+      {
+        "label": "武隆",
+        "value": "武隆"
+      },
+      {
+        "label": "秀山",
+        "value": "秀山"
+      },
+      {
+        "label": "永川",
+        "value": "永川"
+      },
+      {
+        "label": "酉阳",
+        "value": "酉阳"
+      },
+      {
+        "label": "渝北",
+        "value": "渝北"
+      },
+      {
+        "label": "云阳",
+        "value": "云阳"
+      },
+      {
+        "label": "长寿",
+        "value": "长寿"
+      },
+      {
+        "label": "忠县",
+        "value": "忠县"
+      }
+    ]
+  },
+  {
+    "label": "安徽",
+    "value": "安徽",
+    "children": [
+      {
+        "label": "合肥",
+        "value": "合肥"
+      },
+      {
+        "label": "安庆",
+        "value": "安庆"
+      },
+      {
+        "label": "蚌埠",
+        "value": "蚌埠"
+      },
+      {
+        "label": "亳州",
+        "value": "亳州"
+      },
+      {
+        "label": "巢湖",
+        "value": "巢湖"
+      },
+      {
+        "label": "池州",
+        "value": "池州"
+      },
+      {
+        "label": "滁州",
+        "value": "滁州"
+      },
+      {
+        "label": "枞阳",
+        "value": "枞阳"
+      },
+      {
+        "label": "当涂",
+        "value": "当涂"
+      },
+      {
+        "label": "砀山",
+        "value": "砀山"
+      },
+      {
+        "label": "定远",
+        "value": "定远"
+      },
+      {
+        "label": "东至",
+        "value": "东至"
+      },
+      {
+        "label": "繁昌",
+        "value": "繁昌"
+      },
+      {
+        "label": "肥东",
+        "value": "肥东"
+      },
+      {
+        "label": "肥西",
+        "value": "肥西"
+      },
+      {
+        "label": "凤台",
+        "value": "凤台"
+      },
+      {
+        "label": "凤阳",
+        "value": "凤阳"
+      },
+      {
+        "label": "阜南",
+        "value": "阜南"
+      },
+      {
+        "label": "阜阳",
+        "value": "阜阳"
+      },
+      {
+        "label": "固镇",
+        "value": "固镇"
+      },
+      {
+        "label": "广德",
+        "value": "广德"
+      },
+      {
+        "label": "含山",
+        "value": "含山"
+      },
+      {
+        "label": "和县",
+        "value": "和县"
+      },
+      {
+        "label": "怀宁",
+        "value": "怀宁"
+      },
+      {
+        "label": "怀远",
+        "value": "怀远"
+      },
+      {
+        "label": "淮北",
+        "value": "淮北"
+      },
+      {
+        "label": "淮南",
+        "value": "淮南"
+      },
+      {
+        "label": "黄山",
+        "value": "黄山"
+      },
+      {
+        "label": "黄山风景区",
+        "value": "黄山风景区"
+      },
+      {
+        "label": "霍邱",
+        "value": "霍邱"
+      },
+      {
+        "label": "霍山",
+        "value": "霍山"
+      },
+      {
+        "label": "绩溪",
+        "value": "绩溪"
+      },
+      {
+        "label": "界首",
+        "value": "界首"
+      },
+      {
+        "label": "金寨",
+        "value": "金寨"
+      },
+      {
+        "label": "泾县",
+        "value": "泾县"
+      },
+      {
+        "label": "旌德",
+        "value": "旌德"
+      },
+      {
+        "label": "来安",
+        "value": "来安"
+      },
+      {
+        "label": "郎溪",
+        "value": "郎溪"
+      },
+      {
+        "label": "利辛",
+        "value": "利辛"
+      },
+      {
+        "label": "临泉",
+        "value": "临泉"
+      },
+      {
+        "label": "灵璧",
+        "value": "灵璧"
+      },
+      {
+        "label": "六安",
+        "value": "六安"
+      },
+      {
+        "label": "庐江",
+        "value": "庐江"
+      },
+      {
+        "label": "马鞍山",
+        "value": "马鞍山"
+      },
+      {
+        "label": "蒙城",
+        "value": "蒙城"
+      },
+      {
+        "label": "明光",
+        "value": "明光"
+      },
+      {
+        "label": "南陵",
+        "value": "南陵"
+      },
+      {
+        "label": "宁国",
+        "value": "宁国"
+      },
+      {
+        "label": "潘集",
+        "value": "潘集"
+      },
+      {
+        "label": "祁门",
+        "value": "祁门"
+      },
+      {
+        "label": "潜山",
+        "value": "潜山"
+      },
+      {
+        "label": "青阳",
+        "value": "青阳"
+      },
+      {
+        "label": "全椒",
+        "value": "全椒"
+      },
+      {
+        "label": "石台",
+        "value": "石台"
+      },
+      {
+        "label": "寿县",
+        "value": "寿县"
+      },
+      {
+        "label": "舒城",
+        "value": "舒城"
+      },
+      {
+        "label": "泗县",
+        "value": "泗县"
+      },
+      {
+        "label": "濉溪",
+        "value": "濉溪"
+      },
+      {
+        "label": "太和",
+        "value": "太和"
+      },
+      {
+        "label": "太湖",
+        "value": "太湖"
+      },
+      {
+        "label": "天长",
+        "value": "天长"
+      },
+      {
+        "label": "桐城",
+        "value": "桐城"
+      },
+      {
+        "label": "铜陵",
+        "value": "铜陵"
+      },
+      {
+        "label": "屯溪",
+        "value": "屯溪"
+      },
+      {
+        "label": "望江",
+        "value": "望江"
+      },
+      {
+        "label": "涡阳",
+        "value": "涡阳"
+      },
+      {
+        "label": "无为",
+        "value": "无为"
+      },
+      {
+        "label": "芜湖",
+        "value": "芜湖"
+      },
+      {
+        "label": "芜湖县",
+        "value": "芜湖县"
+      },
+      {
+        "label": "五河",
+        "value": "五河"
+      },
+      {
+        "label": "歙县",
+        "value": "歙县"
+      },
+      {
+        "label": "萧县",
+        "value": "萧县"
+      },
+      {
+        "label": "休宁",
+        "value": "休宁"
+      },
+      {
+        "label": "宿松",
+        "value": "宿松"
+      },
+      {
+        "label": "宿州",
+        "value": "宿州"
+      },
+      {
+        "label": "宣城",
+        "value": "宣城"
+      },
+      {
+        "label": "黟县",
+        "value": "黟县"
+      },
+      {
+        "label": "颍上",
+        "value": "颍上"
+      },
+      {
+        "label": "岳西",
+        "value": "岳西"
+      },
+      {
+        "label": "长丰",
+        "value": "长丰"
+      }
+    ]
+  },
+  {
+    "label": "福建",
+    "value": "福建",
+    "children": [
+      {
+        "label": "福州",
+        "value": "福州"
+      },
+      {
+        "label": "厦门",
+        "value": "厦门"
+      },
+      {
+        "label": "安溪",
+        "value": "安溪"
+      },
+      {
+        "label": "崇武",
+        "value": "崇武"
+      },
+      {
+        "label": "大田",
+        "value": "大田"
+      },
+      {
+        "label": "德化",
+        "value": "德化"
+      },
+      {
+        "label": "东山",
+        "value": "东山"
+      },
+      {
+        "label": "福安",
+        "value": "福安"
+      },
+      {
+        "label": "福鼎",
+        "value": "福鼎"
+      },
+      {
+        "label": "福清",
+        "value": "福清"
+      },
+      {
+        "label": "古田",
+        "value": "古田"
+      },
+      {
+        "label": "光泽",
+        "value": "光泽"
+      },
+      {
+        "label": "涵江",
+        "value": "涵江"
+      },
+      {
+        "label": "华安",
+        "value": "华安"
+      },
+      {
+        "label": "惠安",
+        "value": "惠安"
+      },
+      {
+        "label": "建宁",
+        "value": "建宁"
+      },
+      {
+        "label": "建瓯",
+        "value": "建瓯"
+      },
+      {
+        "label": "建阳",
+        "value": "建阳"
+      },
+      {
+        "label": "将乐",
+        "value": "将乐"
+      },
+      {
+        "label": "晋江",
+        "value": "晋江"
+      },
+      {
+        "label": "连城",
+        "value": "连城"
+      },
+      {
+        "label": "连江",
+        "value": "连江"
+      },
+      {
+        "label": "龙海",
+        "value": "龙海"
+      },
+      {
+        "label": "龙岩",
+        "value": "龙岩"
+      },
+      {
+        "label": "罗源",
+        "value": "罗源"
+      },
+      {
+        "label": "闽侯",
+        "value": "闽侯"
+      },
+      {
+        "label": "闽清",
+        "value": "闽清"
+      },
+      {
+        "label": "明溪",
+        "value": "明溪"
+      },
+      {
+        "label": "南安",
+        "value": "南安"
+      },
+      {
+        "label": "南靖",
+        "value": "南靖"
+      },
+      {
+        "label": "南平",
+        "value": "南平"
+      },
+      {
+        "label": "宁德",
+        "value": "宁德"
+      },
+      {
+        "label": "宁化",
+        "value": "宁化"
+      },
+      {
+        "label": "平和",
+        "value": "平和"
+      },
+      {
+        "label": "平潭",
+        "value": "平潭"
+      },
+      {
+        "label": "屏南",
+        "value": "屏南"
+      },
+      {
+        "label": "莆田",
+        "value": "莆田"
+      },
+      {
+        "label": "浦城",
+        "value": "浦城"
+      },
+      {
+        "label": "清流",
+        "value": "清流"
+      },
+      {
+        "label": "泉州",
+        "value": "泉州"
+      },
+      {
+        "label": "三明",
+        "value": "三明"
+      },
+      {
+        "label": "沙县",
+        "value": "沙县"
+      },
+      {
+        "label": "上杭",
+        "value": "上杭"
+      },
+      {
+        "label": "邵武",
+        "value": "邵武"
+      },
+      {
+        "label": "石狮",
+        "value": "石狮"
+      },
+      {
+        "label": "寿宁",
+        "value": "寿宁"
+      },
+      {
+        "label": "顺昌",
+        "value": "顺昌"
+      },
+      {
+        "label": "松溪",
+        "value": "松溪"
+      },
+      {
+        "label": "同安",
+        "value": "同安"
+      },
+      {
+        "label": "武平",
+        "value": "武平"
+      },
+      {
+        "label": "武夷山",
+        "value": "武夷山"
+      },
+      {
+        "label": "霞浦",
+        "value": "霞浦"
+      },
+      {
+        "label": "仙游",
+        "value": "仙游"
+      },
+      {
+        "label": "秀屿",
+        "value": "秀屿"
+      },
+      {
+        "label": "永安",
+        "value": "永安"
+      },
+      {
+        "label": "永春",
+        "value": "永春"
+      },
+      {
+        "label": "永定",
+        "value": "永定"
+      },
+      {
+        "label": "永泰",
+        "value": "永泰"
+      },
+      {
+        "label": "尤溪",
+        "value": "尤溪"
+      },
+      {
+        "label": "云霄",
+        "value": "云霄"
+      },
+      {
+        "label": "漳平",
+        "value": "漳平"
+      },
+      {
+        "label": "漳浦",
+        "value": "漳浦"
+      },
+      {
+        "label": "漳州",
+        "value": "漳州"
+      },
+      {
+        "label": "长乐",
+        "value": "长乐"
+      },
+      {
+        "label": "长泰",
+        "value": "长泰"
+      },
+      {
+        "label": "长汀",
+        "value": "长汀"
+      },
+      {
+        "label": "诏安",
+        "value": "诏安"
+      },
+      {
+        "label": "柘荣",
+        "value": "柘荣"
+      },
+      {
+        "label": "政和",
+        "value": "政和"
+      },
+      {
+        "label": "周宁",
+        "value": "周宁"
+      }
+    ]
+  },
+  {
+    "label": "甘肃",
+    "value": "甘肃",
+    "children": [
+      {
+        "label": "兰州",
+        "value": "兰州"
+      },
+      {
+        "label": "阿克塞",
+        "value": "阿克塞"
+      },
+      {
+        "label": "安定",
+        "value": "安定"
+      },
+      {
+        "label": "白银",
+        "value": "白银"
+      },
+      {
+        "label": "成县",
+        "value": "成县"
+      },
+      {
+        "label": "崇信",
+        "value": "崇信"
+      },
+      {
+        "label": "宕昌",
+        "value": "宕昌"
+      },
+      {
+        "label": "迭部",
+        "value": "迭部"
+      },
+      {
+        "label": "定西",
+        "value": "定西"
+      },
+      {
+        "label": "敦煌",
+        "value": "敦煌"
+      },
+      {
+        "label": "甘谷",
+        "value": "甘谷"
+      },
+      {
+        "label": "皋兰",
+        "value": "皋兰"
+      },
+      {
+        "label": "高台",
+        "value": "高台"
+      },
+      {
+        "label": "古浪",
+        "value": "古浪"
+      },
+      {
+        "label": "瓜州",
+        "value": "瓜州"
+      },
+      {
+        "label": "广河",
+        "value": "广河"
+      },
+      {
+        "label": "合水",
+        "value": "合水"
+      },
+      {
+        "label": "合作",
+        "value": "合作"
+      },
+      {
+        "label": "和政",
+        "value": "和政"
+      },
+      {
+        "label": "华池",
+        "value": "华池"
+      },
+      {
+        "label": "华亭",
+        "value": "华亭"
+      },
+      {
+        "label": "环县",
+        "value": "环县"
+      },
+      {
+        "label": "徽县",
+        "value": "徽县"
+      },
+      {
+        "label": "会宁",
+        "value": "会宁"
+      },
+      {
+        "label": "积石山",
+        "value": "积石山"
+      },
+      {
+        "label": "嘉峪关",
+        "value": "嘉峪关"
+      },
+      {
+        "label": "金昌",
+        "value": "金昌"
+      },
+      {
+        "label": "金塔",
+        "value": "金塔"
+      },
+      {
+        "label": "泾川",
+        "value": "泾川"
+      },
+      {
+        "label": "景泰",
+        "value": "景泰"
+      },
+      {
+        "label": "靖远",
+        "value": "靖远"
+      },
+      {
+        "label": "静宁",
+        "value": "静宁"
+      },
+      {
+        "label": "酒泉",
+        "value": "酒泉"
+      },
+      {
+        "label": "康乐",
+        "value": "康乐"
+      },
+      {
+        "label": "康县",
+        "value": "康县"
+      },
+      {
+        "label": "崆峒",
+        "value": "崆峒"
+      },
+      {
+        "label": "礼县",
+        "value": "礼县"
+      },
+      {
+        "label": "两当",
+        "value": "两当"
+      },
+      {
+        "label": "临潭",
+        "value": "临潭"
+      },
+      {
+        "label": "临洮",
+        "value": "临洮"
+      },
+      {
+        "label": "临夏",
+        "value": "临夏"
+      },
+      {
+        "label": "临泽",
+        "value": "临泽"
+      },
+      {
+        "label": "灵台",
+        "value": "灵台"
+      },
+      {
+        "label": "陇南",
+        "value": "陇南"
+      },
+      {
+        "label": "陇西",
+        "value": "陇西"
+      },
+      {
+        "label": "碌曲",
+        "value": "碌曲"
+      },
+      {
+        "label": "玛曲",
+        "value": "玛曲"
+      },
+      {
+        "label": "麦积",
+        "value": "麦积"
+      },
+      {
+        "label": "民乐",
+        "value": "民乐"
+      },
+      {
+        "label": "民勤",
+        "value": "民勤"
+      },
+      {
+        "label": "岷县",
+        "value": "岷县"
+      },
+      {
+        "label": "宁县",
+        "value": "宁县"
+      },
+      {
+        "label": "平川",
+        "value": "平川"
+      },
+      {
+        "label": "平凉",
+        "value": "平凉"
+      },
+      {
+        "label": "秦安",
+        "value": "秦安"
+      },
+      {
+        "label": "清水",
+        "value": "清水"
+      },
+      {
+        "label": "庆城",
+        "value": "庆城"
+      },
+      {
+        "label": "庆阳",
+        "value": "庆阳"
+      },
+      {
+        "label": "山丹",
+        "value": "山丹"
+      },
+      {
+        "label": "肃北",
+        "value": "肃北"
+      },
+      {
+        "label": "肃南",
+        "value": "肃南"
+      },
+      {
+        "label": "天水",
+        "value": "天水"
+      },
+      {
+        "label": "天祝",
+        "value": "天祝"
+      },
+      {
+        "label": "通渭",
+        "value": "通渭"
+      },
+      {
+        "label": "渭源",
+        "value": "渭源"
+      },
+      {
+        "label": "文县",
+        "value": "文县"
+      },
+      {
+        "label": "武都",
+        "value": "武都"
+      },
+      {
+        "label": "武山",
+        "value": "武山"
+      },
+      {
+        "label": "武威",
+        "value": "武威"
+      },
+      {
+        "label": "西和",
+        "value": "西和"
+      },
+      {
+        "label": "夏河",
+        "value": "夏河"
+      },
+      {
+        "label": "永昌",
+        "value": "永昌"
+      },
+      {
+        "label": "永登",
+        "value": "永登"
+      },
+      {
+        "label": "永靖",
+        "value": "永靖"
+      },
+      {
+        "label": "榆中",
+        "value": "榆中"
+      },
+      {
+        "label": "玉门",
+        "value": "玉门"
+      },
+      {
+        "label": "张家川",
+        "value": "张家川"
+      },
+      {
+        "label": "张掖",
+        "value": "张掖"
+      },
+      {
+        "label": "漳县",
+        "value": "漳县"
+      },
+      {
+        "label": "镇原",
+        "value": "镇原"
+      },
+      {
+        "label": "正宁",
+        "value": "正宁"
+      },
+      {
+        "label": "舟曲",
+        "value": "舟曲"
+      },
+      {
+        "label": "庄浪",
+        "value": "庄浪"
+      },
+      {
+        "label": "卓尼",
+        "value": "卓尼"
+      }
+    ]
+  },
+  {
+    "label": "广东",
+    "value": "广东",
+    "children": [
+      {
+        "label": "广州",
+        "value": "广州"
+      },
+      {
+        "label": "博罗",
+        "value": "博罗"
+      },
+      {
+        "label": "潮安",
+        "value": "潮安"
+      },
+      {
+        "label": "潮阳",
+        "value": "潮阳"
+      },
+      {
+        "label": "潮州",
+        "value": "潮州"
+      },
+      {
+        "label": "澄海",
+        "value": "澄海"
+      },
+      {
+        "label": "赤坎",
+        "value": "赤坎"
+      },
+      {
+        "label": "从化",
+        "value": "从化"
+      },
+      {
+        "label": "大埔",
+        "value": "大埔"
+      },
+      {
+        "label": "德庆",
+        "value": "德庆"
+      },
+      {
+        "label": "电白",
+        "value": "电白"
+      },
+      {
+        "label": "东莞",
+        "value": "东莞"
+      },
+      {
+        "label": "东源",
+        "value": "东源"
+      },
+      {
+        "label": "斗门",
+        "value": "斗门"
+      },
+      {
+        "label": "恩平",
+        "value": "恩平"
+      },
+      {
+        "label": "番禺",
+        "value": "番禺"
+      },
+      {
+        "label": "丰顺",
+        "value": "丰顺"
+      },
+      {
+        "label": "封开",
+        "value": "封开"
+      },
+      {
+        "label": "佛冈",
+        "value": "佛冈"
+      },
+      {
+        "label": "佛山",
+        "value": "佛山"
+      },
+      {
+        "label": "高明",
+        "value": "高明"
+      },
+      {
+        "label": "高要",
+        "value": "高要"
+      },
+      {
+        "label": "高州",
+        "value": "高州"
+      },
+      {
+        "label": "广宁",
+        "value": "广宁"
+      },
+      {
+        "label": "海丰",
+        "value": "海丰"
+      },
+      {
+        "label": "和平",
+        "value": "和平"
+      },
+      {
+        "label": "河源",
+        "value": "河源"
+      },
+      {
+        "label": "鹤山",
+        "value": "鹤山"
+      },
+      {
+        "label": "花都",
+        "value": "花都"
+      },
+      {
+        "label": "化州",
+        "value": "化州"
+      },
+      {
+        "label": "怀集",
+        "value": "怀集"
+      },
+      {
+        "label": "惠东",
+        "value": "惠东"
+      },
+      {
+        "label": "惠来",
+        "value": "惠来"
+      },
+      {
+        "label": "惠阳",
+        "value": "惠阳"
+      },
+      {
+        "label": "惠州",
+        "value": "惠州"
+      },
+      {
+        "label": "江门",
+        "value": "江门"
+      },
+      {
+        "label": "蕉岭",
+        "value": "蕉岭"
+      },
+      {
+        "label": "揭东",
+        "value": "揭东"
+      },
+      {
+        "label": "揭西",
+        "value": "揭西"
+      },
+      {
+        "label": "揭阳",
+        "value": "揭阳"
+      },
+      {
+        "label": "金湾",
+        "value": "金湾"
+      },
+      {
+        "label": "开平",
+        "value": "开平"
+      },
+      {
+        "label": "乐昌",
+        "value": "乐昌"
+      },
+      {
+        "label": "雷州",
+        "value": "雷州"
+      },
+      {
+        "label": "荔城",
+        "value": "荔城"
+      },
+      {
+        "label": "连南",
+        "value": "连南"
+      },
+      {
+        "label": "连平",
+        "value": "连平"
+      },
+      {
+        "label": "连山",
+        "value": "连山"
+      },
+      {
+        "label": "连州",
+        "value": "连州"
+      },
+      {
+        "label": "廉江",
+        "value": "廉江"
+      },
+      {
+        "label": "龙川",
+        "value": "龙川"
+      },
+      {
+        "label": "龙门",
+        "value": "龙门"
+      },
+      {
+        "label": "陆丰",
+        "value": "陆丰"
+      },
+      {
+        "label": "陆河",
+        "value": "陆河"
+      },
+      {
+        "label": "罗定",
+        "value": "罗定"
+      },
+      {
+        "label": "麻章",
+        "value": "麻章"
+      },
+      {
+        "label": "茂港",
+        "value": "茂港"
+      },
+      {
+        "label": "茂名",
+        "value": "茂名"
+      },
+      {
+        "label": "梅县",
+        "value": "梅县"
+      },
+      {
+        "label": "梅州",
+        "value": "梅州"
+      },
+      {
+        "label": "南澳",
+        "value": "南澳"
+      },
+      {
+        "label": "南海",
+        "value": "南海"
+      },
+      {
+        "label": "南沙",
+        "value": "南沙"
+      },
+      {
+        "label": "南雄",
+        "value": "南雄"
+      },
+      {
+        "label": "蓬江",
+        "value": "蓬江"
+      },
+      {
+        "label": "平远",
+        "value": "平远"
+      },
+      {
+        "label": "坡头",
+        "value": "坡头"
+      },
+      {
+        "label": "普宁",
+        "value": "普宁"
+      },
+      {
+        "label": "清新",
+        "value": "清新"
+      },
+      {
+        "label": "清远",
+        "value": "清远"
+      },
+      {
+        "label": "曲江",
+        "value": "曲江"
+      },
+      {
+        "label": "饶平",
+        "value": "饶平"
+      },
+      {
+        "label": "仁化",
+        "value": "仁化"
+      },
+      {
+        "label": "乳源",
+        "value": "乳源"
+      },
+      {
+        "label": "三水",
+        "value": "三水"
+      },
+      {
+        "label": "汕头",
+        "value": "汕头"
+      },
+      {
+        "label": "汕尾",
+        "value": "汕尾"
+      },
+      {
+        "label": "韶关",
+        "value": "韶关"
+      },
+      {
+        "label": "深圳",
+        "value": "深圳"
+      },
+      {
+        "label": "始兴",
+        "value": "始兴"
+      },
+      {
+        "label": "顺德",
+        "value": "顺德"
+      },
+      {
+        "label": "四会",
+        "value": "四会"
+      },
+      {
+        "label": "遂溪",
+        "value": "遂溪"
+      },
+      {
+        "label": "台山",
+        "value": "台山"
+      },
+      {
+        "label": "翁源",
+        "value": "翁源"
+      },
+      {
+        "label": "吴川",
+        "value": "吴川"
+      },
+      {
+        "label": "五华",
+        "value": "五华"
+      },
+      {
+        "label": "武江",
+        "value": "武江"
+      },
+      {
+        "label": "霞山",
+        "value": "霞山"
+      },
+      {
+        "label": "新丰",
+        "value": "新丰"
+      },
+      {
+        "label": "新会",
+        "value": "新会"
+      },
+      {
+        "label": "新兴",
+        "value": "新兴"
+      },
+      {
+        "label": "信宜",
+        "value": "信宜"
+      },
+      {
+        "label": "兴宁",
+        "value": "兴宁"
+      },
+      {
+        "label": "徐闻",
+        "value": "徐闻"
+      },
+      {
+        "label": "阳春",
+        "value": "阳春"
+      },
+      {
+        "label": "阳东",
+        "value": "阳东"
+      },
+      {
+        "label": "阳江",
+        "value": "阳江"
+      },
+      {
+        "label": "阳山",
+        "value": "阳山"
+      },
+      {
+        "label": "阳西",
+        "value": "阳西"
+      },
+      {
+        "label": "英德",
+        "value": "英德"
+      },
+      {
+        "label": "郁南",
+        "value": "郁南"
+      },
+      {
+        "label": "云安",
+        "value": "云安"
+      },
+      {
+        "label": "云浮",
+        "value": "云浮"
+      },
+      {
+        "label": "增城",
+        "value": "增城"
+      },
+      {
+        "label": "湛江",
+        "value": "湛江"
+      },
+      {
+        "label": "肇庆",
+        "value": "肇庆"
+      },
+      {
+        "label": "浈江",
+        "value": "浈江"
+      },
+      {
+        "label": "中山",
+        "value": "中山"
+      },
+      {
+        "label": "珠海",
+        "value": "珠海"
+      },
+      {
+        "label": "紫金",
+        "value": "紫金"
+      }
+    ]
+  },
+  {
+    "label": "广西",
+    "value": "广西",
+    "children": [
+      {
+        "label": "南宁",
+        "value": "南宁"
+      },
+      {
+        "label": "巴马",
+        "value": "巴马"
+      },
+      {
+        "label": "百色",
+        "value": "百色"
+      },
+      {
+        "label": "北海",
+        "value": "北海"
+      },
+      {
+        "label": "北流",
+        "value": "北流"
+      },
+      {
+        "label": "宾阳",
+        "value": "宾阳"
+      },
+      {
+        "label": "博白",
+        "value": "博白"
+      },
+      {
+        "label": "苍梧",
+        "value": "苍梧"
+      },
+      {
+        "label": "岑溪",
+        "value": "岑溪"
+      },
+      {
+        "label": "崇左",
+        "value": "崇左"
+      },
+      {
+        "label": "大化",
+        "value": "大化"
+      },
+      {
+        "label": "大新",
+        "value": "大新"
+      },
+      {
+        "label": "德保",
+        "value": "德保"
+      },
+      {
+        "label": "东兰",
+        "value": "东兰"
+      },
+      {
+        "label": "东兴",
+        "value": "东兴"
+      },
+      {
+        "label": "都安",
+        "value": "都安"
+      },
+      {
+        "label": "防城",
+        "value": "防城"
+      },
+      {
+        "label": "防城港",
+        "value": "防城港"
+      },
+      {
+        "label": "凤山",
+        "value": "凤山"
+      },
+      {
+        "label": "扶绥",
+        "value": "扶绥"
+      },
+      {
+        "label": "富川",
+        "value": "富川"
+      },
+      {
+        "label": "恭城",
+        "value": "恭城"
+      },
+      {
+        "label": "灌阳",
+        "value": "灌阳"
+      },
+      {
+        "label": "贵港",
+        "value": "贵港"
+      },
+      {
+        "label": "桂林",
+        "value": "桂林"
+      },
+      {
+        "label": "桂平",
+        "value": "桂平"
+      },
+      {
+        "label": "合浦",
+        "value": "合浦"
+      },
+      {
+        "label": "合山",
+        "value": "合山"
+      },
+      {
+        "label": "河池",
+        "value": "河池"
+      },
+      {
+        "label": "贺州",
+        "value": "贺州"
+      },
+      {
+        "label": "横县",
+        "value": "横县"
+      },
+      {
+        "label": "环江",
+        "value": "环江"
+      },
+      {
+        "label": "金秀",
+        "value": "金秀"
+      },
+      {
+        "label": "靖西",
+        "value": "靖西"
+      },
+      {
+        "label": "来宾",
+        "value": "来宾"
+      },
+      {
+        "label": "乐业",
+        "value": "乐业"
+      },
+      {
+        "label": "荔浦",
+        "value": "荔浦"
+      },
+      {
+        "label": "临桂",
+        "value": "临桂"
+      },
+      {
+        "label": "灵川",
+        "value": "灵川"
+      },
+      {
+        "label": "灵山",
+        "value": "灵山"
+      },
+      {
+        "label": "凌云",
+        "value": "凌云"
+      },
+      {
+        "label": "柳城",
+        "value": "柳城"
+      },
+      {
+        "label": "柳江",
+        "value": "柳江"
+      },
+      {
+        "label": "柳州",
+        "value": "柳州"
+      },
+      {
+        "label": "龙胜",
+        "value": "龙胜"
+      },
+      {
+        "label": "龙州",
+        "value": "龙州"
+      },
+      {
+        "label": "隆安",
+        "value": "隆安"
+      },
+      {
+        "label": "隆林",
+        "value": "隆林"
+      },
+      {
+        "label": "陆川",
+        "value": "陆川"
+      },
+      {
+        "label": "鹿寨",
+        "value": "鹿寨"
+      },
+      {
+        "label": "罗城",
+        "value": "罗城"
+      },
+      {
+        "label": "马山",
+        "value": "马山"
+      },
+      {
+        "label": "蒙山",
+        "value": "蒙山"
+      },
+      {
+        "label": "那坡",
+        "value": "那坡"
+      },
+      {
+        "label": "南丹",
+        "value": "南丹"
+      },
+      {
+        "label": "宁明",
+        "value": "宁明"
+      },
+      {
+        "label": "平果",
+        "value": "平果"
+      },
+      {
+        "label": "平乐",
+        "value": "平乐"
+      },
+      {
+        "label": "平南",
+        "value": "平南"
+      },
+      {
+        "label": "凭祥",
+        "value": "凭祥"
+      },
+      {
+        "label": "浦北",
+        "value": "浦北"
+      },
+      {
+        "label": "钦州",
+        "value": "钦州"
+      },
+      {
+        "label": "全州",
+        "value": "全州"
+      },
+      {
+        "label": "容县",
+        "value": "容县"
+      },
+      {
+        "label": "融安",
+        "value": "融安"
+      },
+      {
+        "label": "融水",
+        "value": "融水"
+      },
+      {
+        "label": "三江",
+        "value": "三江"
+      },
+      {
+        "label": "上林",
+        "value": "上林"
+      },
+      {
+        "label": "上思",
+        "value": "上思"
+      },
+      {
+        "label": "藤县",
+        "value": "藤县"
+      },
+      {
+        "label": "天等",
+        "value": "天等"
+      },
+      {
+        "label": "天峨",
+        "value": "天峨"
+      },
+      {
+        "label": "田东",
+        "value": "田东"
+      },
+      {
+        "label": "田林",
+        "value": "田林"
+      },
+      {
+        "label": "田阳",
+        "value": "田阳"
+      },
+      {
+        "label": "涠洲岛",
+        "value": "涠洲岛"
+      },
+      {
+        "label": "梧州",
+        "value": "梧州"
+      },
+      {
+        "label": "武鸣",
+        "value": "武鸣"
+      },
+      {
+        "label": "武宣",
+        "value": "武宣"
+      },
+      {
+        "label": "西林",
+        "value": "西林"
+      },
+      {
+        "label": "象州",
+        "value": "象州"
+      },
+      {
+        "label": "忻城",
+        "value": "忻城"
+      },
+      {
+        "label": "兴安",
+        "value": "兴安"
+      },
+      {
+        "label": "兴业",
+        "value": "兴业"
+      },
+      {
+        "label": "阳朔",
+        "value": "阳朔"
+      },
+      {
+        "label": "宜州",
+        "value": "宜州"
+      },
+      {
+        "label": "邕宁",
+        "value": "邕宁"
+      },
+      {
+        "label": "永福",
+        "value": "永福"
+      },
+      {
+        "label": "玉林",
+        "value": "玉林"
+      },
+      {
+        "label": "昭平",
+        "value": "昭平"
+      },
+      {
+        "label": "钟山",
+        "value": "钟山"
+      },
+      {
+        "label": "资源",
+        "value": "资源"
+      }
+    ]
+  },
+  {
+    "label": "贵州",
+    "value": "贵州",
+    "children": [
+      {
+        "label": "贵阳",
+        "value": "贵阳"
+      },
+      {
+        "label": "安龙",
+        "value": "安龙"
+      },
+      {
+        "label": "安顺",
+        "value": "安顺"
+      },
+      {
+        "label": "白云",
+        "value": "白云"
+      },
+      {
+        "label": "毕节",
+        "value": "毕节"
+      },
+      {
+        "label": "册亨",
+        "value": "册亨"
+      },
+      {
+        "label": "岑巩",
+        "value": "岑巩"
+      },
+      {
+        "label": "赤水",
+        "value": "赤水"
+      },
+      {
+        "label": "从江",
+        "value": "从江"
+      },
+      {
+        "label": "大方",
+        "value": "大方"
+      },
+      {
+        "label": "丹寨",
+        "value": "丹寨"
+      },
+      {
+        "label": "道真",
+        "value": "道真"
+      },
+      {
+        "label": "德江",
+        "value": "德江"
+      },
+      {
+        "label": "都匀",
+        "value": "都匀"
+      },
+      {
+        "label": "独山",
+        "value": "独山"
+      },
+      {
+        "label": "凤冈",
+        "value": "凤冈"
+      },
+      {
+        "label": "福泉",
+        "value": "福泉"
+      },
+      {
+        "label": "关岭",
+        "value": "关岭"
+      },
+      {
+        "label": "贵定",
+        "value": "贵定"
+      },
+      {
+        "label": "赫章",
+        "value": "赫章"
+      },
+      {
+        "label": "红花岗",
+        "value": "红花岗"
+      },
+      {
+        "label": "花溪",
+        "value": "花溪"
+      },
+      {
+        "label": "黄平",
+        "value": "黄平"
+      },
+      {
+        "label": "汇川",
+        "value": "汇川"
+      },
+      {
+        "label": "惠水",
+        "value": "惠水"
+      },
+      {
+        "label": "剑河",
+        "value": "剑河"
+      },
+      {
+        "label": "江口",
+        "value": "江口"
+      },
+      {
+        "label": "金沙",
+        "value": "金沙"
+      },
+      {
+        "label": "锦屏",
+        "value": "锦屏"
+      },
+      {
+        "label": "开阳",
+        "value": "开阳"
+      },
+      {
+        "label": "凯里",
+        "value": "凯里"
+      },
+      {
+        "label": "雷山",
+        "value": "雷山"
+      },
+      {
+        "label": "黎平",
+        "value": "黎平"
+      },
+      {
+        "label": "荔波",
+        "value": "荔波"
+      },
+      {
+        "label": "六盘水",
+        "value": "六盘水"
+      },
+      {
+        "label": "六枝",
+        "value": "六枝"
+      },
+      {
+        "label": "龙里",
+        "value": "龙里"
+      },
+      {
+        "label": "罗甸",
+        "value": "罗甸"
+      },
+      {
+        "label": "麻江",
+        "value": "麻江"
+      },
+      {
+        "label": "湄潭",
+        "value": "湄潭"
+      },
+      {
+        "label": "纳雍",
+        "value": "纳雍"
+      },
+      {
+        "label": "南明",
+        "value": "南明"
+      },
+      {
+        "label": "盘县",
+        "value": "盘县"
+      },
+      {
+        "label": "平坝",
+        "value": "平坝"
+      },
+      {
+        "label": "平塘",
+        "value": "平塘"
+      },
+      {
+        "label": "普安",
+        "value": "普安"
+      },
+      {
+        "label": "普定",
+        "value": "普定"
+      },
+      {
+        "label": "黔东南",
+        "value": "黔东南"
+      },
+      {
+        "label": "黔南",
+        "value": "黔南"
+      },
+      {
+        "label": "黔西",
+        "value": "黔西"
+      },
+      {
+        "label": "黔西南",
+        "value": "黔西南"
+      },
+      {
+        "label": "清镇",
+        "value": "清镇"
+      },
+      {
+        "label": "晴隆",
+        "value": "晴隆"
+      },
+      {
+        "label": "仁怀",
+        "value": "仁怀"
+      },
+      {
+        "label": "榕江",
+        "value": "榕江"
+      },
+      {
+        "label": "三都",
+        "value": "三都"
+      },
+      {
+        "label": "三穗",
+        "value": "三穗"
+      },
+      {
+        "label": "施秉",
+        "value": "施秉"
+      },
+      {
+        "label": "石阡",
+        "value": "石阡"
+      },
+      {
+        "label": "水城",
+        "value": "水城"
+      },
+      {
+        "label": "思南",
+        "value": "思南"
+      },
+      {
+        "label": "松桃",
+        "value": "松桃"
+      },
+      {
+        "label": "绥阳",
+        "value": "绥阳"
+      },
+      {
+        "label": "台江",
+        "value": "台江"
+      },
+      {
+        "label": "天柱",
+        "value": "天柱"
+      },
+      {
+        "label": "桐梓",
+        "value": "桐梓"
+      },
+      {
+        "label": "铜仁",
+        "value": "铜仁"
+      },
+      {
+        "label": "万山",
+        "value": "万山"
+      },
+      {
+        "label": "望谟",
+        "value": "望谟"
+      },
+      {
+        "label": "威宁",
+        "value": "威宁"
+      },
+      {
+        "label": "瓮安",
+        "value": "瓮安"
+      },
+      {
+        "label": "乌当",
+        "value": "乌当"
+      },
+      {
+        "label": "务川",
+        "value": "务川"
+      },
+      {
+        "label": "息烽",
+        "value": "息烽"
+      },
+      {
+        "label": "习水",
+        "value": "习水"
+      },
+      {
+        "label": "兴仁",
+        "value": "兴仁"
+      },
+      {
+        "label": "兴义",
+        "value": "兴义"
+      },
+      {
+        "label": "修文",
+        "value": "修文"
+      },
+      {
+        "label": "沿河",
+        "value": "沿河"
+      },
+      {
+        "label": "印江",
+        "value": "印江"
+      },
+      {
+        "label": "余庆",
+        "value": "余庆"
+      },
+      {
+        "label": "玉屏",
+        "value": "玉屏"
+      },
+      {
+        "label": "云岩",
+        "value": "云岩"
+      },
+      {
+        "label": "长顺",
+        "value": "长顺"
+      },
+      {
+        "label": "贞丰",
+        "value": "贞丰"
+      },
+      {
+        "label": "镇宁",
+        "value": "镇宁"
+      },
+      {
+        "label": "镇远",
+        "value": "镇远"
+      },
+      {
+        "label": "正安",
+        "value": "正安"
+      },
+      {
+        "label": "织金",
+        "value": "织金"
+      },
+      {
+        "label": "紫云",
+        "value": "紫云"
+      },
+      {
+        "label": "遵义",
+        "value": "遵义"
+      }
+    ]
+  },
+  {
+    "label": "海南",
+    "value": "海南",
+    "children": [
+      {
+        "label": "海口",
+        "value": "海口"
+      },
+      {
+        "label": "三亚",
+        "value": "三亚"
+      },
+      {
+        "label": "白沙",
+        "value": "白沙"
+      },
+      {
+        "label": "保亭",
+        "value": "保亭"
+      },
+      {
+        "label": "昌江",
+        "value": "昌江"
+      },
+      {
+        "label": "澄迈",
+        "value": "澄迈"
+      },
+      {
+        "label": "儋州",
+        "value": "儋州"
+      },
+      {
+        "label": "定安",
+        "value": "定安"
+      },
+      {
+        "label": "东方",
+        "value": "东方"
+      },
+      {
+        "label": "乐东",
+        "value": "乐东"
+      },
+      {
+        "label": "临高",
+        "value": "临高"
+      },
+      {
+        "label": "陵水",
+        "value": "陵水"
+      },
+      {
+        "label": "琼海",
+        "value": "琼海"
+      },
+      {
+        "label": "琼中",
+        "value": "琼中"
+      },
+      {
+        "label": "屯昌",
+        "value": "屯昌"
+      },
+      {
+        "label": "万宁",
+        "value": "万宁"
+      },
+      {
+        "label": "文昌",
+        "value": "文昌"
+      },
+      {
+        "label": "五指山",
+        "value": "五指山"
+      },
+      {
+        "label": "西沙",
+        "value": "西沙"
+      },
+      {
+        "label": "中沙",
+        "value": "中沙"
+      }
+    ]
+  },
+  {
+    "label": "河北",
+    "value": "河北",
+    "children": [
+      {
+        "label": "石家庄",
+        "value": "石家庄"
+      },
+      {
+        "label": "安国",
+        "value": "安国"
+      },
+      {
+        "label": "安平",
+        "value": "安平"
+      },
+      {
+        "label": "安新",
+        "value": "安新"
+      },
+      {
+        "label": "霸州",
+        "value": "霸州"
+      },
+      {
+        "label": "柏乡",
+        "value": "柏乡"
+      },
+      {
+        "label": "保定",
+        "value": "保定"
+      },
+      {
+        "label": "北戴河",
+        "value": "北戴河"
+      },
+      {
+        "label": "泊头",
+        "value": "泊头"
+      },
+      {
+        "label": "博野",
+        "value": "博野"
+      },
+      {
+        "label": "沧县",
+        "value": "沧县"
+      },
+      {
+        "label": "沧州",
+        "value": "沧州"
+      },
+      {
+        "label": "曹妃甸",
+        "value": "曹妃甸"
+      },
+      {
+        "label": "昌黎",
+        "value": "昌黎"
+      },
+      {
+        "label": "成安",
+        "value": "成安"
+      },
+      {
+        "label": "承德",
+        "value": "承德"
+      },
+      {
+        "label": "承德县",
+        "value": "承德县"
+      },
+      {
+        "label": "赤城",
+        "value": "赤城"
+      },
+      {
+        "label": "崇礼",
+        "value": "崇礼"
+      },
+      {
+        "label": "磁县",
+        "value": "磁县"
+      },
+      {
+        "label": "大厂",
+        "value": "大厂"
+      },
+      {
+        "label": "大城",
+        "value": "大城"
+      },
+      {
+        "label": "大名",
+        "value": "大名"
+      },
+      {
+        "label": "定兴",
+        "value": "定兴"
+      },
+      {
+        "label": "定州",
+        "value": "定州"
+      },
+      {
+        "label": "东光",
+        "value": "东光"
+      },
+      {
+        "label": "肥乡",
+        "value": "肥乡"
+      },
+      {
+        "label": "丰南",
+        "value": "丰南"
+      },
+      {
+        "label": "丰宁",
+        "value": "丰宁"
+      },
+      {
+        "label": "丰润",
+        "value": "丰润"
+      },
+      {
+        "label": "峰峰",
+        "value": "峰峰"
+      },
+      {
+        "label": "抚宁",
+        "value": "抚宁"
+      },
+      {
+        "label": "阜城",
+        "value": "阜城"
+      },
+      {
+        "label": "阜平",
+        "value": "阜平"
+      },
+      {
+        "label": "高碑店",
+        "value": "高碑店"
+      },
+      {
+        "label": "高阳",
+        "value": "高阳"
+      },
+      {
+        "label": "高邑",
+        "value": "高邑"
+      },
+      {
+        "label": "藁城",
+        "value": "藁城"
+      },
+      {
+        "label": "沽源",
+        "value": "沽源"
+      },
+      {
+        "label": "固安",
+        "value": "固安"
+      },
+      {
+        "label": "故城",
+        "value": "故城"
+      },
+      {
+        "label": "馆陶",
+        "value": "馆陶"
+      },
+      {
+        "label": "广平",
+        "value": "广平"
+      },
+      {
+        "label": "广宗",
+        "value": "广宗"
+      },
+      {
+        "label": "海兴",
+        "value": "海兴"
+      },
+      {
+        "label": "邯郸",
+        "value": "邯郸"
+      },
+      {
+        "label": "行唐",
+        "value": "行唐"
+      },
+      {
+        "label": "河间",
+        "value": "河间"
+      },
+      {
+        "label": "衡水",
+        "value": "衡水"
+      },
+      {
+        "label": "怀安",
+        "value": "怀安"
+      },
+      {
+        "label": "怀来",
+        "value": "怀来"
+      },
+      {
+        "label": "黄骅",
+        "value": "黄骅"
+      },
+      {
+        "label": "鸡泽",
+        "value": "鸡泽"
+      },
+      {
+        "label": "冀州",
+        "value": "冀州"
+      },
+      {
+        "label": "晋州",
+        "value": "晋州"
+      },
+      {
+        "label": "井陉",
+        "value": "井陉"
+      },
+      {
+        "label": "景县",
+        "value": "景县"
+      },
+      {
+        "label": "巨鹿",
+        "value": "巨鹿"
+      },
+      {
+        "label": "康保",
+        "value": "康保"
+      },
+      {
+        "label": "宽城",
+        "value": "宽城"
+      },
+      {
+        "label": "涞水",
+        "value": "涞水"
+      },
+      {
+        "label": "涞源",
+        "value": "涞源"
+      },
+      {
+        "label": "廊坊",
+        "value": "廊坊"
+      },
+      {
+        "label": "乐亭",
+        "value": "乐亭"
+      },
+      {
+        "label": "蠡县",
+        "value": "蠡县"
+      },
+      {
+        "label": "临城",
+        "value": "临城"
+      },
+      {
+        "label": "临西",
+        "value": "临西"
+      },
+      {
+        "label": "临漳",
+        "value": "临漳"
+      },
+      {
+        "label": "灵寿",
+        "value": "灵寿"
+      },
+      {
+        "label": "隆化",
+        "value": "隆化"
+      },
+      {
+        "label": "隆尧",
+        "value": "隆尧"
+      },
+      {
+        "label": "卢龙",
+        "value": "卢龙"
+      },
+      {
+        "label": "鹿泉",
+        "value": "鹿泉"
+      },
+      {
+        "label": "栾城",
+        "value": "栾城"
+      },
+      {
+        "label": "滦南",
+        "value": "滦南"
+      },
+      {
+        "label": "滦平",
+        "value": "滦平"
+      },
+      {
+        "label": "滦县",
+        "value": "滦县"
+      },
+      {
+        "label": "满城",
+        "value": "满城"
+      },
+      {
+        "label": "孟村",
+        "value": "孟村"
+      },
+      {
+        "label": "南和",
+        "value": "南和"
+      },
+      {
+        "label": "南皮",
+        "value": "南皮"
+      },
+      {
+        "label": "内丘",
+        "value": "内丘"
+      },
+      {
+        "label": "宁晋",
+        "value": "宁晋"
+      },
+      {
+        "label": "平泉",
+        "value": "平泉"
+      },
+      {
+        "label": "平山",
+        "value": "平山"
+      },
+      {
+        "label": "平乡",
+        "value": "平乡"
+      },
+      {
+        "label": "迁安",
+        "value": "迁安"
+      },
+      {
+        "label": "迁西",
+        "value": "迁西"
+      },
+      {
+        "label": "秦皇岛",
+        "value": "秦皇岛"
+      },
+      {
+        "label": "青龙",
+        "value": "青龙"
+      },
+      {
+        "label": "青县",
+        "value": "青县"
+      },
+      {
+        "label": "清河",
+        "value": "清河"
+      },
+      {
+        "label": "清苑",
+        "value": "清苑"
+      },
+      {
+        "label": "邱县",
+        "value": "邱县"
+      },
+      {
+        "label": "曲阳",
+        "value": "曲阳"
+      },
+      {
+        "label": "曲周",
+        "value": "曲周"
+      },
+      {
+        "label": "饶阳",
+        "value": "饶阳"
+      },
+      {
+        "label": "任丘",
+        "value": "任丘"
+      },
+      {
+        "label": "任县",
+        "value": "任县"
+      },
+      {
+        "label": "容城",
+        "value": "容城"
+      },
+      {
+        "label": "三河",
+        "value": "三河"
+      },
+      {
+        "label": "沙河",
+        "value": "沙河"
+      },
+      {
+        "label": "尚义",
+        "value": "尚义"
+      },
+      {
+        "label": "涉县",
+        "value": "涉县"
+      },
+      {
+        "label": "深泽",
+        "value": "深泽"
+      },
+      {
+        "label": "深州",
+        "value": "深州"
+      },
+      {
+        "label": "顺平",
+        "value": "顺平"
+      },
+      {
+        "label": "肃宁",
+        "value": "肃宁"
+      },
+      {
+        "label": "曹妃甸区",
+        "value": "曹妃甸区"
+      },
+      {
+        "label": "唐山",
+        "value": "唐山"
+      },
+      {
+        "label": "唐县",
+        "value": "唐县"
+      },
+      {
+        "label": "万全",
+        "value": "万全"
+      },
+      {
+        "label": "望都",
+        "value": "望都"
+      },
+      {
+        "label": "威县",
+        "value": "威县"
+      },
+      {
+        "label": "围场",
+        "value": "围场"
+      },
+      {
+        "label": "蔚县",
+        "value": "蔚县"
+      },
+      {
+        "label": "魏县",
+        "value": "魏县"
+      },
+      {
+        "label": "文安",
+        "value": "文安"
+      },
+      {
+        "label": "无极",
+        "value": "无极"
+      },
+      {
+        "label": "吴桥",
+        "value": "吴桥"
+      },
+      {
+        "label": "武安",
+        "value": "武安"
+      },
+      {
+        "label": "武强",
+        "value": "武强"
+      },
+      {
+        "label": "武邑",
+        "value": "武邑"
+      },
+      {
+        "label": "献县",
+        "value": "献县"
+      },
+      {
+        "label": "香河",
+        "value": "香河"
+      },
+      {
+        "label": "辛集",
+        "value": "辛集"
+      },
+      {
+        "label": "新河",
+        "value": "新河"
+      },
+      {
+        "label": "新乐",
+        "value": "新乐"
+      },
+      {
+        "label": "邢台",
+        "value": "邢台"
+      },
+      {
+        "label": "兴隆",
+        "value": "兴隆"
+      },
+      {
+        "label": "雄县",
+        "value": "雄县"
+      },
+      {
+        "label": "徐水",
+        "value": "徐水"
+      },
+      {
+        "label": "宣化",
+        "value": "宣化"
+      },
+      {
+        "label": "盐山",
+        "value": "盐山"
+      },
+      {
+        "label": "阳原",
+        "value": "阳原"
+      },
+      {
+        "label": "易县",
+        "value": "易县"
+      },
+      {
+        "label": "永年",
+        "value": "永年"
+      },
+      {
+        "label": "永清",
+        "value": "永清"
+      },
+      {
+        "label": "玉田",
+        "value": "玉田"
+      },
+      {
+        "label": "元氏",
+        "value": "元氏"
+      },
+      {
+        "label": "赞皇",
+        "value": "赞皇"
+      },
+      {
+        "label": "枣强",
+        "value": "枣强"
+      },
+      {
+        "label": "张北",
+        "value": "张北"
+      },
+      {
+        "label": "张家口",
+        "value": "张家口"
+      },
+      {
+        "label": "赵县",
+        "value": "赵县"
+      },
+      {
+        "label": "正定",
+        "value": "正定"
+      },
+      {
+        "label": "涿鹿",
+        "value": "涿鹿"
+      },
+      {
+        "label": "涿州",
+        "value": "涿州"
+      },
+      {
+        "label": "遵化",
+        "value": "遵化"
+      }
+    ]
+  },
+  {
+    "label": "河南",
+    "value": "河南",
+    "children": [
+      {
+        "label": "郑州",
+        "value": "郑州"
+      },
+      {
+        "label": "安阳",
+        "value": "安阳"
+      },
+      {
+        "label": "宝丰",
+        "value": "宝丰"
+      },
+      {
+        "label": "博爱",
+        "value": "博爱"
+      },
+      {
+        "label": "郸城",
+        "value": "郸城"
+      },
+      {
+        "label": "登封",
+        "value": "登封"
+      },
+      {
+        "label": "邓州",
+        "value": "邓州"
+      },
+      {
+        "label": "范县",
+        "value": "范县"
+      },
+      {
+        "label": "方城",
+        "value": "方城"
+      },
+      {
+        "label": "封丘",
+        "value": "封丘"
+      },
+      {
+        "label": "扶沟",
+        "value": "扶沟"
+      },
+      {
+        "label": "巩义",
+        "value": "巩义"
+      },
+      {
+        "label": "固始",
+        "value": "固始"
+      },
+      {
+        "label": "光山",
+        "value": "光山"
+      },
+      {
+        "label": "鹤壁",
+        "value": "鹤壁"
+      },
+      {
+        "label": "滑县",
+        "value": "滑县"
+      },
+      {
+        "label": "淮滨",
+        "value": "淮滨"
+      },
+      {
+        "label": "淮阳",
+        "value": "淮阳"
+      },
+      {
+        "label": "潢川",
+        "value": "潢川"
+      },
+      {
+        "label": "辉县",
+        "value": "辉县"
+      },
+      {
+        "label": "获嘉",
+        "value": "获嘉"
+      },
+      {
+        "label": "吉利",
+        "value": "吉利"
+      },
+      {
+        "label": "济源",
+        "value": "济源"
+      },
+      {
+        "label": "郏县",
+        "value": "郏县"
+      },
+      {
+        "label": "焦作",
+        "value": "焦作"
+      },
+      {
+        "label": "浚县",
+        "value": "浚县"
+      },
+      {
+        "label": "开封",
+        "value": "开封"
+      },
+      {
+        "label": "兰考",
+        "value": "兰考"
+      },
+      {
+        "label": "林州",
+        "value": "林州"
+      },
+      {
+        "label": "临颍",
+        "value": "临颍"
+      },
+      {
+        "label": "灵宝",
+        "value": "灵宝"
+      },
+      {
+        "label": "卢氏",
+        "value": "卢氏"
+      },
+      {
+        "label": "鲁山",
+        "value": "鲁山"
+      },
+      {
+        "label": "鹿邑",
+        "value": "鹿邑"
+      },
+      {
+        "label": "栾川",
+        "value": "栾川"
+      },
+      {
+        "label": "罗山",
+        "value": "罗山"
+      },
+      {
+        "label": "洛宁",
+        "value": "洛宁"
+      },
+      {
+        "label": "洛阳",
+        "value": "洛阳"
+      },
+      {
+        "label": "漯河",
+        "value": "漯河"
+      },
+      {
+        "label": "孟津",
+        "value": "孟津"
+      },
+      {
+        "label": "孟州",
+        "value": "孟州"
+      },
+      {
+        "label": "泌阳",
+        "value": "泌阳"
+      },
+      {
+        "label": "渑池",
+        "value": "渑池"
+      },
+      {
+        "label": "民权",
+        "value": "民权"
+      },
+      {
+        "label": "南乐",
+        "value": "南乐"
+      },
+      {
+        "label": "南阳",
+        "value": "南阳"
+      },
+      {
+        "label": "南召",
+        "value": "南召"
+      },
+      {
+        "label": "内黄",
+        "value": "内黄"
+      },
+      {
+        "label": "内乡",
+        "value": "内乡"
+      },
+      {
+        "label": "宁陵",
+        "value": "宁陵"
+      },
+      {
+        "label": "平顶山",
+        "value": "平顶山"
+      },
+      {
+        "label": "平舆",
+        "value": "平舆"
+      },
+      {
+        "label": "濮阳",
+        "value": "濮阳"
+      },
+      {
+        "label": "淇县",
+        "value": "淇县"
+      },
+      {
+        "label": "杞县",
+        "value": "杞县"
+      },
+      {
+        "label": "沁阳",
+        "value": "沁阳"
+      },
+      {
+        "label": "清丰",
+        "value": "清丰"
+      },
+      {
+        "label": "确山",
+        "value": "确山"
+      },
+      {
+        "label": "汝南",
+        "value": "汝南"
+      },
+      {
+        "label": "汝阳",
+        "value": "汝阳"
+      },
+      {
+        "label": "汝州",
+        "value": "汝州"
+      },
+      {
+        "label": "三门峡",
+        "value": "三门峡"
+      },
+      {
+        "label": "商城",
+        "value": "商城"
+      },
+      {
+        "label": "商丘",
+        "value": "商丘"
+      },
+      {
+        "label": "商水",
+        "value": "商水"
+      },
+      {
+        "label": "上蔡",
+        "value": "上蔡"
+      },
+      {
+        "label": "上街",
+        "value": "上街"
+      },
+      {
+        "label": "社旗",
+        "value": "社旗"
+      },
+      {
+        "label": "沈丘",
+        "value": "沈丘"
+      },
+      {
+        "label": "嵩县",
+        "value": "嵩县"
+      },
+      {
+        "label": "睢县",
+        "value": "睢县"
+      },
+      {
+        "label": "遂平",
+        "value": "遂平"
+      },
+      {
+        "label": "台前",
+        "value": "台前"
+      },
+      {
+        "label": "太康",
+        "value": "太康"
+      },
+      {
+        "label": "汤阴",
+        "value": "汤阴"
+      },
+      {
+        "label": "唐河",
+        "value": "唐河"
+      },
+      {
+        "label": "通许",
+        "value": "通许"
+      },
+      {
+        "label": "桐柏",
+        "value": "桐柏"
+      },
+      {
+        "label": "卫辉",
+        "value": "卫辉"
+      },
+      {
+        "label": "尉氏",
+        "value": "尉氏"
+      },
+      {
+        "label": "温县",
+        "value": "温县"
+      },
+      {
+        "label": "武陟",
+        "value": "武陟"
+      },
+      {
+        "label": "舞钢",
+        "value": "舞钢"
+      },
+      {
+        "label": "舞阳",
+        "value": "舞阳"
+      },
+      {
+        "label": "西华",
+        "value": "西华"
+      },
+      {
+        "label": "西平",
+        "value": "西平"
+      },
+      {
+        "label": "西峡",
+        "value": "西峡"
+      },
+      {
+        "label": "息县",
+        "value": "息县"
+      },
+      {
+        "label": "淅川",
+        "value": "淅川"
+      },
+      {
+        "label": "夏邑",
+        "value": "夏邑"
+      },
+      {
+        "label": "襄城",
+        "value": "襄城"
+      },
+      {
+        "label": "项城",
+        "value": "项城"
+      },
+      {
+        "label": "新安",
+        "value": "新安"
+      },
+      {
+        "label": "新蔡",
+        "value": "新蔡"
+      },
+      {
+        "label": "新密",
+        "value": "新密"
+      },
+      {
+        "label": "新县",
+        "value": "新县"
+      },
+      {
+        "label": "新乡",
+        "value": "新乡"
+      },
+      {
+        "label": "新野",
+        "value": "新野"
+      },
+      {
+        "label": "新郑",
+        "value": "新郑"
+      },
+      {
+        "label": "信阳",
+        "value": "信阳"
+      },
+      {
+        "label": "修武",
+        "value": "修武"
+      },
+      {
+        "label": "许昌",
+        "value": "许昌"
+      },
+      {
+        "label": "鄢陵",
+        "value": "鄢陵"
+      },
+      {
+        "label": "延津",
+        "value": "延津"
+      },
+      {
+        "label": "偃师",
+        "value": "偃师"
+      },
+      {
+        "label": "叶县",
+        "value": "叶县"
+      },
+      {
+        "label": "伊川",
+        "value": "伊川"
+      },
+      {
+        "label": "宜阳",
+        "value": "宜阳"
+      },
+      {
+        "label": "义马",
+        "value": "义马"
+      },
+      {
+        "label": "荥阳",
+        "value": "荥阳"
+      },
+      {
+        "label": "永城",
+        "value": "永城"
+      },
+      {
+        "label": "虞城",
+        "value": "虞城"
+      },
+      {
+        "label": "禹州",
+        "value": "禹州"
+      },
+      {
+        "label": "原阳",
+        "value": "原阳"
+      },
+      {
+        "label": "长葛",
+        "value": "长葛"
+      },
+      {
+        "label": "长垣",
+        "value": "长垣"
+      },
+      {
+        "label": "柘城",
+        "value": "柘城"
+      },
+      {
+        "label": "镇平",
+        "value": "镇平"
+      },
+      {
+        "label": "正阳",
+        "value": "正阳"
+      },
+      {
+        "label": "中牟",
+        "value": "中牟"
+      },
+      {
+        "label": "周口",
+        "value": "周口"
+      },
+      {
+        "label": "驻马店",
+        "value": "驻马店"
+      }
+    ]
+  },
+  {
+    "label": "黑龙江",
+    "value": "黑龙江",
+    "children": [
+      {
+        "label": "哈尔滨",
+        "value": "哈尔滨"
+      },
+      {
+        "label": "阿城",
+        "value": "阿城"
+      },
+      {
+        "label": "安达",
+        "value": "安达"
+      },
+      {
+        "label": "巴彦",
+        "value": "巴彦"
+      },
+      {
+        "label": "拜泉",
+        "value": "拜泉"
+      },
+      {
+        "label": "宝清",
+        "value": "宝清"
+      },
+      {
+        "label": "北安",
+        "value": "北安"
+      },
+      {
+        "label": "宾县",
+        "value": "宾县"
+      },
+      {
+        "label": "勃利",
+        "value": "勃利"
+      },
+      {
+        "label": "大庆",
+        "value": "大庆"
+      },
+      {
+        "label": "大兴安岭",
+        "value": "大兴安岭"
+      },
+      {
+        "label": "东宁",
+        "value": "东宁"
+      },
+      {
+        "label": "杜尔伯特",
+        "value": "杜尔伯特"
+      },
+      {
+        "label": "方正",
+        "value": "方正"
+      },
+      {
+        "label": "抚远",
+        "value": "抚远"
+      },
+      {
+        "label": "富锦",
+        "value": "富锦"
+      },
+      {
+        "label": "富裕",
+        "value": "富裕"
+      },
+      {
+        "label": "甘南",
+        "value": "甘南"
+      },
+      {
+        "label": "海林",
+        "value": "海林"
+      },
+      {
+        "label": "海伦",
+        "value": "海伦"
+      },
+      {
+        "label": "鹤岗",
+        "value": "鹤岗"
+      },
+      {
+        "label": "黑河",
+        "value": "黑河"
+      },
+      {
+        "label": "呼兰",
+        "value": "呼兰"
+      },
+      {
+        "label": "呼玛",
+        "value": "呼玛"
+      },
+      {
+        "label": "呼中",
+        "value": "呼中"
+      },
+      {
+        "label": "虎林",
+        "value": "虎林"
+      },
+      {
+        "label": "桦川",
+        "value": "桦川"
+      },
+      {
+        "label": "桦南",
+        "value": "桦南"
+      },
+      {
+        "label": "鸡东",
+        "value": "鸡东"
+      },
+      {
+        "label": "鸡西",
+        "value": "鸡西"
+      },
+      {
+        "label": "集贤",
+        "value": "集贤"
+      },
+      {
+        "label": "加格达奇",
+        "value": "加格达奇"
+      },
+      {
+        "label": "佳木斯",
+        "value": "佳木斯"
+      },
+      {
+        "label": "嘉荫",
+        "value": "嘉荫"
+      },
+      {
+        "label": "克东",
+        "value": "克东"
+      },
+      {
+        "label": "克山",
+        "value": "克山"
+      },
+      {
+        "label": "兰西",
+        "value": "兰西"
+      },
+      {
+        "label": "林甸",
+        "value": "林甸"
+      },
+      {
+        "label": "林口",
+        "value": "林口"
+      },
+      {
+        "label": "龙江",
+        "value": "龙江"
+      },
+      {
+        "label": "萝北",
+        "value": "萝北"
+      },
+      {
+        "label": "密山",
+        "value": "密山"
+      },
+      {
+        "label": "明水",
+        "value": "明水"
+      },
+      {
+        "label": "漠河",
+        "value": "漠河"
+      },
+      {
+        "label": "牡丹江",
+        "value": "牡丹江"
+      },
+      {
+        "label": "木兰",
+        "value": "木兰"
+      },
+      {
+        "label": "穆棱",
+        "value": "穆棱"
+      },
+      {
+        "label": "讷河",
+        "value": "讷河"
+      },
+      {
+        "label": "嫩江",
+        "value": "嫩江"
+      },
+      {
+        "label": "宁安",
+        "value": "宁安"
+      },
+      {
+        "label": "七台河",
+        "value": "七台河"
+      },
+      {
+        "label": "齐齐哈尔",
+        "value": "齐齐哈尔"
+      },
+      {
+        "label": "青冈",
+        "value": "青冈"
+      },
+      {
+        "label": "庆安",
+        "value": "庆安"
+      },
+      {
+        "label": "饶河",
+        "value": "饶河"
+      },
+      {
+        "label": "尚志",
+        "value": "尚志"
+      },
+      {
+        "label": "双城",
+        "value": "双城"
+      },
+      {
+        "label": "双鸭山",
+        "value": "双鸭山"
+      },
+      {
+        "label": "绥滨",
+        "value": "绥滨"
+      },
+      {
+        "label": "绥芬河",
+        "value": "绥芬河"
+      },
+      {
+        "label": "绥化",
+        "value": "绥化"
+      },
+      {
+        "label": "绥棱",
+        "value": "绥棱"
+      },
+      {
+        "label": "孙吴",
+        "value": "孙吴"
+      },
+      {
+        "label": "塔河",
+        "value": "塔河"
+      },
+      {
+        "label": "泰来",
+        "value": "泰来"
+      },
+      {
+        "label": "汤原",
+        "value": "汤原"
+      },
+      {
+        "label": "铁力",
+        "value": "铁力"
+      },
+      {
+        "label": "通河",
+        "value": "通河"
+      },
+      {
+        "label": "同江",
+        "value": "同江"
+      },
+      {
+        "label": "望奎",
+        "value": "望奎"
+      },
+      {
+        "label": "乌伊岭",
+        "value": "乌伊岭"
+      },
+      {
+        "label": "五常",
+        "value": "五常"
+      },
+      {
+        "label": "五大连池",
+        "value": "五大连池"
+      },
+      {
+        "label": "五营",
+        "value": "五营"
+      },
+      {
+        "label": "新林",
+        "value": "新林"
+      },
+      {
+        "label": "逊克",
+        "value": "逊克"
+      },
+      {
+        "label": "延寿",
+        "value": "延寿"
+      },
+      {
+        "label": "伊春",
+        "value": "伊春"
+      },
+      {
+        "label": "依安",
+        "value": "依安"
+      },
+      {
+        "label": "依兰",
+        "value": "依兰"
+      },
+      {
+        "label": "友谊",
+        "value": "友谊"
+      },
+      {
+        "label": "肇东",
+        "value": "肇东"
+      },
+      {
+        "label": "肇源",
+        "value": "肇源"
+      },
+      {
+        "label": "肇州",
+        "value": "肇州"
+      }
+    ]
+  },
+  {
+    "label": "湖北",
+    "value": "湖北",
+    "children": [
+      {
+        "label": "武汉",
+        "value": "武汉"
+      },
+      {
+        "label": "安陆",
+        "value": "安陆"
+      },
+      {
+        "label": "巴东",
+        "value": "巴东"
+      },
+      {
+        "label": "保康",
+        "value": "保康"
+      },
+      {
+        "label": "蔡甸",
+        "value": "蔡甸"
+      },
+      {
+        "label": "赤壁",
+        "value": "赤壁"
+      },
+      {
+        "label": "崇阳",
+        "value": "崇阳"
+      },
+      {
+        "label": "大悟",
+        "value": "大悟"
+      },
+      {
+        "label": "大冶",
+        "value": "大冶"
+      },
+      {
+        "label": "丹江口",
+        "value": "丹江口"
+      },
+      {
+        "label": "当阳",
+        "value": "当阳"
+      },
+      {
+        "label": "东西湖",
+        "value": "东西湖"
+      },
+      {
+        "label": "掇刀",
+        "value": "掇刀"
+      },
+      {
+        "label": "鄂州",
+        "value": "鄂州"
+      },
+      {
+        "label": "恩施",
+        "value": "恩施"
+      },
+      {
+        "label": "房县",
+        "value": "房县"
+      },
+      {
+        "label": "公安",
+        "value": "公安"
+      },
+      {
+        "label": "谷城",
+        "value": "谷城"
+      },
+      {
+        "label": "广水",
+        "value": "广水"
+      },
+      {
+        "label": "汉川",
+        "value": "汉川"
+      },
+      {
+        "label": "鹤峰",
+        "value": "鹤峰"
+      },
+      {
+        "label": "红安",
+        "value": "红安"
+      },
+      {
+        "label": "洪湖",
+        "value": "洪湖"
+      },
+      {
+        "label": "黄陂",
+        "value": "黄陂"
+      },
+      {
+        "label": "黄冈",
+        "value": "黄冈"
+      },
+      {
+        "label": "黄梅",
+        "value": "黄梅"
+      },
+      {
+        "label": "黄石",
+        "value": "黄石"
+      },
+      {
+        "label": "嘉鱼",
+        "value": "嘉鱼"
+      },
+      {
+        "label": "监利",
+        "value": "监利"
+      },
+      {
+        "label": "建始",
+        "value": "建始"
+      },
+      {
+        "label": "江陵",
+        "value": "江陵"
+      },
+      {
+        "label": "江夏",
+        "value": "江夏"
+      },
+      {
+        "label": "京山",
+        "value": "京山"
+      },
+      {
+        "label": "荆门",
+        "value": "荆门"
+      },
+      {
+        "label": "荆州",
+        "value": "荆州"
+      },
+      {
+        "label": "来凤",
+        "value": "来凤"
+      },
+      {
+        "label": "老河口",
+        "value": "老河口"
+      },
+      {
+        "label": "利川",
+        "value": "利川"
+      },
+      {
+        "label": "梁子湖",
+        "value": "梁子湖"
+      },
+      {
+        "label": "罗田",
+        "value": "罗田"
+      },
+      {
+        "label": "麻城",
+        "value": "麻城"
+      },
+      {
+        "label": "南漳",
+        "value": "南漳"
+      },
+      {
+        "label": "蕲春",
+        "value": "蕲春"
+      },
+      {
+        "label": "潜江",
+        "value": "潜江"
+      },
+      {
+        "label": "三峡",
+        "value": "三峡"
+      },
+      {
+        "label": "沙市",
+        "value": "沙市"
+      },
+      {
+        "label": "沙洋",
+        "value": "沙洋"
+      },
+      {
+        "label": "神农架",
+        "value": "神农架"
+      },
+      {
+        "label": "十堰",
+        "value": "十堰"
+      },
+      {
+        "label": "石首",
+        "value": "石首"
+      },
+      {
+        "label": "松滋",
+        "value": "松滋"
+      },
+      {
+        "label": "随州",
+        "value": "随州"
+      },
+      {
+        "label": "天门",
+        "value": "天门"
+      },
+      {
+        "label": "铁山",
+        "value": "铁山"
+      },
+      {
+        "label": "通城",
+        "value": "通城"
+      },
+      {
+        "label": "通山",
+        "value": "通山"
+      },
+      {
+        "label": "团风",
+        "value": "团风"
+      },
+      {
+        "label": "五峰",
+        "value": "五峰"
+      },
+      {
+        "label": "武穴",
+        "value": "武穴"
+      },
+      {
+        "label": "西塞山",
+        "value": "西塞山"
+      },
+      {
+        "label": "浠水",
+        "value": "浠水"
+      },
+      {
+        "label": "下陆",
+        "value": "下陆"
+      },
+      {
+        "label": "仙桃",
+        "value": "仙桃"
+      },
+      {
+        "label": "咸丰",
+        "value": "咸丰"
+      },
+      {
+        "label": "咸宁",
+        "value": "咸宁"
+      },
+      {
+        "label": "襄阳",
+        "value": "襄阳"
+      },
+      {
+        "label": "襄州",
+        "value": "襄州"
+      },
+      {
+        "label": "孝昌",
+        "value": "孝昌"
+      },
+      {
+        "label": "孝感",
+        "value": "孝感"
+      },
+      {
+        "label": "新洲",
+        "value": "新洲"
+      },
+      {
+        "label": "兴山",
+        "value": "兴山"
+      },
+      {
+        "label": "宣恩",
+        "value": "宣恩"
+      },
+      {
+        "label": "阳新",
+        "value": "阳新"
+      },
+      {
+        "label": "夷陵",
+        "value": "夷陵"
+      },
+      {
+        "label": "宜宾县",
+        "value": "宜宾县"
+      },
+      {
+        "label": "宜昌",
+        "value": "宜昌"
+      },
+      {
+        "label": "宜城",
+        "value": "宜城"
+      },
+      {
+        "label": "宜都",
+        "value": "宜都"
+      },
+      {
+        "label": "英山",
+        "value": "英山"
+      },
+      {
+        "label": "应城",
+        "value": "应城"
+      },
+      {
+        "label": "远安",
+        "value": "远安"
+      },
+      {
+        "label": "云梦",
+        "value": "云梦"
+      },
+      {
+        "label": "郧西",
+        "value": "郧西"
+      },
+      {
+        "label": "郧阳区",
+        "value": "郧阳区"
+      },
+      {
+        "label": "枣阳",
+        "value": "枣阳"
+      },
+      {
+        "label": "长阳",
+        "value": "长阳"
+      },
+      {
+        "label": "枝江",
+        "value": "枝江"
+      },
+      {
+        "label": "钟祥",
+        "value": "钟祥"
+      },
+      {
+        "label": "竹山",
+        "value": "竹山"
+      },
+      {
+        "label": "竹溪",
+        "value": "竹溪"
+      },
+      {
+        "label": "秭归",
+        "value": "秭归"
+      }
+    ]
+  },
+  {
+    "label": "湖南",
+    "value": "湖南",
+    "children": [
+      {
+        "label": "长沙",
+        "value": "长沙"
+      },
+      {
+        "label": "安化",
+        "value": "安化"
+      },
+      {
+        "label": "安仁",
+        "value": "安仁"
+      },
+      {
+        "label": "安乡",
+        "value": "安乡"
+      },
+      {
+        "label": "保靖",
+        "value": "保靖"
+      },
+      {
+        "label": "茶陵",
+        "value": "茶陵"
+      },
+      {
+        "label": "常德",
+        "value": "常德"
+      },
+      {
+        "label": "常宁",
+        "value": "常宁"
+      },
+      {
+        "label": "郴州",
+        "value": "郴州"
+      },
+      {
+        "label": "辰溪",
+        "value": "辰溪"
+      },
+      {
+        "label": "城步",
+        "value": "城步"
+      },
+      {
+        "label": "慈利",
+        "value": "慈利"
+      },
+      {
+        "label": "道县",
+        "value": "道县"
+      },
+      {
+        "label": "东安",
+        "value": "东安"
+      },
+      {
+        "label": "洞口",
+        "value": "洞口"
+      },
+      {
+        "label": "凤凰",
+        "value": "凤凰"
+      },
+      {
+        "label": "古丈",
+        "value": "古丈"
+      },
+      {
+        "label": "桂东",
+        "value": "桂东"
+      },
+      {
+        "label": "桂阳",
+        "value": "桂阳"
+      },
+      {
+        "label": "汉寿",
+        "value": "汉寿"
+      },
+      {
+        "label": "赫山区",
+        "value": "赫山区"
+      },
+      {
+        "label": "衡东",
+        "value": "衡东"
+      },
+      {
+        "label": "衡南",
+        "value": "衡南"
+      },
+      {
+        "label": "衡山",
+        "value": "衡山"
+      },
+      {
+        "label": "衡阳",
+        "value": "衡阳"
+      },
+      {
+        "label": "衡阳县",
+        "value": "衡阳县"
+      },
+      {
+        "label": "洪江",
+        "value": "洪江"
+      },
+      {
+        "label": "花垣",
+        "value": "花垣"
+      },
+      {
+        "label": "华容",
+        "value": "华容"
+      },
+      {
+        "label": "怀化",
+        "value": "怀化"
+      },
+      {
+        "label": "会同",
+        "value": "会同"
+      },
+      {
+        "label": "吉首",
+        "value": "吉首"
+      },
+      {
+        "label": "嘉禾",
+        "value": "嘉禾"
+      },
+      {
+        "label": "江华",
+        "value": "江华"
+      },
+      {
+        "label": "江永",
+        "value": "江永"
+      },
+      {
+        "label": "津市",
+        "value": "津市"
+      },
+      {
+        "label": "靖州",
+        "value": "靖州"
+      },
+      {
+        "label": "蓝山",
+        "value": "蓝山"
+      },
+      {
+        "label": "耒阳",
+        "value": "耒阳"
+      },
+      {
+        "label": "冷水江",
+        "value": "冷水江"
+      },
+      {
+        "label": "冷水滩",
+        "value": "冷水滩"
+      },
+      {
+        "label": "澧县",
+        "value": "澧县"
+      },
+      {
+        "label": "醴陵",
+        "value": "醴陵"
+      },
+      {
+        "label": "涟源",
+        "value": "涟源"
+      },
+      {
+        "label": "临澧",
+        "value": "临澧"
+      },
+      {
+        "label": "临武",
+        "value": "临武"
+      },
+      {
+        "label": "临湘",
+        "value": "临湘"
+      },
+      {
+        "label": "浏阳",
+        "value": "浏阳"
+      },
+      {
+        "label": "龙山",
+        "value": "龙山"
+      },
+      {
+        "label": "隆回",
+        "value": "隆回"
+      },
+      {
+        "label": "娄底",
+        "value": "娄底"
+      },
+      {
+        "label": "泸溪",
+        "value": "泸溪"
+      },
+      {
+        "label": "麻阳",
+        "value": "麻阳"
+      },
+      {
+        "label": "湘江新区",
+        "value": "湘江新区"
+      },
+      {
+        "label": "汨罗",
+        "value": "汨罗"
+      },
+      {
+        "label": "南县",
+        "value": "南县"
+      },
+      {
+        "label": "南岳",
+        "value": "南岳"
+      },
+      {
+        "label": "宁乡",
+        "value": "宁乡"
+      },
+      {
+        "label": "宁远",
+        "value": "宁远"
+      },
+      {
+        "label": "平江",
+        "value": "平江"
+      },
+      {
+        "label": "祁东",
+        "value": "祁东"
+      },
+      {
+        "label": "祁阳",
+        "value": "祁阳"
+      },
+      {
+        "label": "汝城",
+        "value": "汝城"
+      },
+      {
+        "label": "桑植",
+        "value": "桑植"
+      },
+      {
+        "label": "韶山",
+        "value": "韶山"
+      },
+      {
+        "label": "邵东",
+        "value": "邵东"
+      },
+      {
+        "label": "邵阳",
+        "value": "邵阳"
+      },
+      {
+        "label": "邵阳县",
+        "value": "邵阳县"
+      },
+      {
+        "label": "石门",
+        "value": "石门"
+      },
+      {
+        "label": "双峰",
+        "value": "双峰"
+      },
+      {
+        "label": "双牌",
+        "value": "双牌"
+      },
+      {
+        "label": "苏仙",
+        "value": "苏仙"
+      },
+      {
+        "label": "绥宁",
+        "value": "绥宁"
+      },
+      {
+        "label": "桃江",
+        "value": "桃江"
+      },
+      {
+        "label": "桃源",
+        "value": "桃源"
+      },
+      {
+        "label": "通道",
+        "value": "通道"
+      },
+      {
+        "label": "望城",
+        "value": "望城"
+      },
+      {
+        "label": "武冈",
+        "value": "武冈"
+      },
+      {
+        "label": "湘潭",
+        "value": "湘潭"
+      },
+      {
+        "label": "湘西",
+        "value": "湘西"
+      },
+      {
+        "label": "湘乡",
+        "value": "湘乡"
+      },
+      {
+        "label": "湘阴",
+        "value": "湘阴"
+      },
+      {
+        "label": "新化",
+        "value": "新化"
+      },
+      {
+        "label": "新晃",
+        "value": "新晃"
+      },
+      {
+        "label": "新宁",
+        "value": "新宁"
+      },
+      {
+        "label": "新邵",
+        "value": "新邵"
+      },
+      {
+        "label": "新田",
+        "value": "新田"
+      },
+      {
+        "label": "溆浦",
+        "value": "溆浦"
+      },
+      {
+        "label": "炎陵",
+        "value": "炎陵"
+      },
+      {
+        "label": "宜章",
+        "value": "宜章"
+      },
+      {
+        "label": "益阳",
+        "value": "益阳"
+      },
+      {
+        "label": "永顺",
+        "value": "永顺"
+      },
+      {
+        "label": "永兴",
+        "value": "永兴"
+      },
+      {
+        "label": "永州",
+        "value": "永州"
+      },
+      {
+        "label": "攸县",
+        "value": "攸县"
+      },
+      {
+        "label": "沅江",
+        "value": "沅江"
+      },
+      {
+        "label": "沅陵",
+        "value": "沅陵"
+      },
+      {
+        "label": "岳阳",
+        "value": "岳阳"
+      },
+      {
+        "label": "张家界",
+        "value": "张家界"
+      },
+      {
+        "label": "芷江",
+        "value": "芷江"
+      },
+      {
+        "label": "中方",
+        "value": "中方"
+      },
+      {
+        "label": "株洲",
+        "value": "株洲"
+      },
+      {
+        "label": "资兴",
+        "value": "资兴"
+      }
+    ]
+  },
+  {
+    "label": "吉林",
+    "value": "吉林",
+    "children": [
+      {
+        "label": "长春",
+        "value": "长春"
+      },
+      {
+        "label": "抚松",
+        "value": "抚松"
+      },
+      {
+        "label": "江源",
+        "value": "江源"
+      },
+      {
+        "label": "通化县",
+        "value": "通化县"
+      },
+      {
+        "label": "安图",
+        "value": "安图"
+      },
+      {
+        "label": "白城",
+        "value": "白城"
+      },
+      {
+        "label": "白山",
+        "value": "白山"
+      },
+      {
+        "label": "大安",
+        "value": "大安"
+      },
+      {
+        "label": "德惠",
+        "value": "德惠"
+      },
+      {
+        "label": "东丰",
+        "value": "东丰"
+      },
+      {
+        "label": "东岗",
+        "value": "东岗"
+      },
+      {
+        "label": "敦化",
+        "value": "敦化"
+      },
+      {
+        "label": "扶余",
+        "value": "扶余"
+      },
+      {
+        "label": "公主岭",
+        "value": "公主岭"
+      },
+      {
+        "label": "和龙",
+        "value": "和龙"
+      },
+      {
+        "label": "桦甸",
+        "value": "桦甸"
+      },
+      {
+        "label": "珲春",
+        "value": "珲春"
+      },
+      {
+        "label": "辉南",
+        "value": "辉南"
+      },
+      {
+        "label": "吉林市",
+        "value": "吉林市"
+      },
+      {
+        "label": "集安",
+        "value": "集安"
+      },
+      {
+        "label": "蛟河",
+        "value": "蛟河"
+      },
+      {
+        "label": "靖宇",
+        "value": "靖宇"
+      },
+      {
+        "label": "九台",
+        "value": "九台"
+      },
+      {
+        "label": "梨树",
+        "value": "梨树"
+      },
+      {
+        "label": "辽源",
+        "value": "辽源"
+      },
+      {
+        "label": "临江",
+        "value": "临江"
+      },
+      {
+        "label": "柳河",
+        "value": "柳河"
+      },
+      {
+        "label": "龙井",
+        "value": "龙井"
+      },
+      {
+        "label": "梅河口",
+        "value": "梅河口"
+      },
+      {
+        "label": "农安",
+        "value": "农安"
+      },
+      {
+        "label": "磐石",
+        "value": "磐石"
+      },
+      {
+        "label": "前郭",
+        "value": "前郭"
+      },
+      {
+        "label": "乾安",
+        "value": "乾安"
+      },
+      {
+        "label": "舒兰",
+        "value": "舒兰"
+      },
+      {
+        "label": "双辽",
+        "value": "双辽"
+      },
+      {
+        "label": "双阳",
+        "value": "双阳"
+      },
+      {
+        "label": "四平",
+        "value": "四平"
+      },
+      {
+        "label": "松原",
+        "value": "松原"
+      },
+      {
+        "label": "洮南",
+        "value": "洮南"
+      },
+      {
+        "label": "通化",
+        "value": "通化"
+      },
+      {
+        "label": "通榆",
+        "value": "通榆"
+      },
+      {
+        "label": "图们",
+        "value": "图们"
+      },
+      {
+        "label": "汪清",
+        "value": "汪清"
+      },
+      {
+        "label": "延边",
+        "value": "延边"
+      },
+      {
+        "label": "延吉",
+        "value": "延吉"
+      },
+      {
+        "label": "伊通",
+        "value": "伊通"
+      },
+      {
+        "label": "永吉",
+        "value": "永吉"
+      },
+      {
+        "label": "榆树",
+        "value": "榆树"
+      },
+      {
+        "label": "长白",
+        "value": "长白"
+      },
+      {
+        "label": "长岭",
+        "value": "长岭"
+      },
+      {
+        "label": "镇赉",
+        "value": "镇赉"
+      }
+    ]
+  },
+  {
+    "label": "江苏",
+    "value": "江苏",
+    "children": [
+      {
+        "label": "南京",
+        "value": "南京"
+      },
+      {
+        "label": "丹徒",
+        "value": "丹徒"
+      },
+      {
+        "label": "邗江",
+        "value": "邗江"
+      },
+      {
+        "label": "淮安区",
+        "value": "淮安区"
+      },
+      {
+        "label": "淮阴区",
+        "value": "淮阴区"
+      },
+      {
+        "label": "铜山",
+        "value": "铜山"
+      },
+      {
+        "label": "吴中",
+        "value": "吴中"
+      },
+      {
+        "label": "武进",
+        "value": "武进"
+      },
+      {
+        "label": "锡山",
+        "value": "锡山"
+      },
+      {
+        "label": "宿豫",
+        "value": "宿豫"
+      },
+      {
+        "label": "盐都",
+        "value": "盐都"
+      },
+      {
+        "label": "宝应",
+        "value": "宝应"
+      },
+      {
+        "label": "滨海",
+        "value": "滨海"
+      },
+      {
+        "label": "常熟",
+        "value": "常熟"
+      },
+      {
+        "label": "常州",
+        "value": "常州"
+      },
+      {
+        "label": "大丰",
+        "value": "大丰"
+      },
+      {
+        "label": "丹阳",
+        "value": "丹阳"
+      },
+      {
+        "label": "东海",
+        "value": "东海"
+      },
+      {
+        "label": "东台",
+        "value": "东台"
+      },
+      {
+        "label": "丰县",
+        "value": "丰县"
+      },
+      {
+        "label": "阜宁",
+        "value": "阜宁"
+      },
+      {
+        "label": "赣榆",
+        "value": "赣榆"
+      },
+      {
+        "label": "高淳",
+        "value": "高淳"
+      },
+      {
+        "label": "高邮",
+        "value": "高邮"
+      },
+      {
+        "label": "灌南",
+        "value": "灌南"
+      },
+      {
+        "label": "灌云",
+        "value": "灌云"
+      },
+      {
+        "label": "海安",
+        "value": "海安"
+      },
+      {
+        "label": "海门",
+        "value": "海门"
+      },
+      {
+        "label": "洪泽",
+        "value": "洪泽"
+      },
+      {
+        "label": "淮安",
+        "value": "淮安"
+      },
+      {
+        "label": "建湖",
+        "value": "建湖"
+      },
+      {
+        "label": "江都",
+        "value": "江都"
+      },
+      {
+        "label": "江宁",
+        "value": "江宁"
+      },
+      {
+        "label": "江浦",
+        "value": "江浦"
+      },
+      {
+        "label": "江阴",
+        "value": "江阴"
+      },
+      {
+        "label": "姜堰",
+        "value": "姜堰"
+      },
+      {
+        "label": "金湖",
+        "value": "金湖"
+      },
+      {
+        "label": "金坛",
+        "value": "金坛"
+      },
+      {
+        "label": "靖江",
+        "value": "靖江"
+      },
+      {
+        "label": "句容",
+        "value": "句容"
+      },
+      {
+        "label": "昆山",
+        "value": "昆山"
+      },
+      {
+        "label": "溧水",
+        "value": "溧水"
+      },
+      {
+        "label": "溧阳",
+        "value": "溧阳"
+      },
+      {
+        "label": "连云港",
+        "value": "连云港"
+      },
+      {
+        "label": "涟水",
+        "value": "涟水"
+      },
+      {
+        "label": "六合",
+        "value": "六合"
+      },
+      {
+        "label": "南通",
+        "value": "南通"
+      },
+      {
+        "label": "沛县",
+        "value": "沛县"
+      },
+      {
+        "label": "邳州",
+        "value": "邳州"
+      },
+      {
+        "label": "浦口",
+        "value": "浦口"
+      },
+      {
+        "label": "启东",
+        "value": "启东"
+      },
+      {
+        "label": "如东",
+        "value": "如东"
+      },
+      {
+        "label": "如皋",
+        "value": "如皋"
+      },
+      {
+        "label": "射阳",
+        "value": "射阳"
+      },
+      {
+        "label": "沭阳",
+        "value": "沭阳"
+      },
+      {
+        "label": "泗洪",
+        "value": "泗洪"
+      },
+      {
+        "label": "泗阳",
+        "value": "泗阳"
+      },
+      {
+        "label": "苏州",
+        "value": "苏州"
+      },
+      {
+        "label": "睢宁",
+        "value": "睢宁"
+      },
+      {
+        "label": "太仓",
+        "value": "太仓"
+      },
+      {
+        "label": "泰兴",
+        "value": "泰兴"
+      },
+      {
+        "label": "泰州",
+        "value": "泰州"
+      },
+      {
+        "label": "通州",
+        "value": "通州"
+      },
+      {
+        "label": "无锡",
+        "value": "无锡"
+      },
+      {
+        "label": "吴江",
+        "value": "吴江"
+      },
+      {
+        "label": "响水",
+        "value": "响水"
+      },
+      {
+        "label": "新沂",
+        "value": "新沂"
+      },
+      {
+        "label": "兴化",
+        "value": "兴化"
+      },
+      {
+        "label": "宿迁",
+        "value": "宿迁"
+      },
+      {
+        "label": "盱眙",
+        "value": "盱眙"
+      },
+      {
+        "label": "徐州",
+        "value": "徐州"
+      },
+      {
+        "label": "盐城",
+        "value": "盐城"
+      },
+      {
+        "label": "扬中",
+        "value": "扬中"
+      },
+      {
+        "label": "扬州",
+        "value": "扬州"
+      },
+      {
+        "label": "仪征",
+        "value": "仪征"
+      },
+      {
+        "label": "宜兴",
+        "value": "宜兴"
+      },
+      {
+        "label": "张家港",
+        "value": "张家港"
+      },
+      {
+        "label": "镇江",
+        "value": "镇江"
+      }
+    ]
+  },
+  {
+    "label": "江西",
+    "value": "江西",
+    "children": [
+      {
+        "label": "南昌",
+        "value": "南昌"
+      },
+      {
+        "label": "安福",
+        "value": "安福"
+      },
+      {
+        "label": "安义",
+        "value": "安义"
+      },
+      {
+        "label": "安源",
+        "value": "安源"
+      },
+      {
+        "label": "安远",
+        "value": "安远"
+      },
+      {
+        "label": "崇仁",
+        "value": "崇仁"
+      },
+      {
+        "label": "崇义",
+        "value": "崇义"
+      },
+      {
+        "label": "大余",
+        "value": "大余"
+      },
+      {
+        "label": "德安",
+        "value": "德安"
+      },
+      {
+        "label": "德兴",
+        "value": "德兴"
+      },
+      {
+        "label": "定南",
+        "value": "定南"
+      },
+      {
+        "label": "东乡",
+        "value": "东乡"
+      },
+      {
+        "label": "都昌",
+        "value": "都昌"
+      },
+      {
+        "label": "分宜",
+        "value": "分宜"
+      },
+      {
+        "label": "丰城",
+        "value": "丰城"
+      },
+      {
+        "label": "奉新",
+        "value": "奉新"
+      },
+      {
+        "label": "浮梁",
+        "value": "浮梁"
+      },
+      {
+        "label": "抚州",
+        "value": "抚州"
+      },
+      {
+        "label": "赣县",
+        "value": "赣县"
+      },
+      {
+        "label": "赣州",
+        "value": "赣州"
+      },
+      {
+        "label": "高安",
+        "value": "高安"
+      },
+      {
+        "label": "广昌",
+        "value": "广昌"
+      },
+      {
+        "label": "广丰",
+        "value": "广丰"
+      },
+      {
+        "label": "贵溪",
+        "value": "贵溪"
+      },
+      {
+        "label": "横峰",
+        "value": "横峰"
+      },
+      {
+        "label": "湖口",
+        "value": "湖口"
+      },
+      {
+        "label": "会昌",
+        "value": "会昌"
+      },
+      {
+        "label": "吉安",
+        "value": "吉安"
+      },
+      {
+        "label": "吉安",
+        "value": "吉安"
+      },
+      {
+        "label": "吉水",
+        "value": "吉水"
+      },
+      {
+        "label": "金溪",
+        "value": "金溪"
+      },
+      {
+        "label": "进贤",
+        "value": "进贤"
+      },
+      {
+        "label": "井冈山",
+        "value": "井冈山"
+      },
+      {
+        "label": "景德镇",
+        "value": "景德镇"
+      },
+      {
+        "label": "靖安",
+        "value": "靖安"
+      },
+      {
+        "label": "九江",
+        "value": "九江"
+      },
+      {
+        "label": "乐安",
+        "value": "乐安"
+      },
+      {
+        "label": "乐平",
+        "value": "乐平"
+      },
+      {
+        "label": "黎川",
+        "value": "黎川"
+      },
+      {
+        "label": "莲花",
+        "value": "莲花"
+      },
+      {
+        "label": "龙南",
+        "value": "龙南"
+      },
+      {
+        "label": "芦溪",
+        "value": "芦溪"
+      },
+      {
+        "label": "庐山",
+        "value": "庐山"
+      },
+      {
+        "label": "南昌县",
+        "value": "南昌县"
+      },
+      {
+        "label": "南城",
+        "value": "南城"
+      },
+      {
+        "label": "南丰",
+        "value": "南丰"
+      },
+      {
+        "label": "南康",
+        "value": "南康"
+      },
+      {
+        "label": "宁都",
+        "value": "宁都"
+      },
+      {
+        "label": "宁冈",
+        "value": "宁冈"
+      },
+      {
+        "label": "彭泽",
+        "value": "彭泽"
+      },
+      {
+        "label": "萍乡",
+        "value": "萍乡"
+      },
+      {
+        "label": "鄱阳",
+        "value": "鄱阳"
+      },
+      {
+        "label": "铅山",
+        "value": "铅山"
+      },
+      {
+        "label": "全南",
+        "value": "全南"
+      },
+      {
+        "label": "瑞昌",
+        "value": "瑞昌"
+      },
+      {
+        "label": "瑞金",
+        "value": "瑞金"
+      },
+      {
+        "label": "上高",
+        "value": "上高"
+      },
+      {
+        "label": "上栗",
+        "value": "上栗"
+      },
+      {
+        "label": "上饶",
+        "value": "上饶"
+      },
+      {
+        "label": "上饶县",
+        "value": "上饶县"
+      },
+      {
+        "label": "上犹",
+        "value": "上犹"
+      },
+      {
+        "label": "石城",
+        "value": "石城"
+      },
+      {
+        "label": "遂川",
+        "value": "遂川"
+      },
+      {
+        "label": "泰和",
+        "value": "泰和"
+      },
+      {
+        "label": "铜鼓",
+        "value": "铜鼓"
+      },
+      {
+        "label": "万安",
+        "value": "万安"
+      },
+      {
+        "label": "万年",
+        "value": "万年"
+      },
+      {
+        "label": "万载",
+        "value": "万载"
+      },
+      {
+        "label": "武宁",
+        "value": "武宁"
+      },
+      {
+        "label": "婺源",
+        "value": "婺源"
+      },
+      {
+        "label": "峡江",
+        "value": "峡江"
+      },
+      {
+        "label": "湘东",
+        "value": "湘东"
+      },
+      {
+        "label": "新干",
+        "value": "新干"
+      },
+      {
+        "label": "新建",
+        "value": "新建"
+      },
+      {
+        "label": "新余",
+        "value": "新余"
+      },
+      {
+        "label": "信丰",
+        "value": "信丰"
+      },
+      {
+        "label": "兴国",
+        "value": "兴国"
+      },
+      {
+        "label": "修水",
+        "value": "修水"
+      },
+      {
+        "label": "寻乌",
+        "value": "寻乌"
+      },
+      {
+        "label": "宜春",
+        "value": "宜春"
+      },
+      {
+        "label": "宜丰",
+        "value": "宜丰"
+      },
+      {
+        "label": "宜黄",
+        "value": "宜黄"
+      },
+      {
+        "label": "弋阳",
+        "value": "弋阳"
+      },
+      {
+        "label": "鹰潭",
+        "value": "鹰潭"
+      },
+      {
+        "label": "永丰",
+        "value": "永丰"
+      },
+      {
+        "label": "永新",
+        "value": "永新"
+      },
+      {
+        "label": "永修",
+        "value": "永修"
+      },
+      {
+        "label": "于都",
+        "value": "于都"
+      },
+      {
+        "label": "余干",
+        "value": "余干"
+      },
+      {
+        "label": "余江",
+        "value": "余江"
+      },
+      {
+        "label": "玉山",
+        "value": "玉山"
+      },
+      {
+        "label": "樟树",
+        "value": "樟树"
+      },
+      {
+        "label": "资溪",
+        "value": "资溪"
+      }
+    ]
+  },
+  {
+    "label": "辽宁",
+    "value": "辽宁",
+    "children": [
+      {
+        "label": "沈阳",
+        "value": "沈阳"
+      },
+      {
+        "label": "鞍山",
+        "value": "鞍山"
+      },
+      {
+        "label": "北票",
+        "value": "北票"
+      },
+      {
+        "label": "北镇",
+        "value": "北镇"
+      },
+      {
+        "label": "本溪",
+        "value": "本溪"
+      },
+      {
+        "label": "本溪县",
+        "value": "本溪县"
+      },
+      {
+        "label": "昌图",
+        "value": "昌图"
+      },
+      {
+        "label": "朝阳市",
+        "value": "朝阳市"
+      },
+      {
+        "label": "大连",
+        "value": "大连"
+      },
+      {
+        "label": "大石桥",
+        "value": "大石桥"
+      },
+      {
+        "label": "大洼",
+        "value": "大洼"
+      },
+      {
+        "label": "丹东",
+        "value": "丹东"
+      },
+      {
+        "label": "灯塔",
+        "value": "灯塔"
+      },
+      {
+        "label": "东港",
+        "value": "东港"
+      },
+      {
+        "label": "法库",
+        "value": "法库"
+      },
+      {
+        "label": "凤城",
+        "value": "凤城"
+      },
+      {
+        "label": "抚顺",
+        "value": "抚顺"
+      },
+      {
+        "label": "阜新",
+        "value": "阜新"
+      },
+      {
+        "label": "盖州",
+        "value": "盖州"
+      },
+      {
+        "label": "弓长岭",
+        "value": "弓长岭"
+      },
+      {
+        "label": "海城",
+        "value": "海城"
+      },
+      {
+        "label": "黑山",
+        "value": "黑山"
+      },
+      {
+        "label": "葫芦岛",
+        "value": "葫芦岛"
+      },
+      {
+        "label": "桓仁",
+        "value": "桓仁"
+      },
+      {
+        "label": "建昌",
+        "value": "建昌"
+      },
+      {
+        "label": "建平县",
+        "value": "建平县"
+      },
+      {
+        "label": "金州",
+        "value": "金州"
+      },
+      {
+        "label": "锦州",
+        "value": "锦州"
+      },
+      {
+        "label": "喀左",
+        "value": "喀左"
+      },
+      {
+        "label": "开原",
+        "value": "开原"
+      },
+      {
+        "label": "康平",
+        "value": "康平"
+      },
+      {
+        "label": "宽甸",
+        "value": "宽甸"
+      },
+      {
+        "label": "辽阳",
+        "value": "辽阳"
+      },
+      {
+        "label": "辽阳",
+        "value": "辽阳"
+      },
+      {
+        "label": "辽中",
+        "value": "辽中"
+      },
+      {
+        "label": "凌海",
+        "value": "凌海"
+      },
+      {
+        "label": "凌源",
+        "value": "凌源"
+      },
+      {
+        "label": "旅顺",
+        "value": "旅顺"
+      },
+      {
+        "label": "盘锦",
+        "value": "盘锦"
+      },
+      {
+        "label": "普兰店",
+        "value": "普兰店"
+      },
+      {
+        "label": "清原",
+        "value": "清原"
+      },
+      {
+        "label": "绥中",
+        "value": "绥中"
+      },
+      {
+        "label": "台安",
+        "value": "台安"
+      },
+      {
+        "label": "调兵山",
+        "value": "调兵山"
+      },
+      {
+        "label": "铁岭",
+        "value": "铁岭"
+      },
+      {
+        "label": "瓦房店",
+        "value": "瓦房店"
+      },
+      {
+        "label": "西丰",
+        "value": "西丰"
+      },
+      {
+        "label": "新宾",
+        "value": "新宾"
+      },
+      {
+        "label": "新民",
+        "value": "新民"
+      },
+      {
+        "label": "兴城",
+        "value": "兴城"
+      },
+      {
+        "label": "岫岩",
+        "value": "岫岩"
+      },
+      {
+        "label": "义县",
+        "value": "义县"
+      },
+      {
+        "label": "营口",
+        "value": "营口"
+      },
+      {
+        "label": "章党",
+        "value": "章党"
+      },
+      {
+        "label": "彰武",
+        "value": "彰武"
+      },
+      {
+        "label": "长海",
+        "value": "长海"
+      },
+      {
+        "label": "庄河",
+        "value": "庄河"
+      }
+    ]
+  },
+  {
+    "label": "内蒙古",
+    "value": "内蒙古",
+    "children": [
+      {
+        "label": "呼和浩特",
+        "value": "呼和浩特"
+      },
+      {
+        "label": "阿巴嘎",
+        "value": "阿巴嘎"
+      },
+      {
+        "label": "阿尔山",
+        "value": "阿尔山"
+      },
+      {
+        "label": "阿拉善盟",
+        "value": "阿拉善盟"
+      },
+      {
+        "label": "阿鲁旗",
+        "value": "阿鲁旗"
+      },
+      {
+        "label": "阿荣旗",
+        "value": "阿荣旗"
+      },
+      {
+        "label": "阿右旗",
+        "value": "阿右旗"
+      },
+      {
+        "label": "阿左旗",
+        "value": "阿左旗"
+      },
+      {
+        "label": "敖汉",
+        "value": "敖汉"
+      },
+      {
+        "label": "八里罕",
+        "value": "八里罕"
+      },
+      {
+        "label": "巴林右旗",
+        "value": "巴林右旗"
+      },
+      {
+        "label": "巴林左旗",
+        "value": "巴林左旗"
+      },
+      {
+        "label": "巴雅尔吐胡硕",
+        "value": "巴雅尔吐胡硕"
+      },
+      {
+        "label": "巴彦淖尔",
+        "value": "巴彦淖尔"
+      },
+      {
+        "label": "白云鄂博",
+        "value": "白云鄂博"
+      },
+      {
+        "label": "包头",
+        "value": "包头"
+      },
+      {
+        "label": "宝国吐",
+        "value": "宝国吐"
+      },
+      {
+        "label": "博克图",
+        "value": "博克图"
+      },
+      {
+        "label": "察右后旗",
+        "value": "察右后旗"
+      },
+      {
+        "label": "察右前旗",
+        "value": "察右前旗"
+      },
+      {
+        "label": "察右中旗",
+        "value": "察右中旗"
+      },
+      {
+        "label": "赤峰",
+        "value": "赤峰"
+      },
+      {
+        "label": "达拉特",
+        "value": "达拉特"
+      },
+      {
+        "label": "达茂旗",
+        "value": "达茂旗"
+      },
+      {
+        "label": "大佘太",
+        "value": "大佘太"
+      },
+      {
+        "label": "磴口",
+        "value": "磴口"
+      },
+      {
+        "label": "东胜",
+        "value": "东胜"
+      },
+      {
+        "label": "东乌旗",
+        "value": "东乌旗"
+      },
+      {
+        "label": "多伦",
+        "value": "多伦"
+      },
+      {
+        "label": "额尔古纳",
+        "value": "额尔古纳"
+      },
+      {
+        "label": "额济纳",
+        "value": "额济纳"
+      },
+      {
+        "label": "鄂尔多斯",
+        "value": "鄂尔多斯"
+      },
+      {
+        "label": "鄂伦春旗",
+        "value": "鄂伦春旗"
+      },
+      {
+        "label": "鄂前旗",
+        "value": "鄂前旗"
+      },
+      {
+        "label": "鄂托克",
+        "value": "鄂托克"
+      },
+      {
+        "label": "鄂温克旗",
+        "value": "鄂温克旗"
+      },
+      {
+        "label": "二连浩特",
+        "value": "二连浩特"
+      },
+      {
+        "label": "丰镇",
+        "value": "丰镇"
+      },
+      {
+        "label": "岗子",
+        "value": "岗子"
+      },
+      {
+        "label": "高力板",
+        "value": "高力板"
+      },
+      {
+        "label": "根河",
+        "value": "根河"
+      },
+      {
+        "label": "固阳",
+        "value": "固阳"
+      },
+      {
+        "label": "拐子湖",
+        "value": "拐子湖"
+      },
+      {
+        "label": "海力素",
+        "value": "海力素"
+      },
+      {
+        "label": "杭锦后旗",
+        "value": "杭锦后旗"
+      },
+      {
+        "label": "杭锦旗",
+        "value": "杭锦旗"
+      },
+      {
+        "label": "浩尔吐",
+        "value": "浩尔吐"
+      },
+      {
+        "label": "和林",
+        "value": "和林"
+      },
+      {
+        "label": "赛罕区",
+        "value": "赛罕区"
+      },
+      {
+        "label": "胡尔勒",
+        "value": "胡尔勒"
+      },
+      {
+        "label": "化德",
+        "value": "化德"
+      },
+      {
+        "label": "霍林郭勒",
+        "value": "霍林郭勒"
+      },
+      {
+        "label": "吉兰太",
+        "value": "吉兰太"
+      },
+      {
+        "label": "集宁",
+        "value": "集宁"
+      },
+      {
+        "label": "喀喇沁",
+        "value": "喀喇沁"
+      },
+      {
+        "label": "开鲁",
+        "value": "开鲁"
+      },
+      {
+        "label": "科右前旗",
+        "value": "科右前旗"
+      },
+      {
+        "label": "科右中旗",
+        "value": "科右中旗"
+      },
+      {
+        "label": "科左后旗",
+        "value": "科左后旗"
+      },
+      {
+        "label": "科左中旗",
+        "value": "科左中旗"
+      },
+      {
+        "label": "克什克腾",
+        "value": "克什克腾"
+      },
+      {
+        "label": "凉城",
+        "value": "凉城"
+      },
+      {
+        "label": "林西",
+        "value": "林西"
+      },
+      {
+        "label": "临河",
+        "value": "临河"
+      },
+      {
+        "label": "孪井滩",
+        "value": "孪井滩"
+      },
+      {
+        "label": "满都拉",
+        "value": "满都拉"
+      },
+      {
+        "label": "满洲里",
+        "value": "满洲里"
+      },
+      {
+        "label": "莫力达瓦",
+        "value": "莫力达瓦"
+      },
+      {
+        "label": "那仁宝力格",
+        "value": "那仁宝力格"
+      },
+      {
+        "label": "奈曼",
+        "value": "奈曼"
+      },
+      {
+        "label": "宁城",
+        "value": "宁城"
+      },
+      {
+        "label": "巴彦诺日公",
+        "value": "巴彦诺日公"
+      },
+      {
+        "label": "青龙山",
+        "value": "青龙山"
+      },
+      {
+        "label": "清水河",
+        "value": "清水河"
+      },
+      {
+        "label": "商都",
+        "value": "商都"
+      },
+      {
+        "label": "舍伯吐",
+        "value": "舍伯吐"
+      },
+      {
+        "label": "四子王旗",
+        "value": "四子王旗"
+      },
+      {
+        "label": "苏右旗",
+        "value": "苏右旗"
+      },
+      {
+        "label": "苏左旗",
+        "value": "苏左旗"
+      },
+      {
+        "label": "索伦",
+        "value": "索伦"
+      },
+      {
+        "label": "太仆寺",
+        "value": "太仆寺"
+      },
+      {
+        "label": "通辽",
+        "value": "通辽"
+      },
+      {
+        "label": "头道湖",
+        "value": "头道湖"
+      },
+      {
+        "label": "突泉",
+        "value": "突泉"
+      },
+      {
+        "label": "图里河",
+        "value": "图里河"
+      },
+      {
+        "label": "土右旗",
+        "value": "土右旗"
+      },
+      {
+        "label": "土左旗",
+        "value": "土左旗"
+      },
+      {
+        "label": "托县",
+        "value": "托县"
+      },
+      {
+        "label": "翁牛特",
+        "value": "翁牛特"
+      },
+      {
+        "label": "乌海",
+        "value": "乌海"
+      },
+      {
+        "label": "乌后旗",
+        "value": "乌后旗"
+      },
+      {
+        "label": "乌拉盖",
+        "value": "乌拉盖"
+      },
+      {
+        "label": "乌兰察布",
+        "value": "乌兰察布"
+      },
+      {
+        "label": "乌兰浩特",
+        "value": "乌兰浩特"
+      },
+      {
+        "label": "乌前旗",
+        "value": "乌前旗"
+      },
+      {
+        "label": "乌审旗",
+        "value": "乌审旗"
+      },
+      {
+        "label": "乌审召",
+        "value": "乌审召"
+      },
+      {
+        "label": "乌斯太",
+        "value": "乌斯太"
+      },
+      {
+        "label": "乌中旗",
+        "value": "乌中旗"
+      },
+      {
+        "label": "五原",
+        "value": "五原"
+      },
+      {
+        "label": "武川",
+        "value": "武川"
+      },
+      {
+        "label": "西乌旗",
+        "value": "西乌旗"
+      },
+      {
+        "label": "希拉穆仁",
+        "value": "希拉穆仁"
+      },
+      {
+        "label": "锡林高勒",
+        "value": "锡林高勒"
+      },
+      {
+        "label": "锡林郭勒",
+        "value": "锡林郭勒"
+      },
+      {
+        "label": "锡林浩特",
+        "value": "锡林浩特"
+      },
+      {
+        "label": "镶黄旗",
+        "value": "镶黄旗"
+      },
+      {
+        "label": "小二沟",
+        "value": "小二沟"
+      },
+      {
+        "label": "新右旗",
+        "value": "新右旗"
+      },
+      {
+        "label": "新左旗",
+        "value": "新左旗"
+      },
+      {
+        "label": "兴安盟",
+        "value": "兴安盟"
+      },
+      {
+        "label": "兴和",
+        "value": "兴和"
+      },
+      {
+        "label": "牙克石",
+        "value": "牙克石"
+      },
+      {
+        "label": "雅布赖",
+        "value": "雅布赖"
+      },
+      {
+        "label": "伊金霍洛",
+        "value": "伊金霍洛"
+      },
+      {
+        "label": "伊和乌素",
+        "value": "伊和乌素"
+      },
+      {
+        "label": "扎赉特",
+        "value": "扎赉特"
+      },
+      {
+        "label": "扎兰屯",
+        "value": "扎兰屯"
+      },
+      {
+        "label": "扎鲁特",
+        "value": "扎鲁特"
+      },
+      {
+        "label": "正蓝旗",
+        "value": "正蓝旗"
+      },
+      {
+        "label": "正镶白旗",
+        "value": "正镶白旗"
+      },
+      {
+        "label": "中泉子",
+        "value": "中泉子"
+      },
+      {
+        "label": "朱日和",
+        "value": "朱日和"
+      },
+      {
+        "label": "准格尔",
+        "value": "准格尔"
+      },
+      {
+        "label": "卓资",
+        "value": "卓资"
+      }
+    ]
+  },
+  {
+    "label": "宁夏",
+    "value": "宁夏",
+    "children": [
+      {
+        "label": "银川",
+        "value": "银川"
+      },
+      {
+        "label": "固原",
+        "value": "固原"
+      },
+      {
+        "label": "海原",
+        "value": "海原"
+      },
+      {
+        "label": "贺兰",
+        "value": "贺兰"
+      },
+      {
+        "label": "惠农",
+        "value": "惠农"
+      },
+      {
+        "label": "泾源",
+        "value": "泾源"
+      },
+      {
+        "label": "灵武",
+        "value": "灵武"
+      },
+      {
+        "label": "隆德",
+        "value": "隆德"
+      },
+      {
+        "label": "彭阳",
+        "value": "彭阳"
+      },
+      {
+        "label": "平罗",
+        "value": "平罗"
+      },
+      {
+        "label": "石嘴山",
+        "value": "石嘴山"
+      },
+      {
+        "label": "陶乐",
+        "value": "陶乐"
+      },
+      {
+        "label": "同心",
+        "value": "同心"
+      },
+      {
+        "label": "吴忠",
+        "value": "吴忠"
+      },
+      {
+        "label": "西吉",
+        "value": "西吉"
+      },
+      {
+        "label": "盐池",
+        "value": "盐池"
+      },
+      {
+        "label": "永宁",
+        "value": "永宁"
+      },
+      {
+        "label": "中宁",
+        "value": "中宁"
+      },
+      {
+        "label": "中卫",
+        "value": "中卫"
+      }
+    ]
+  },
+  {
+    "label": "青海",
+    "value": "青海",
+    "children": [
+      {
+        "label": "西宁",
+        "value": "西宁"
+      },
+      {
+        "label": "班玛",
+        "value": "班玛"
+      },
+      {
+        "label": "称多",
+        "value": "称多"
+      },
+      {
+        "label": "达日",
+        "value": "达日"
+      },
+      {
+        "label": "大柴旦",
+        "value": "大柴旦"
+      },
+      {
+        "label": "大通",
+        "value": "大通"
+      },
+      {
+        "label": "德令哈",
+        "value": "德令哈"
+      },
+      {
+        "label": "都兰",
+        "value": "都兰"
+      },
+      {
+        "label": "称多",
+        "value": "称多"
+      },
+      {
+        "label": "治多",
+        "value": "治多"
+      },
+      {
+        "label": "甘德",
+        "value": "甘德"
+      },
+      {
+        "label": "刚察",
+        "value": "刚察"
+      },
+      {
+        "label": "格尔木",
+        "value": "格尔木"
+      },
+      {
+        "label": "共和",
+        "value": "共和"
+      },
+      {
+        "label": "贵德",
+        "value": "贵德"
+      },
+      {
+        "label": "贵南",
+        "value": "贵南"
+      },
+      {
+        "label": "果洛",
+        "value": "果洛"
+      },
+      {
+        "label": "海北",
+        "value": "海北"
+      },
+      {
+        "label": "海东",
+        "value": "海东"
+      },
+      {
+        "label": "青海海南",
+        "value": "青海海南"
+      },
+      {
+        "label": "海西",
+        "value": "海西"
+      },
+      {
+        "label": "海晏",
+        "value": "海晏"
+      },
+      {
+        "label": "互助",
+        "value": "互助"
+      },
+      {
+        "label": "化隆",
+        "value": "化隆"
+      },
+      {
+        "label": "黄南",
+        "value": "黄南"
+      },
+      {
+        "label": "湟源",
+        "value": "湟源"
+      },
+      {
+        "label": "湟中",
+        "value": "湟中"
+      },
+      {
+        "label": "尖扎",
+        "value": "尖扎"
+      },
+      {
+        "label": "久治",
+        "value": "久治"
+      },
+      {
+        "label": "乐都",
+        "value": "乐都"
+      },
+      {
+        "label": "冷湖",
+        "value": "冷湖"
+      },
+      {
+        "label": "玛多",
+        "value": "玛多"
+      },
+      {
+        "label": "玛沁",
+        "value": "玛沁"
+      },
+      {
+        "label": "茫崖",
+        "value": "茫崖"
+      },
+      {
+        "label": "门源",
+        "value": "门源"
+      },
+      {
+        "label": "民和",
+        "value": "民和"
+      },
+      {
+        "label": "囊谦",
+        "value": "囊谦"
+      },
+      {
+        "label": "平安",
+        "value": "平安"
+      },
+      {
+        "label": "祁连",
+        "value": "祁连"
+      },
+      {
+        "label": "曲麻莱",
+        "value": "曲麻莱"
+      },
+      {
+        "label": "天峻",
+        "value": "天峻"
+      },
+      {
+        "label": "同德",
+        "value": "同德"
+      },
+      {
+        "label": "同仁",
+        "value": "同仁"
+      },
+      {
+        "label": "乌兰",
+        "value": "乌兰"
+      },
+      {
+        "label": "兴海",
+        "value": "兴海"
+      },
+      {
+        "label": "循化",
+        "value": "循化"
+      },
+      {
+        "label": "玉树",
+        "value": "玉树"
+      },
+      {
+        "label": "杂多",
+        "value": "杂多"
+      },
+      {
+        "label": "泽库",
+        "value": "泽库"
+      },
+      {
+        "label": "治多",
+        "value": "治多"
+      }
+    ]
+  },
+  {
+    "label": "山东",
+    "value": "山东",
+    "children": [
+      {
+        "label": "济南",
+        "value": "济南"
+      },
+      {
+        "label": "青岛",
+        "value": "青岛"
+      },
+      {
+        "label": "安丘",
+        "value": "安丘"
+      },
+      {
+        "label": "滨州",
+        "value": "滨州"
+      },
+      {
+        "label": "博山",
+        "value": "博山"
+      },
+      {
+        "label": "博兴",
+        "value": "博兴"
+      },
+      {
+        "label": "兰陵县",
+        "value": "兰陵县"
+      },
+      {
+        "label": "曹县",
+        "value": "曹县"
+      },
+      {
+        "label": "昌乐",
+        "value": "昌乐"
+      },
+      {
+        "label": "昌邑",
+        "value": "昌邑"
+      },
+      {
+        "label": "成山头",
+        "value": "成山头"
+      },
+      {
+        "label": "成武",
+        "value": "成武"
+      },
+      {
+        "label": "茌平",
+        "value": "茌平"
+      },
+      {
+        "label": "单县",
+        "value": "单县"
+      },
+      {
+        "label": "德州",
+        "value": "德州"
+      },
+      {
+        "label": "定陶",
+        "value": "定陶"
+      },
+      {
+        "label": "东阿",
+        "value": "东阿"
+      },
+      {
+        "label": "东明",
+        "value": "东明"
+      },
+      {
+        "label": "东平",
+        "value": "东平"
+      },
+      {
+        "label": "东营",
+        "value": "东营"
+      },
+      {
+        "label": "肥城",
+        "value": "肥城"
+      },
+      {
+        "label": "费县",
+        "value": "费县"
+      },
+      {
+        "label": "福山",
+        "value": "福山"
+      },
+      {
+        "label": "高密",
+        "value": "高密"
+      },
+      {
+        "label": "高青",
+        "value": "高青"
+      },
+      {
+        "label": "高唐",
+        "value": "高唐"
+      },
+      {
+        "label": "冠县",
+        "value": "冠县"
+      },
+      {
+        "label": "广饶",
+        "value": "广饶"
+      },
+      {
+        "label": "海阳",
+        "value": "海阳"
+      },
+      {
+        "label": "菏泽",
+        "value": "菏泽"
+      },
+      {
+        "label": "桓台",
+        "value": "桓台"
+      },
+      {
+        "label": "惠民",
+        "value": "惠民"
+      },
+      {
+        "label": "黄岛区",
+        "value": "黄岛区"
+      },
+      {
+        "label": "即墨",
+        "value": "即墨"
+      },
+      {
+        "label": "济宁",
+        "value": "济宁"
+      },
+      {
+        "label": "济阳",
+        "value": "济阳"
+      },
+      {
+        "label": "嘉祥",
+        "value": "嘉祥"
+      },
+      {
+        "label": "胶州",
+        "value": "胶州"
+      },
+      {
+        "label": "金乡",
+        "value": "金乡"
+      },
+      {
+        "label": "莒南",
+        "value": "莒南"
+      },
+      {
+        "label": "莒县",
+        "value": "莒县"
+      },
+      {
+        "label": "巨野",
+        "value": "巨野"
+      },
+      {
+        "label": "鄄城",
+        "value": "鄄城"
+      },
+      {
+        "label": "垦利",
+        "value": "垦利"
+      },
+      {
+        "label": "莱芜",
+        "value": "莱芜"
+      },
+      {
+        "label": "莱西",
+        "value": "莱西"
+      },
+      {
+        "label": "莱阳",
+        "value": "莱阳"
+      },
+      {
+        "label": "莱州",
+        "value": "莱州"
+      },
+      {
+        "label": "乐陵",
+        "value": "乐陵"
+      },
+      {
+        "label": "利津",
+        "value": "利津"
+      },
+      {
+        "label": "梁山",
+        "value": "梁山"
+      },
+      {
+        "label": "聊城",
+        "value": "聊城"
+      },
+      {
+        "label": "临清",
+        "value": "临清"
+      },
+      {
+        "label": "临朐",
+        "value": "临朐"
+      },
+      {
+        "label": "临沭",
+        "value": "临沭"
+      },
+      {
+        "label": "临沂",
+        "value": "临沂"
+      },
+      {
+        "label": "临邑",
+        "value": "临邑"
+      },
+      {
+        "label": "临淄",
+        "value": "临淄"
+      },
+      {
+        "label": "陵县",
+        "value": "陵县"
+      },
+      {
+        "label": "龙口",
+        "value": "龙口"
+      },
+      {
+        "label": "蒙阴",
+        "value": "蒙阴"
+      },
+      {
+        "label": "牟平",
+        "value": "牟平"
+      },
+      {
+        "label": "宁津",
+        "value": "宁津"
+      },
+      {
+        "label": "宁阳",
+        "value": "宁阳"
+      },
+      {
+        "label": "蓬莱",
+        "value": "蓬莱"
+      },
+      {
+        "label": "平度",
+        "value": "平度"
+      },
+      {
+        "label": "平邑",
+        "value": "平邑"
+      },
+      {
+        "label": "平阴",
+        "value": "平阴"
+      },
+      {
+        "label": "平原",
+        "value": "平原"
+      },
+      {
+        "label": "栖霞",
+        "value": "栖霞"
+      },
+      {
+        "label": "齐河",
+        "value": "齐河"
+      },
+      {
+        "label": "青州",
+        "value": "青州"
+      },
+      {
+        "label": "庆云",
+        "value": "庆云"
+      },
+      {
+        "label": "曲阜",
+        "value": "曲阜"
+      },
+      {
+        "label": "日照",
+        "value": "日照"
+      },
+      {
+        "label": "荣成",
+        "value": "荣成"
+      },
+      {
+        "label": "乳山",
+        "value": "乳山"
+      },
+      {
+        "label": "商河",
+        "value": "商河"
+      },
+      {
+        "label": "莘县",
+        "value": "莘县"
+      },
+      {
+        "label": "石岛",
+        "value": "石岛"
+      },
+      {
+        "label": "寿光",
+        "value": "寿光"
+      },
+      {
+        "label": "泗水",
+        "value": "泗水"
+      },
+      {
+        "label": "台儿庄",
+        "value": "台儿庄"
+      },
+      {
+        "label": "泰安",
+        "value": "泰安"
+      },
+      {
+        "label": "郯城",
+        "value": "郯城"
+      },
+      {
+        "label": "滕州",
+        "value": "滕州"
+      },
+      {
+        "label": "威海",
+        "value": "威海"
+      },
+      {
+        "label": "微山",
+        "value": "微山"
+      },
+      {
+        "label": "潍坊",
+        "value": "潍坊"
+      },
+      {
+        "label": "文登",
+        "value": "文登"
+      },
+      {
+        "label": "汶上",
+        "value": "汶上"
+      },
+      {
+        "label": "无棣",
+        "value": "无棣"
+      },
+      {
+        "label": "五莲",
+        "value": "五莲"
+      },
+      {
+        "label": "武城",
+        "value": "武城"
+      },
+      {
+        "label": "夏津",
+        "value": "夏津"
+      },
+      {
+        "label": "新泰",
+        "value": "新泰"
+      },
+      {
+        "label": "薛城",
+        "value": "薛城"
+      },
+      {
+        "label": "烟台",
+        "value": "烟台"
+      },
+      {
+        "label": "兖州",
+        "value": "兖州"
+      },
+      {
+        "label": "阳谷",
+        "value": "阳谷"
+      },
+      {
+        "label": "阳信",
+        "value": "阳信"
+      },
+      {
+        "label": "沂南",
+        "value": "沂南"
+      },
+      {
+        "label": "沂水",
+        "value": "沂水"
+      },
+      {
+        "label": "沂源",
+        "value": "沂源"
+      },
+      {
+        "label": "峄城",
+        "value": "峄城"
+      },
+      {
+        "label": "鱼台",
+        "value": "鱼台"
+      },
+      {
+        "label": "禹城",
+        "value": "禹城"
+      },
+      {
+        "label": "郓城",
+        "value": "郓城"
+      },
+      {
+        "label": "枣庄",
+        "value": "枣庄"
+      },
+      {
+        "label": "沾化",
+        "value": "沾化"
+      },
+      {
+        "label": "章丘",
+        "value": "章丘"
+      },
+      {
+        "label": "长岛",
+        "value": "长岛"
+      },
+      {
+        "label": "长清",
+        "value": "长清"
+      },
+      {
+        "label": "招远",
+        "value": "招远"
+      },
+      {
+        "label": "周村",
+        "value": "周村"
+      },
+      {
+        "label": "诸城",
+        "value": "诸城"
+      },
+      {
+        "label": "淄博",
+        "value": "淄博"
+      },
+      {
+        "label": "淄川",
+        "value": "淄川"
+      },
+      {
+        "label": "邹城",
+        "value": "邹城"
+      },
+      {
+        "label": "邹平",
+        "value": "邹平"
+      }
+    ]
+  },
+  {
+    "label": "山西",
+    "value": "山西",
+    "children": [
+      {
+        "label": "太原",
+        "value": "太原"
+      },
+      {
+        "label": "安泽",
+        "value": "安泽"
+      },
+      {
+        "label": "保德",
+        "value": "保德"
+      },
+      {
+        "label": "大宁",
+        "value": "大宁"
+      },
+      {
+        "label": "大同",
+        "value": "大同"
+      },
+      {
+        "label": "大同县",
+        "value": "大同县"
+      },
+      {
+        "label": "代县",
+        "value": "代县"
+      },
+      {
+        "label": "定襄",
+        "value": "定襄"
+      },
+      {
+        "label": "繁峙",
+        "value": "繁峙"
+      },
+      {
+        "label": "方山",
+        "value": "方山"
+      },
+      {
+        "label": "汾西",
+        "value": "汾西"
+      },
+      {
+        "label": "汾阳",
+        "value": "汾阳"
+      },
+      {
+        "label": "浮山",
+        "value": "浮山"
+      },
+      {
+        "label": "高平",
+        "value": "高平"
+      },
+      {
+        "label": "古交",
+        "value": "古交"
+      },
+      {
+        "label": "古县",
+        "value": "古县"
+      },
+      {
+        "label": "广灵",
+        "value": "广灵"
+      },
+      {
+        "label": "和顺",
+        "value": "和顺"
+      },
+      {
+        "label": "河津",
+        "value": "河津"
+      },
+      {
+        "label": "河曲",
+        "value": "河曲"
+      },
+      {
+        "label": "洪洞",
+        "value": "洪洞"
+      },
+      {
+        "label": "侯马",
+        "value": "侯马"
+      },
+      {
+        "label": "壶关",
+        "value": "壶关"
+      },
+      {
+        "label": "怀仁",
+        "value": "怀仁"
+      },
+      {
+        "label": "浑源",
+        "value": "浑源"
+      },
+      {
+        "label": "霍州",
+        "value": "霍州"
+      },
+      {
+        "label": "吉县",
+        "value": "吉县"
+      },
+      {
+        "label": "稷山",
+        "value": "稷山"
+      },
+      {
+        "label": "尖草坪区",
+        "value": "尖草坪区"
+      },
+      {
+        "label": "绛县",
+        "value": "绛县"
+      },
+      {
+        "label": "交城",
+        "value": "交城"
+      },
+      {
+        "label": "交口",
+        "value": "交口"
+      },
+      {
+        "label": "介休",
+        "value": "介休"
+      },
+      {
+        "label": "晋城",
+        "value": "晋城"
+      },
+      {
+        "label": "晋中",
+        "value": "晋中"
+      },
+      {
+        "label": "静乐",
+        "value": "静乐"
+      },
+      {
+        "label": "岢岚",
+        "value": "岢岚"
+      },
+      {
+        "label": "岚县",
+        "value": "岚县"
+      },
+      {
+        "label": "离石",
+        "value": "离石"
+      },
+      {
+        "label": "黎城",
+        "value": "黎城"
+      },
+      {
+        "label": "临汾",
+        "value": "临汾"
+      },
+      {
+        "label": "临县",
+        "value": "临县"
+      },
+      {
+        "label": "临猗",
+        "value": "临猗"
+      },
+      {
+        "label": "灵丘",
+        "value": "灵丘"
+      },
+      {
+        "label": "灵石",
+        "value": "灵石"
+      },
+      {
+        "label": "陵川",
+        "value": "陵川"
+      },
+      {
+        "label": "柳林",
+        "value": "柳林"
+      },
+      {
+        "label": "娄烦",
+        "value": "娄烦"
+      },
+      {
+        "label": "潞城",
+        "value": "潞城"
+      },
+      {
+        "label": "吕梁",
+        "value": "吕梁"
+      },
+      {
+        "label": "宁武",
+        "value": "宁武"
+      },
+      {
+        "label": "偏关",
+        "value": "偏关"
+      },
+      {
+        "label": "平定",
+        "value": "平定"
+      },
+      {
+        "label": "平鲁",
+        "value": "平鲁"
+      },
+      {
+        "label": "平陆",
+        "value": "平陆"
+      },
+      {
+        "label": "平顺",
+        "value": "平顺"
+      },
+      {
+        "label": "平遥",
+        "value": "平遥"
+      },
+      {
+        "label": "蒲县",
+        "value": "蒲县"
+      },
+      {
+        "label": "祁县",
+        "value": "祁县"
+      },
+      {
+        "label": "沁水",
+        "value": "沁水"
+      },
+      {
+        "label": "沁县",
+        "value": "沁县"
+      },
+      {
+        "label": "沁源",
+        "value": "沁源"
+      },
+      {
+        "label": "清徐",
+        "value": "清徐"
+      },
+      {
+        "label": "曲沃",
+        "value": "曲沃"
+      },
+      {
+        "label": "芮城",
+        "value": "芮城"
+      },
+      {
+        "label": "山阴",
+        "value": "山阴"
+      },
+      {
+        "label": "神池",
+        "value": "神池"
+      },
+      {
+        "label": "石楼",
+        "value": "石楼"
+      },
+      {
+        "label": "寿阳",
+        "value": "寿阳"
+      },
+      {
+        "label": "朔州",
+        "value": "朔州"
+      },
+      {
+        "label": "太谷",
+        "value": "太谷"
+      },
+      {
+        "label": "天镇",
+        "value": "天镇"
+      },
+      {
+        "label": "屯留",
+        "value": "屯留"
+      },
+      {
+        "label": "万荣",
+        "value": "万荣"
+      },
+      {
+        "label": "文水",
+        "value": "文水"
+      },
+      {
+        "label": "闻喜",
+        "value": "闻喜"
+      },
+      {
+        "label": "五台山",
+        "value": "五台山"
+      },
+      {
+        "label": "五台县",
+        "value": "五台县"
+      },
+      {
+        "label": "五寨",
+        "value": "五寨"
+      },
+      {
+        "label": "武乡",
+        "value": "武乡"
+      },
+      {
+        "label": "昔阳",
+        "value": "昔阳"
+      },
+      {
+        "label": "隰县",
+        "value": "隰县"
+      },
+      {
+        "label": "夏县",
+        "value": "夏县"
+      },
+      {
+        "label": "乡宁",
+        "value": "乡宁"
+      },
+      {
+        "label": "襄汾",
+        "value": "襄汾"
+      },
+      {
+        "label": "襄垣",
+        "value": "襄垣"
+      },
+      {
+        "label": "小店区",
+        "value": "小店区"
+      },
+      {
+        "label": "孝义",
+        "value": "孝义"
+      },
+      {
+        "label": "忻州",
+        "value": "忻州"
+      },
+      {
+        "label": "新绛",
+        "value": "新绛"
+      },
+      {
+        "label": "兴县",
+        "value": "兴县"
+      },
+      {
+        "label": "阳城",
+        "value": "阳城"
+      },
+      {
+        "label": "阳高",
+        "value": "阳高"
+      },
+      {
+        "label": "阳曲",
+        "value": "阳曲"
+      },
+      {
+        "label": "阳泉",
+        "value": "阳泉"
+      },
+      {
+        "label": "翼城",
+        "value": "翼城"
+      },
+      {
+        "label": "应县",
+        "value": "应县"
+      },
+      {
+        "label": "永和",
+        "value": "永和"
+      },
+      {
+        "label": "永济",
+        "value": "永济"
+      },
+      {
+        "label": "右玉",
+        "value": "右玉"
+      },
+      {
+        "label": "盂县",
+        "value": "盂县"
+      },
+      {
+        "label": "榆次",
+        "value": "榆次"
+      },
+      {
+        "label": "榆社",
+        "value": "榆社"
+      },
+      {
+        "label": "垣曲",
+        "value": "垣曲"
+      },
+      {
+        "label": "原平",
+        "value": "原平"
+      },
+      {
+        "label": "运城",
+        "value": "运城"
+      },
+      {
+        "label": "泽州",
+        "value": "泽州"
+      },
+      {
+        "label": "长治",
+        "value": "长治"
+      },
+      {
+        "label": "长子",
+        "value": "长子"
+      },
+      {
+        "label": "中阳",
+        "value": "中阳"
+      },
+      {
+        "label": "左权",
+        "value": "左权"
+      },
+      {
+        "label": "左云",
+        "value": "左云"
+      }
+    ]
+  },
+  {
+    "label": "陕西",
+    "value": "陕西",
+    "children": [
+      {
+        "label": "西安",
+        "value": "西安"
+      },
+      {
+        "label": "安康",
+        "value": "安康"
+      },
+      {
+        "label": "安塞",
+        "value": "安塞"
+      },
+      {
+        "label": "白河",
+        "value": "白河"
+      },
+      {
+        "label": "白水",
+        "value": "白水"
+      },
+      {
+        "label": "宝鸡",
+        "value": "宝鸡"
+      },
+      {
+        "label": "彬县",
+        "value": "彬县"
+      },
+      {
+        "label": "陈仓",
+        "value": "陈仓"
+      },
+      {
+        "label": "城固",
+        "value": "城固"
+      },
+      {
+        "label": "澄城",
+        "value": "澄城"
+      },
+      {
+        "label": "淳化",
+        "value": "淳化"
+      },
+      {
+        "label": "大荔",
+        "value": "大荔"
+      },
+      {
+        "label": "丹凤",
+        "value": "丹凤"
+      },
+      {
+        "label": "定边",
+        "value": "定边"
+      },
+      {
+        "label": "凤县",
+        "value": "凤县"
+      },
+      {
+        "label": "凤翔",
+        "value": "凤翔"
+      },
+      {
+        "label": "佛坪",
+        "value": "佛坪"
+      },
+      {
+        "label": "扶风",
+        "value": "扶风"
+      },
+      {
+        "label": "府谷",
+        "value": "府谷"
+      },
+      {
+        "label": "富平",
+        "value": "富平"
+      },
+      {
+        "label": "富县",
+        "value": "富县"
+      },
+      {
+        "label": "甘泉",
+        "value": "甘泉"
+      },
+      {
+        "label": "高陵",
+        "value": "高陵"
+      },
+      {
+        "label": "韩城",
+        "value": "韩城"
+      },
+      {
+        "label": "汉阴",
+        "value": "汉阴"
+      },
+      {
+        "label": "汉中",
+        "value": "汉中"
+      },
+      {
+        "label": "合阳",
+        "value": "合阳"
+      },
+      {
+        "label": "横山",
+        "value": "横山"
+      },
+      {
+        "label": "户县",
+        "value": "户县"
+      },
+      {
+        "label": "华阴",
+        "value": "华阴"
+      },
+      {
+        "label": "黄陵",
+        "value": "黄陵"
+      },
+      {
+        "label": "黄龙",
+        "value": "黄龙"
+      },
+      {
+        "label": "佳县",
+        "value": "佳县"
+      },
+      {
+        "label": "泾阳",
+        "value": "泾阳"
+      },
+      {
+        "label": "靖边",
+        "value": "靖边"
+      },
+      {
+        "label": "岚皋",
+        "value": "岚皋"
+      },
+      {
+        "label": "蓝田",
+        "value": "蓝田"
+      },
+      {
+        "label": "礼泉",
+        "value": "礼泉"
+      },
+      {
+        "label": "临潼",
+        "value": "临潼"
+      },
+      {
+        "label": "麟游",
+        "value": "麟游"
+      },
+      {
+        "label": "留坝",
+        "value": "留坝"
+      },
+      {
+        "label": "陇县",
+        "value": "陇县"
+      },
+      {
+        "label": "洛川",
+        "value": "洛川"
+      },
+      {
+        "label": "洛南",
+        "value": "洛南"
+      },
+      {
+        "label": "略阳",
+        "value": "略阳"
+      },
+      {
+        "label": "眉县",
+        "value": "眉县"
+      },
+      {
+        "label": "米脂",
+        "value": "米脂"
+      },
+      {
+        "label": "勉县",
+        "value": "勉县"
+      },
+      {
+        "label": "南郑",
+        "value": "南郑"
+      },
+      {
+        "label": "宁强",
+        "value": "宁强"
+      },
+      {
+        "label": "宁陕",
+        "value": "宁陕"
+      },
+      {
+        "label": "平利",
+        "value": "平利"
+      },
+      {
+        "label": "蒲城",
+        "value": "蒲城"
+      },
+      {
+        "label": "岐山",
+        "value": "岐山"
+      },
+      {
+        "label": "千阳",
+        "value": "千阳"
+      },
+      {
+        "label": "乾县",
+        "value": "乾县"
+      },
+      {
+        "label": "清涧",
+        "value": "清涧"
+      },
+      {
+        "label": "三原",
+        "value": "三原"
+      },
+      {
+        "label": "山阳",
+        "value": "山阳"
+      },
+      {
+        "label": "商洛",
+        "value": "商洛"
+      },
+      {
+        "label": "商南",
+        "value": "商南"
+      },
+      {
+        "label": "商州",
+        "value": "商州"
+      },
+      {
+        "label": "神木",
+        "value": "神木"
+      },
+      {
+        "label": "石泉",
+        "value": "石泉"
+      },
+      {
+        "label": "绥德",
+        "value": "绥德"
+      },
+      {
+        "label": "太白",
+        "value": "太白"
+      },
+      {
+        "label": "铜川",
+        "value": "铜川"
+      },
+      {
+        "label": "潼关",
+        "value": "潼关"
+      },
+      {
+        "label": "渭南",
+        "value": "渭南"
+      },
+      {
+        "label": "吴堡",
+        "value": "吴堡"
+      },
+      {
+        "label": "吴起",
+        "value": "吴起"
+      },
+      {
+        "label": "武功",
+        "value": "武功"
+      },
+      {
+        "label": "西乡",
+        "value": "西乡"
+      },
+      {
+        "label": "咸阳",
+        "value": "咸阳"
+      },
+      {
+        "label": "兴平",
+        "value": "兴平"
+      },
+      {
+        "label": "旬阳",
+        "value": "旬阳"
+      },
+      {
+        "label": "旬邑",
+        "value": "旬邑"
+      },
+      {
+        "label": "延安",
+        "value": "延安"
+      },
+      {
+        "label": "延川",
+        "value": "延川"
+      },
+      {
+        "label": "延长",
+        "value": "延长"
+      },
+      {
+        "label": "杨凌",
+        "value": "杨凌"
+      },
+      {
+        "label": "洋县",
+        "value": "洋县"
+      },
+      {
+        "label": "耀县",
+        "value": "耀县"
+      },
+      {
+        "label": "耀州",
+        "value": "耀州"
+      },
+      {
+        "label": "宜川",
+        "value": "宜川"
+      },
+      {
+        "label": "宜君",
+        "value": "宜君"
+      },
+      {
+        "label": "永寿",
+        "value": "永寿"
+      },
+      {
+        "label": "榆林",
+        "value": "榆林"
+      },
+      {
+        "label": "榆阳",
+        "value": "榆阳"
+      },
+      {
+        "label": "柞水",
+        "value": "柞水"
+      },
+      {
+        "label": "长安",
+        "value": "长安"
+      },
+      {
+        "label": "长武",
+        "value": "长武"
+      },
+      {
+        "label": "镇安",
+        "value": "镇安"
+      },
+      {
+        "label": "镇巴",
+        "value": "镇巴"
+      },
+      {
+        "label": "镇坪",
+        "value": "镇坪"
+      },
+      {
+        "label": "志丹",
+        "value": "志丹"
+      },
+      {
+        "label": "周至",
+        "value": "周至"
+      },
+      {
+        "label": "子长",
+        "value": "子长"
+      },
+      {
+        "label": "子洲",
+        "value": "子洲"
+      },
+      {
+        "label": "紫阳",
+        "value": "紫阳"
+      }
+    ]
+  },
+  {
+    "label": "四川",
+    "value": "四川",
+    "children": [
+      {
+        "label": "成都",
+        "value": "成都"
+      },
+      {
+        "label": "阿坝",
+        "value": "阿坝"
+      },
+      {
+        "label": "安岳",
+        "value": "安岳"
+      },
+      {
+        "label": "巴仑台",
+        "value": "巴仑台"
+      },
+      {
+        "label": "巴塘",
+        "value": "巴塘"
+      },
+      {
+        "label": "巴中",
+        "value": "巴中"
+      },
+      {
+        "label": "白玉",
+        "value": "白玉"
+      },
+      {
+        "label": "宝兴",
+        "value": "宝兴"
+      },
+      {
+        "label": "北川",
+        "value": "北川"
+      },
+      {
+        "label": "布拖",
+        "value": "布拖"
+      },
+      {
+        "label": "苍溪",
+        "value": "苍溪"
+      },
+      {
+        "label": "城厢",
+        "value": "城厢"
+      },
+      {
+        "label": "崇州",
+        "value": "崇州"
+      },
+      {
+        "label": "达川区",
+        "value": "达川区"
+      },
+      {
+        "label": "达州",
+        "value": "达州"
+      },
+      {
+        "label": "大邑",
+        "value": "大邑"
+      },
+      {
+        "label": "大竹",
+        "value": "大竹"
+      },
+      {
+        "label": "丹巴",
+        "value": "丹巴"
+      },
+      {
+        "label": "丹棱",
+        "value": "丹棱"
+      },
+      {
+        "label": "道孚",
+        "value": "道孚"
+      },
+      {
+        "label": "稻城",
+        "value": "稻城"
+      },
+      {
+        "label": "得荣",
+        "value": "得荣"
+      },
+      {
+        "label": "德昌",
+        "value": "德昌"
+      },
+      {
+        "label": "德格",
+        "value": "德格"
+      },
+      {
+        "label": "德阳",
+        "value": "德阳"
+      },
+      {
+        "label": "峨边",
+        "value": "峨边"
+      },
+      {
+        "label": "峨眉",
+        "value": "峨眉"
+      },
+      {
+        "label": "峨眉山",
+        "value": "峨眉山"
+      },
+      {
+        "label": "富顺",
+        "value": "富顺"
+      },
+      {
+        "label": "甘洛",
+        "value": "甘洛"
+      },
+      {
+        "label": "甘孜",
+        "value": "甘孜"
+      },
+      {
+        "label": "高县",
+        "value": "高县"
+      },
+      {
+        "label": "珙县",
+        "value": "珙县"
+      },
+      {
+        "label": "古蔺",
+        "value": "古蔺"
+      },
+      {
+        "label": "广安",
+        "value": "广安"
+      },
+      {
+        "label": "广汉",
+        "value": "广汉"
+      },
+      {
+        "label": "广元",
+        "value": "广元"
+      },
+      {
+        "label": "汉源",
+        "value": "汉源"
+      },
+      {
+        "label": "合江",
+        "value": "合江"
+      },
+      {
+        "label": "黑水",
+        "value": "黑水"
+      },
+      {
+        "label": "红原",
+        "value": "红原"
+      },
+      {
+        "label": "洪雅",
+        "value": "洪雅"
+      },
+      {
+        "label": "华蓥",
+        "value": "华蓥"
+      },
+      {
+        "label": "会东",
+        "value": "会东"
+      },
+      {
+        "label": "会理",
+        "value": "会理"
+      },
+      {
+        "label": "夹江",
+        "value": "夹江"
+      },
+      {
+        "label": "犍为",
+        "value": "犍为"
+      },
+      {
+        "label": "简阳",
+        "value": "简阳"
+      },
+      {
+        "label": "剑阁",
+        "value": "剑阁"
+      },
+      {
+        "label": "江安",
+        "value": "江安"
+      },
+      {
+        "label": "江油",
+        "value": "江油"
+      },
+      {
+        "label": "金川",
+        "value": "金川"
+      },
+      {
+        "label": "金堂",
+        "value": "金堂"
+      },
+      {
+        "label": "金阳",
+        "value": "金阳"
+      },
+      {
+        "label": "井研",
+        "value": "井研"
+      },
+      {
+        "label": "九龙",
+        "value": "九龙"
+      },
+      {
+        "label": "筠连",
+        "value": "筠连"
+      },
+      {
+        "label": "开江",
+        "value": "开江"
+      },
+      {
+        "label": "康定",
+        "value": "康定"
+      },
+      {
+        "label": "阆中",
+        "value": "阆中"
+      },
+      {
+        "label": "乐山",
+        "value": "乐山"
+      },
+      {
+        "label": "乐至",
+        "value": "乐至"
+      },
+      {
+        "label": "雷波",
+        "value": "雷波"
+      },
+      {
+        "label": "理塘",
+        "value": "理塘"
+      },
+      {
+        "label": "理县",
+        "value": "理县"
+      },
+      {
+        "label": "凉山",
+        "value": "凉山"
+      },
+      {
+        "label": "邻水",
+        "value": "邻水"
+      },
+      {
+        "label": "龙泉驿",
+        "value": "龙泉驿"
+      },
+      {
+        "label": "隆昌",
+        "value": "隆昌"
+      },
+      {
+        "label": "芦山",
+        "value": "芦山"
+      },
+      {
+        "label": "炉霍",
+        "value": "炉霍"
+      },
+      {
+        "label": "泸定",
+        "value": "泸定"
+      },
+      {
+        "label": "泸县",
+        "value": "泸县"
+      },
+      {
+        "label": "泸州",
+        "value": "泸州"
+      },
+      {
+        "label": "罗江",
+        "value": "罗江"
+      },
+      {
+        "label": "马边",
+        "value": "马边"
+      },
+      {
+        "label": "马尔康",
+        "value": "马尔康"
+      },
+      {
+        "label": "茂县",
+        "value": "茂县"
+      },
+      {
+        "label": "眉山",
+        "value": "眉山"
+      },
+      {
+        "label": "美姑",
+        "value": "美姑"
+      },
+      {
+        "label": "米易",
+        "value": "米易"
+      },
+      {
+        "label": "绵阳",
+        "value": "绵阳"
+      },
+      {
+        "label": "绵竹",
+        "value": "绵竹"
+      },
+      {
+        "label": "冕宁",
+        "value": "冕宁"
+      },
+      {
+        "label": "名山",
+        "value": "名山"
+      },
+      {
+        "label": "木里",
+        "value": "木里"
+      },
+      {
+        "label": "沐川",
+        "value": "沐川"
+      },
+      {
+        "label": "纳溪",
+        "value": "纳溪"
+      },
+      {
+        "label": "南部",
+        "value": "南部"
+      },
+      {
+        "label": "南充",
+        "value": "南充"
+      },
+      {
+        "label": "南江",
+        "value": "南江"
+      },
+      {
+        "label": "南溪",
+        "value": "南溪"
+      },
+      {
+        "label": "内江",
+        "value": "内江"
+      },
+      {
+        "label": "宁南",
+        "value": "宁南"
+      },
+      {
+        "label": "攀枝花",
+        "value": "攀枝花"
+      },
+      {
+        "label": "彭山",
+        "value": "彭山"
+      },
+      {
+        "label": "彭州",
+        "value": "彭州"
+      },
+      {
+        "label": "蓬安",
+        "value": "蓬安"
+      },
+      {
+        "label": "蓬溪",
+        "value": "蓬溪"
+      },
+      {
+        "label": "郫县",
+        "value": "郫县"
+      },
+      {
+        "label": "平昌",
+        "value": "平昌"
+      },
+      {
+        "label": "平武",
+        "value": "平武"
+      },
+      {
+        "label": "屏山",
+        "value": "屏山"
+      },
+      {
+        "label": "蒲江",
+        "value": "蒲江"
+      },
+      {
+        "label": "普格",
+        "value": "普格"
+      },
+      {
+        "label": "青川",
+        "value": "青川"
+      },
+      {
+        "label": "青神",
+        "value": "青神"
+      },
+      {
+        "label": "邛崃",
+        "value": "邛崃"
+      },
+      {
+        "label": "渠县",
+        "value": "渠县"
+      },
+      {
+        "label": "壤塘",
+        "value": "壤塘"
+      },
+      {
+        "label": "仁和",
+        "value": "仁和"
+      },
+      {
+        "label": "仁寿",
+        "value": "仁寿"
+      },
+      {
+        "label": "荣县",
+        "value": "荣县"
+      },
+      {
+        "label": "若尔盖",
+        "value": "若尔盖"
+      },
+      {
+        "label": "三台",
+        "value": "三台"
+      },
+      {
+        "label": "色达",
+        "value": "色达"
+      },
+      {
+        "label": "射洪",
+        "value": "射洪"
+      },
+      {
+        "label": "什邡",
+        "value": "什邡"
+      },
+      {
+        "label": "石棉",
+        "value": "石棉"
+      },
+      {
+        "label": "石渠",
+        "value": "石渠"
+      },
+      {
+        "label": "双流",
+        "value": "双流"
+      },
+      {
+        "label": "松潘",
+        "value": "松潘"
+      },
+      {
+        "label": "遂宁",
+        "value": "遂宁"
+      },
+      {
+        "label": "天全",
+        "value": "天全"
+      },
+      {
+        "label": "通川",
+        "value": "通川"
+      },
+      {
+        "label": "通江",
+        "value": "通江"
+      },
+      {
+        "label": "万源",
+        "value": "万源"
+      },
+      {
+        "label": "旺苍",
+        "value": "旺苍"
+      },
+      {
+        "label": "威远",
+        "value": "威远"
+      },
+      {
+        "label": "温江",
+        "value": "温江"
+      },
+      {
+        "label": "汶川",
+        "value": "汶川"
+      },
+      {
+        "label": "武胜",
+        "value": "武胜"
+      },
+      {
+        "label": "西昌",
+        "value": "西昌"
+      },
+      {
+        "label": "西充",
+        "value": "西充"
+      },
+      {
+        "label": "喜德",
+        "value": "喜德"
+      },
+      {
+        "label": "乡城",
+        "value": "乡城"
+      },
+      {
+        "label": "小金",
+        "value": "小金"
+      },
+      {
+        "label": "新都",
+        "value": "新都"
+      },
+      {
+        "label": "新津",
+        "value": "新津"
+      },
+      {
+        "label": "新龙",
+        "value": "新龙"
+      },
+      {
+        "label": "兴文",
+        "value": "兴文"
+      },
+      {
+        "label": "叙永",
+        "value": "叙永"
+      },
+      {
+        "label": "宣汉",
+        "value": "宣汉"
+      },
+      {
+        "label": "雅安",
+        "value": "雅安"
+      },
+      {
+        "label": "雅江",
+        "value": "雅江"
+      },
+      {
+        "label": "盐边",
+        "value": "盐边"
+      },
+      {
+        "label": "盐亭",
+        "value": "盐亭"
+      },
+      {
+        "label": "盐源",
+        "value": "盐源"
+      },
+      {
+        "label": "仪陇",
+        "value": "仪陇"
+      },
+      {
+        "label": "宜宾",
+        "value": "宜宾"
+      },
+      {
+        "label": "荥经",
+        "value": "荥经"
+      },
+      {
+        "label": "营山",
+        "value": "营山"
+      },
+      {
+        "label": "岳池",
+        "value": "岳池"
+      },
+      {
+        "label": "越西",
+        "value": "越西"
+      },
+      {
+        "label": "长宁",
+        "value": "长宁"
+      },
+      {
+        "label": "昭觉",
+        "value": "昭觉"
+      },
+      {
+        "label": "中江",
+        "value": "中江"
+      },
+      {
+        "label": "资阳",
+        "value": "资阳"
+      },
+      {
+        "label": "资中",
+        "value": "资中"
+      },
+      {
+        "label": "梓潼",
+        "value": "梓潼"
+      },
+      {
+        "label": "自贡",
+        "value": "自贡"
+      }
+    ]
+  },
+  {
+    "label": "西藏",
+    "value": "西藏",
+    "children": [
+      {
+        "label": "拉萨",
+        "value": "拉萨"
+      },
+      {
+        "label": "阿里",
+        "value": "阿里"
+      },
+      {
+        "label": "安多",
+        "value": "安多"
+      },
+      {
+        "label": "昂仁",
+        "value": "昂仁"
+      },
+      {
+        "label": "八宿",
+        "value": "八宿"
+      },
+      {
+        "label": "巴青",
+        "value": "巴青"
+      },
+      {
+        "label": "白朗",
+        "value": "白朗"
+      },
+      {
+        "label": "班戈",
+        "value": "班戈"
+      },
+      {
+        "label": "比如",
+        "value": "比如"
+      },
+      {
+        "label": "边坝",
+        "value": "边坝"
+      },
+      {
+        "label": "波密",
+        "value": "波密"
+      },
+      {
+        "label": "察雅",
+        "value": "察雅"
+      },
+      {
+        "label": "察隅",
+        "value": "察隅"
+      },
+      {
+        "label": "昌都",
+        "value": "昌都"
+      },
+      {
+        "label": "措美",
+        "value": "措美"
+      },
+      {
+        "label": "措勤",
+        "value": "措勤"
+      },
+      {
+        "label": "错那",
+        "value": "错那"
+      },
+      {
+        "label": "达孜",
+        "value": "达孜"
+      },
+      {
+        "label": "当雄",
+        "value": "当雄"
+      },
+      {
+        "label": "丁青",
+        "value": "丁青"
+      },
+      {
+        "label": "定结",
+        "value": "定结"
+      },
+      {
+        "label": "定日",
+        "value": "定日"
+      },
+      {
+        "label": "堆龙德庆",
+        "value": "堆龙德庆"
+      },
+      {
+        "label": "噶尔",
+        "value": "噶尔"
+      },
+      {
+        "label": "改则",
+        "value": "改则"
+      },
+      {
+        "label": "岗巴",
+        "value": "岗巴"
+      },
+      {
+        "label": "革吉",
+        "value": "革吉"
+      },
+      {
+        "label": "工布江达",
+        "value": "工布江达"
+      },
+      {
+        "label": "贡嘎",
+        "value": "贡嘎"
+      },
+      {
+        "label": "贡觉",
+        "value": "贡觉"
+      },
+      {
+        "label": "吉隆",
+        "value": "吉隆"
+      },
+      {
+        "label": "加查",
+        "value": "加查"
+      },
+      {
+        "label": "嘉黎",
+        "value": "嘉黎"
+      },
+      {
+        "label": "江达",
+        "value": "江达"
+      },
+      {
+        "label": "江孜",
+        "value": "江孜"
+      },
+      {
+        "label": "康马",
+        "value": "康马"
+      },
+      {
+        "label": "拉孜",
+        "value": "拉孜"
+      },
+      {
+        "label": "朗县",
+        "value": "朗县"
+      },
+      {
+        "label": "浪卡子",
+        "value": "浪卡子"
+      },
+      {
+        "label": "类乌齐",
+        "value": "类乌齐"
+      },
+      {
+        "label": "林芝",
+        "value": "林芝"
+      },
+      {
+        "label": "林周",
+        "value": "林周"
+      },
+      {
+        "label": "隆子",
+        "value": "隆子"
+      },
+      {
+        "label": "洛隆",
+        "value": "洛隆"
+      },
+      {
+        "label": "洛扎",
+        "value": "洛扎"
+      },
+      {
+        "label": "芒康",
+        "value": "芒康"
+      },
+      {
+        "label": "米林",
+        "value": "米林"
+      },
+      {
+        "label": "墨脱",
+        "value": "墨脱"
+      },
+      {
+        "label": "墨竹工卡",
+        "value": "墨竹工卡"
+      },
+      {
+        "label": "那曲",
+        "value": "那曲"
+      },
+      {
+        "label": "乃东",
+        "value": "乃东"
+      },
+      {
+        "label": "南木林",
+        "value": "南木林"
+      },
+      {
+        "label": "尼玛",
+        "value": "尼玛"
+      },
+      {
+        "label": "尼木",
+        "value": "尼木"
+      },
+      {
+        "label": "聂拉木",
+        "value": "聂拉木"
+      },
+      {
+        "label": "聂荣",
+        "value": "聂荣"
+      },
+      {
+        "label": "帕里",
+        "value": "帕里"
+      },
+      {
+        "label": "普兰",
+        "value": "普兰"
+      },
+      {
+        "label": "琼结",
+        "value": "琼结"
+      },
+      {
+        "label": "曲水",
+        "value": "曲水"
+      },
+      {
+        "label": "曲松",
+        "value": "曲松"
+      },
+      {
+        "label": "仁布",
+        "value": "仁布"
+      },
+      {
+        "label": "日喀则",
+        "value": "日喀则"
+      },
+      {
+        "label": "日土",
+        "value": "日土"
+      },
+      {
+        "label": "萨嘎",
+        "value": "萨嘎"
+      },
+      {
+        "label": "萨迦",
+        "value": "萨迦"
+      },
+      {
+        "label": "山南",
+        "value": "山南"
+      },
+      {
+        "label": "申扎",
+        "value": "申扎"
+      },
+      {
+        "label": "狮泉河",
+        "value": "狮泉河"
+      },
+      {
+        "label": "双湖",
+        "value": "双湖"
+      },
+      {
+        "label": "索县",
+        "value": "索县"
+      },
+      {
+        "label": "谢通门",
+        "value": "谢通门"
+      },
+      {
+        "label": "亚东",
+        "value": "亚东"
+      },
+      {
+        "label": "泽当",
+        "value": "泽当"
+      },
+      {
+        "label": "札达",
+        "value": "札达"
+      },
+      {
+        "label": "扎囊",
+        "value": "扎囊"
+      },
+      {
+        "label": "仲巴",
+        "value": "仲巴"
+      },
+      {
+        "label": "左贡",
+        "value": "左贡"
+      }
+    ]
+  },
+  {
+    "label": "新疆",
+    "value": "新疆",
+    "children": [
+      {
+        "label": "乌鲁木齐",
+        "value": "乌鲁木齐"
+      },
+      {
+        "label": "阿合奇",
+        "value": "阿合奇"
+      },
+      {
+        "label": "阿克苏",
+        "value": "阿克苏"
+      },
+      {
+        "label": "阿克陶",
+        "value": "阿克陶"
+      },
+      {
+        "label": "阿拉尔",
+        "value": "阿拉尔"
+      },
+      {
+        "label": "阿勒泰",
+        "value": "阿勒泰"
+      },
+      {
+        "label": "阿图什",
+        "value": "阿图什"
+      },
+      {
+        "label": "阿瓦提",
+        "value": "阿瓦提"
+      },
+      {
+        "label": "巴楚",
+        "value": "巴楚"
+      },
+      {
+        "label": "巴里坤",
+        "value": "巴里坤"
+      },
+      {
+        "label": "巴音布鲁克",
+        "value": "巴音布鲁克"
+      },
+      {
+        "label": "白碱滩",
+        "value": "白碱滩"
+      },
+      {
+        "label": "白杨沟",
+        "value": "白杨沟"
+      },
+      {
+        "label": "拜城",
+        "value": "拜城"
+      },
+      {
+        "label": "博湖",
+        "value": "博湖"
+      },
+      {
+        "label": "博乐",
+        "value": "博乐"
+      },
+      {
+        "label": "布尔津",
+        "value": "布尔津"
+      },
+      {
+        "label": "蔡家湖",
+        "value": "蔡家湖"
+      },
+      {
+        "label": "策勒",
+        "value": "策勒"
+      },
+      {
+        "label": "察布查尔",
+        "value": "察布查尔"
+      },
+      {
+        "label": "昌吉",
+        "value": "昌吉"
+      },
+      {
+        "label": "陈旗",
+        "value": "陈旗"
+      },
+      {
+        "label": "达坂城",
+        "value": "达坂城"
+      },
+      {
+        "label": "额敏",
+        "value": "额敏"
+      },
+      {
+        "label": "福海",
+        "value": "福海"
+      },
+      {
+        "label": "阜康",
+        "value": "阜康"
+      },
+      {
+        "label": "富蕴",
+        "value": "富蕴"
+      },
+      {
+        "label": "伽师",
+        "value": "伽师"
+      },
+      {
+        "label": "巩留",
+        "value": "巩留"
+      },
+      {
+        "label": "哈巴河",
+        "value": "哈巴河"
+      },
+      {
+        "label": "哈密",
+        "value": "哈密"
+      },
+      {
+        "label": "和布克赛尔",
+        "value": "和布克赛尔"
+      },
+      {
+        "label": "和静",
+        "value": "和静"
+      },
+      {
+        "label": "和硕",
+        "value": "和硕"
+      },
+      {
+        "label": "和田",
+        "value": "和田"
+      },
+      {
+        "label": "呼图壁",
+        "value": "呼图壁"
+      },
+      {
+        "label": "霍城",
+        "value": "霍城"
+      },
+      {
+        "label": "霍尔果斯",
+        "value": "霍尔果斯"
+      },
+      {
+        "label": "吉木乃",
+        "value": "吉木乃"
+      },
+      {
+        "label": "吉木萨尔",
+        "value": "吉木萨尔"
+      },
+      {
+        "label": "精河",
+        "value": "精河"
+      },
+      {
+        "label": "喀什",
+        "value": "喀什"
+      },
+      {
+        "label": "柯坪",
+        "value": "柯坪"
+      },
+      {
+        "label": "克拉玛依",
+        "value": "克拉玛依"
+      },
+      {
+        "label": "克州",
+        "value": "克州"
+      },
+      {
+        "label": "库车",
+        "value": "库车"
+      },
+      {
+        "label": "库尔勒",
+        "value": "库尔勒"
+      },
+      {
+        "label": "奎屯",
+        "value": "奎屯"
+      },
+      {
+        "label": "轮台",
+        "value": "轮台"
+      },
+      {
+        "label": "洛浦",
+        "value": "洛浦"
+      },
+      {
+        "label": "玛纳斯",
+        "value": "玛纳斯"
+      },
+      {
+        "label": "麦盖提",
+        "value": "麦盖提"
+      },
+      {
+        "label": "米泉",
+        "value": "米泉"
+      },
+      {
+        "label": "民丰",
+        "value": "民丰"
+      },
+      {
+        "label": "莫索湾",
+        "value": "莫索湾"
+      },
+      {
+        "label": "墨玉",
+        "value": "墨玉"
+      },
+      {
+        "label": "木垒",
+        "value": "木垒"
+      },
+      {
+        "label": "尼勒克",
+        "value": "尼勒克"
+      },
+      {
+        "label": "炮台",
+        "value": "炮台"
+      },
+      {
+        "label": "皮山",
+        "value": "皮山"
+      },
+      {
+        "label": "奇台",
+        "value": "奇台"
+      },
+      {
+        "label": "且末",
+        "value": "且末"
+      },
+      {
+        "label": "青河",
+        "value": "青河"
+      },
+      {
+        "label": "若羌",
+        "value": "若羌"
+      },
+      {
+        "label": "沙湾",
+        "value": "沙湾"
+      },
+      {
+        "label": "沙雅",
+        "value": "沙雅"
+      },
+      {
+        "label": "莎车",
+        "value": "莎车"
+      },
+      {
+        "label": "鄯善",
+        "value": "鄯善"
+      },
+      {
+        "label": "石河子",
+        "value": "石河子"
+      },
+      {
+        "label": "疏附",
+        "value": "疏附"
+      },
+      {
+        "label": "疏勒",
+        "value": "疏勒"
+      },
+      {
+        "label": "塔城",
+        "value": "塔城"
+      },
+      {
+        "label": "塔什库尔干",
+        "value": "塔什库尔干"
+      },
+      {
+        "label": "塔中",
+        "value": "塔中"
+      },
+      {
+        "label": "特克斯",
+        "value": "特克斯"
+      },
+      {
+        "label": "天池",
+        "value": "天池"
+      },
+      {
+        "label": "铁干里克",
+        "value": "铁干里克"
+      },
+      {
+        "label": "吐鲁番",
+        "value": "吐鲁番"
+      },
+      {
+        "label": "托克逊",
+        "value": "托克逊"
+      },
+      {
+        "label": "托里",
+        "value": "托里"
+      },
+      {
+        "label": "尉犁",
+        "value": "尉犁"
+      },
+      {
+        "label": "温泉",
+        "value": "温泉"
+      },
+      {
+        "label": "温宿",
+        "value": "温宿"
+      },
+      {
+        "label": "乌尔禾",
+        "value": "乌尔禾"
+      },
+      {
+        "label": "乌鲁木齐牧试站",
+        "value": "乌鲁木齐牧试站"
+      },
+      {
+        "label": "乌恰",
+        "value": "乌恰"
+      },
+      {
+        "label": "乌什",
+        "value": "乌什"
+      },
+      {
+        "label": "乌苏",
+        "value": "乌苏"
+      },
+      {
+        "label": "小渠子",
+        "value": "小渠子"
+      },
+      {
+        "label": "新和",
+        "value": "新和"
+      },
+      {
+        "label": "新源",
+        "value": "新源"
+      },
+      {
+        "label": "焉耆",
+        "value": "焉耆"
+      },
+      {
+        "label": "叶城",
+        "value": "叶城"
+      },
+      {
+        "label": "伊犁",
+        "value": "伊犁"
+      },
+      {
+        "label": "伊宁",
+        "value": "伊宁"
+      },
+      {
+        "label": "伊宁县",
+        "value": "伊宁县"
+      },
+      {
+        "label": "伊吾",
+        "value": "伊吾"
+      },
+      {
+        "label": "英吉沙",
+        "value": "英吉沙"
+      },
+      {
+        "label": "于田",
+        "value": "于田"
+      },
+      {
+        "label": "裕民",
+        "value": "裕民"
+      },
+      {
+        "label": "岳普湖",
+        "value": "岳普湖"
+      },
+      {
+        "label": "泽普",
+        "value": "泽普"
+      },
+      {
+        "label": "昭苏",
+        "value": "昭苏"
+      }
+    ]
+  },
+  {
+    "label": "云南",
+    "value": "云南",
+    "children": [
+      {
+        "label": "昆明",
+        "value": "昆明"
+      },
+      {
+        "label": "安宁",
+        "value": "安宁"
+      },
+      {
+        "label": "保山",
+        "value": "保山"
+      },
+      {
+        "label": "宾川",
+        "value": "宾川"
+      },
+      {
+        "label": "沧源",
+        "value": "沧源"
+      },
+      {
+        "label": "昌宁",
+        "value": "昌宁"
+      },
+      {
+        "label": "呈贡",
+        "value": "呈贡"
+      },
+      {
+        "label": "澄江",
+        "value": "澄江"
+      },
+      {
+        "label": "楚雄",
+        "value": "楚雄"
+      },
+      {
+        "label": "大关",
+        "value": "大关"
+      },
+      {
+        "label": "大理",
+        "value": "大理"
+      },
+      {
+        "label": "大姚",
+        "value": "大姚"
+      },
+      {
+        "label": "德宏",
+        "value": "德宏"
+      },
+      {
+        "label": "德钦",
+        "value": "德钦"
+      },
+      {
+        "label": "迪庆",
+        "value": "迪庆"
+      },
+      {
+        "label": "东川",
+        "value": "东川"
+      },
+      {
+        "label": "峨山",
+        "value": "峨山"
+      },
+      {
+        "label": "洱源",
+        "value": "洱源"
+      },
+      {
+        "label": "凤庆",
+        "value": "凤庆"
+      },
+      {
+        "label": "福贡",
+        "value": "福贡"
+      },
+      {
+        "label": "富民",
+        "value": "富民"
+      },
+      {
+        "label": "富宁",
+        "value": "富宁"
+      },
+      {
+        "label": "富源",
+        "value": "富源"
+      },
+      {
+        "label": "个旧",
+        "value": "个旧"
+      },
+      {
+        "label": "耿马",
+        "value": "耿马"
+      },
+      {
+        "label": "贡山",
+        "value": "贡山"
+      },
+      {
+        "label": "广南",
+        "value": "广南"
+      },
+      {
+        "label": "鹤庆",
+        "value": "鹤庆"
+      },
+      {
+        "label": "红河",
+        "value": "红河"
+      },
+      {
+        "label": "华宁",
+        "value": "华宁"
+      },
+      {
+        "label": "华坪",
+        "value": "华坪"
+      },
+      {
+        "label": "会泽",
+        "value": "会泽"
+      },
+      {
+        "label": "建水",
+        "value": "建水"
+      },
+      {
+        "label": "剑川",
+        "value": "剑川"
+      },
+      {
+        "label": "江城",
+        "value": "江城"
+      },
+      {
+        "label": "江川",
+        "value": "江川"
+      },
+      {
+        "label": "金平",
+        "value": "金平"
+      },
+      {
+        "label": "晋宁",
+        "value": "晋宁"
+      },
+      {
+        "label": "景东",
+        "value": "景东"
+      },
+      {
+        "label": "景谷",
+        "value": "景谷"
+      },
+      {
+        "label": "景洪",
+        "value": "景洪"
+      },
+      {
+        "label": "开远",
+        "value": "开远"
+      },
+      {
+        "label": "兰坪",
+        "value": "兰坪"
+      },
+      {
+        "label": "澜沧",
+        "value": "澜沧"
+      },
+      {
+        "label": "丽江",
+        "value": "丽江"
+      },
+      {
+        "label": "梁河",
+        "value": "梁河"
+      },
+      {
+        "label": "临沧",
+        "value": "临沧"
+      },
+      {
+        "label": "六库",
+        "value": "六库"
+      },
+      {
+        "label": "龙陵",
+        "value": "龙陵"
+      },
+      {
+        "label": "陇川",
+        "value": "陇川"
+      },
+      {
+        "label": "泸水",
+        "value": "泸水"
+      },
+      {
+        "label": "泸西",
+        "value": "泸西"
+      },
+      {
+        "label": "鲁甸",
+        "value": "鲁甸"
+      },
+      {
+        "label": "陆良",
+        "value": "陆良"
+      },
+      {
+        "label": "禄丰",
+        "value": "禄丰"
+      },
+      {
+        "label": "禄劝",
+        "value": "禄劝"
+      },
+      {
+        "label": "芒市",
+        "value": "芒市"
+      },
+      {
+        "label": "罗平",
+        "value": "罗平"
+      },
+      {
+        "label": "绿春",
+        "value": "绿春"
+      },
+      {
+        "label": "麻栗坡",
+        "value": "麻栗坡"
+      },
+      {
+        "label": "马关",
+        "value": "马关"
+      },
+      {
+        "label": "马龙",
+        "value": "马龙"
+      },
+      {
+        "label": "蒙自",
+        "value": "蒙自"
+      },
+      {
+        "label": "勐海",
+        "value": "勐海"
+      },
+      {
+        "label": "勐腊",
+        "value": "勐腊"
+      },
+      {
+        "label": "孟连",
+        "value": "孟连"
+      },
+      {
+        "label": "弥渡",
+        "value": "弥渡"
+      },
+      {
+        "label": "弥勒",
+        "value": "弥勒"
+      },
+      {
+        "label": "墨江",
+        "value": "墨江"
+      },
+      {
+        "label": "牟定",
+        "value": "牟定"
+      },
+      {
+        "label": "南华",
+        "value": "南华"
+      },
+      {
+        "label": "南涧",
+        "value": "南涧"
+      },
+      {
+        "label": "宁洱",
+        "value": "宁洱"
+      },
+      {
+        "label": "宁蒗",
+        "value": "宁蒗"
+      },
+      {
+        "label": "怒江",
+        "value": "怒江"
+      },
+      {
+        "label": "屏边",
+        "value": "屏边"
+      },
+      {
+        "label": "普洱",
+        "value": "普洱"
+      },
+      {
+        "label": "巧家",
+        "value": "巧家"
+      },
+      {
+        "label": "丘北",
+        "value": "丘北"
+      },
+      {
+        "label": "曲靖",
+        "value": "曲靖"
+      },
+      {
+        "label": "瑞丽",
+        "value": "瑞丽"
+      },
+      {
+        "label": "师宗",
+        "value": "师宗"
+      },
+      {
+        "label": "施甸",
+        "value": "施甸"
+      },
+      {
+        "label": "石林",
+        "value": "石林"
+      },
+      {
+        "label": "石屏",
+        "value": "石屏"
+      },
+      {
+        "label": "双柏",
+        "value": "双柏"
+      },
+      {
+        "label": "双江",
+        "value": "双江"
+      },
+      {
+        "label": "水富",
+        "value": "水富"
+      },
+      {
+        "label": "嵩明",
+        "value": "嵩明"
+      },
+      {
+        "label": "绥江",
+        "value": "绥江"
+      },
+      {
+        "label": "太华山",
+        "value": "太华山"
+      },
+      {
+        "label": "腾冲",
+        "value": "腾冲"
+      },
+      {
+        "label": "通海",
+        "value": "通海"
+      },
+      {
+        "label": "威信",
+        "value": "威信"
+      },
+      {
+        "label": "巍山",
+        "value": "巍山"
+      },
+      {
+        "label": "维西",
+        "value": "维西"
+      },
+      {
+        "label": "文山",
+        "value": "文山"
+      },
+      {
+        "label": "武定",
+        "value": "武定"
+      },
+      {
+        "label": "西畴",
+        "value": "西畴"
+      },
+      {
+        "label": "西盟",
+        "value": "西盟"
+      },
+      {
+        "label": "西双版纳",
+        "value": "西双版纳"
+      },
+      {
+        "label": "香格里拉",
+        "value": "香格里拉"
+      },
+      {
+        "label": "祥云",
+        "value": "祥云"
+      },
+      {
+        "label": "新平",
+        "value": "新平"
+      },
+      {
+        "label": "宣威",
+        "value": "宣威"
+      },
+      {
+        "label": "寻甸",
+        "value": "寻甸"
+      },
+      {
+        "label": "盐津",
+        "value": "盐津"
+      },
+      {
+        "label": "砚山",
+        "value": "砚山"
+      },
+      {
+        "label": "漾濞",
+        "value": "漾濞"
+      },
+      {
+        "label": "姚安",
+        "value": "姚安"
+      },
+      {
+        "label": "宜良",
+        "value": "宜良"
+      },
+      {
+        "label": "彝良",
+        "value": "彝良"
+      },
+      {
+        "label": "易门",
+        "value": "易门"
+      },
+      {
+        "label": "盈江",
+        "value": "盈江"
+      },
+      {
+        "label": "永德",
+        "value": "永德"
+      },
+      {
+        "label": "永平",
+        "value": "永平"
+      },
+      {
+        "label": "永仁",
+        "value": "永仁"
+      },
+      {
+        "label": "永善",
+        "value": "永善"
+      },
+      {
+        "label": "永胜",
+        "value": "永胜"
+      },
+      {
+        "label": "玉溪",
+        "value": "玉溪"
+      },
+      {
+        "label": "元江",
+        "value": "元江"
+      },
+      {
+        "label": "元谋",
+        "value": "元谋"
+      },
+      {
+        "label": "元阳",
+        "value": "元阳"
+      },
+      {
+        "label": "云龙",
+        "value": "云龙"
+      },
+      {
+        "label": "云县",
+        "value": "云县"
+      },
+      {
+        "label": "沾益",
+        "value": "沾益"
+      },
+      {
+        "label": "昭通",
+        "value": "昭通"
+      },
+      {
+        "label": "镇康",
+        "value": "镇康"
+      },
+      {
+        "label": "镇雄",
+        "value": "镇雄"
+      },
+      {
+        "label": "镇沅",
+        "value": "镇沅"
+      },
+      {
+        "label": "中甸",
+        "value": "中甸"
+      }
+    ]
+  },
+  {
+    "label": "浙江",
+    "value": "浙江",
+    "children": [
+      {
+        "label": "杭州",
+        "value": "杭州"
+      },
+      {
+        "label": "安吉",
+        "value": "安吉"
+      },
+      {
+        "label": "北仑",
+        "value": "北仑"
+      },
+      {
+        "label": "苍南",
+        "value": "苍南"
+      },
+      {
+        "label": "常山",
+        "value": "常山"
+      },
+      {
+        "label": "淳安",
+        "value": "淳安"
+      },
+      {
+        "label": "慈溪",
+        "value": "慈溪"
+      },
+      {
+        "label": "岱山",
+        "value": "岱山"
+      },
+      {
+        "label": "德清",
+        "value": "德清"
+      },
+      {
+        "label": "定海",
+        "value": "定海"
+      },
+      {
+        "label": "东阳",
+        "value": "东阳"
+      },
+      {
+        "label": "洞头",
+        "value": "洞头"
+      },
+      {
+        "label": "奉化",
+        "value": "奉化"
+      },
+      {
+        "label": "富阳",
+        "value": "富阳"
+      },
+      {
+        "label": "海宁",
+        "value": "海宁"
+      },
+      {
+        "label": "海盐",
+        "value": "海盐"
+      },
+      {
+        "label": "洪家",
+        "value": "洪家"
+      },
+      {
+        "label": "湖州",
+        "value": "湖州"
+      },
+      {
+        "label": "黄岩",
+        "value": "黄岩"
+      },
+      {
+        "label": "嘉善",
+        "value": "嘉善"
+      },
+      {
+        "label": "嘉兴",
+        "value": "嘉兴"
+      },
+      {
+        "label": "建德",
+        "value": "建德"
+      },
+      {
+        "label": "江山",
+        "value": "江山"
+      },
+      {
+        "label": "椒江",
+        "value": "椒江"
+      },
+      {
+        "label": "金华",
+        "value": "金华"
+      },
+      {
+        "label": "缙云",
+        "value": "缙云"
+      },
+      {
+        "label": "景宁",
+        "value": "景宁"
+      },
+      {
+        "label": "开化",
+        "value": "开化"
+      },
+      {
+        "label": "兰溪",
+        "value": "兰溪"
+      },
+      {
+        "label": "乐清",
+        "value": "乐清"
+      },
+      {
+        "label": "丽水",
+        "value": "丽水"
+      },
+      {
+        "label": "临安",
+        "value": "临安"
+      },
+      {
+        "label": "临海",
+        "value": "临海"
+      },
+      {
+        "label": "龙泉",
+        "value": "龙泉"
+      },
+      {
+        "label": "龙游",
+        "value": "龙游"
+      },
+      {
+        "label": "宁波",
+        "value": "宁波"
+      },
+      {
+        "label": "宁海",
+        "value": "宁海"
+      },
+      {
+        "label": "磐安",
+        "value": "磐安"
+      },
+      {
+        "label": "平湖",
+        "value": "平湖"
+      },
+      {
+        "label": "平阳",
+        "value": "平阳"
+      },
+      {
+        "label": "浦江",
+        "value": "浦江"
+      },
+      {
+        "label": "普陀",
+        "value": "普陀"
+      },
+      {
+        "label": "青田",
+        "value": "青田"
+      },
+      {
+        "label": "庆元",
+        "value": "庆元"
+      },
+      {
+        "label": "衢江",
+        "value": "衢江"
+      },
+      {
+        "label": "衢州",
+        "value": "衢州"
+      },
+      {
+        "label": "瑞安",
+        "value": "瑞安"
+      },
+      {
+        "label": "三门",
+        "value": "三门"
+      },
+      {
+        "label": "上虞",
+        "value": "上虞"
+      },
+      {
+        "label": "绍兴",
+        "value": "绍兴"
+      },
+      {
+        "label": "嵊泗",
+        "value": "嵊泗"
+      },
+      {
+        "label": "嵊州",
+        "value": "嵊州"
+      },
+      {
+        "label": "松阳",
+        "value": "松阳"
+      },
+      {
+        "label": "遂昌",
+        "value": "遂昌"
+      },
+      {
+        "label": "台州",
+        "value": "台州"
+      },
+      {
+        "label": "泰顺",
+        "value": "泰顺"
+      },
+      {
+        "label": "天台",
+        "value": "天台"
+      },
+      {
+        "label": "桐庐",
+        "value": "桐庐"
+      },
+      {
+        "label": "桐乡",
+        "value": "桐乡"
+      },
+      {
+        "label": "温岭",
+        "value": "温岭"
+      },
+      {
+        "label": "温州",
+        "value": "温州"
+      },
+      {
+        "label": "文成",
+        "value": "文成"
+      },
+      {
+        "label": "武义",
+        "value": "武义"
+      },
+      {
+        "label": "象山",
+        "value": "象山"
+      },
+      {
+        "label": "萧山",
+        "value": "萧山"
+      },
+      {
+        "label": "新昌",
+        "value": "新昌"
+      },
+      {
+        "label": "义乌",
+        "value": "义乌"
+      },
+      {
+        "label": "鄞州",
+        "value": "鄞州"
+      },
+      {
+        "label": "永嘉",
+        "value": "永嘉"
+      },
+      {
+        "label": "永康",
+        "value": "永康"
+      },
+      {
+        "label": "余杭",
+        "value": "余杭"
+      },
+      {
+        "label": "余姚",
+        "value": "余姚"
+      },
+      {
+        "label": "玉环",
+        "value": "玉环"
+      },
+      {
+        "label": "云和",
+        "value": "云和"
+      },
+      {
+        "label": "长兴",
+        "value": "长兴"
+      },
+      {
+        "label": "镇海",
+        "value": "镇海"
+      },
+      {
+        "label": "舟山",
+        "value": "舟山"
+      },
+      {
+        "label": "诸暨",
+        "value": "诸暨"
+      }
+    ]
+  },
+  {
+    "label": "香港",
+    "value": "香港",
+    "children": [
+      {
+        "label": "香港",
+        "value": "香港"
+      },
+      {
+        "label": "新界",
+        "value": "新界"
+      }
+    ]
+  },
+  {
+    "label": "澳门",
+    "value": "澳门",
+    "children": [
+      {
+        "label": "澳门",
+        "value": "澳门"
+      },
+      {
+        "label": "氹仔岛",
+        "value": "氹仔岛"
+      },
+      {
+        "label": "路环岛",
+        "value": "路环岛"
+      }
+    ]
+  },
+  {
+    "label": "台湾",
+    "value": "台湾",
+    "children": [
+      {
+        "label": "台北",
+        "value": "台北"
+      },
+      {
+        "label": "高雄",
+        "value": "高雄"
+      },
+      {
+        "label": "花莲",
+        "value": "花莲"
+      },
+      {
+        "label": "嘉义",
+        "value": "嘉义"
+      },
+      {
+        "label": "路桥",
+        "value": "路桥"
+      },
+      {
+        "label": "苗栗",
+        "value": "苗栗"
+      },
+      {
+        "label": "南投",
+        "value": "南投"
+      },
+      {
+        "label": "屏东",
+        "value": "屏东"
+      },
+      {
+        "label": "台东",
+        "value": "台东"
+      },
+      {
+        "label": "台南",
+        "value": "台南"
+      },
+      {
+        "label": "台中",
+        "value": "台中"
+      },
+      {
+        "label": "桃园",
+        "value": "桃园"
+      },
+      {
+        "label": "新竹",
+        "value": "新竹"
+      },
+      {
+        "label": "秀屿港",
+        "value": "秀屿港"
+      },
+      {
+        "label": "宜兰",
+        "value": "宜兰"
+      },
+      {
+        "label": "云林",
+        "value": "云林"
+      },
+      {
+        "label": "彰化",
+        "value": "彰化"
+      }
+    ]
+  }
+]
