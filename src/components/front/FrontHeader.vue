@@ -2,6 +2,7 @@
   import useWeatherStore from '@/store/hooks/useWeatherStore';
   import { computed, ref } from 'vue';
   import city from '@/assets/data/city.json';
+  import MsgDialog from '@/components/front/header/MsgDialog.vue';
 
   const weatherStore = useWeatherStore();
   const showPopover = ref(false);
@@ -50,7 +51,7 @@
     <div class="right">
       <ul class="flex space-x-2">
         <li><a href="#">新闻</a></li>
-        <li><a href="#">留言</a></li>
+        <li><msg-dialog /></li>
         <li><a href="#">最新</a></li>
         <li><a href="#">设置</a></li>
       </ul>

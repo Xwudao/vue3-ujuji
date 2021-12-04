@@ -10,6 +10,7 @@ specifiers:
   '@vitejs/plugin-vue': ^1.9.3
   autoprefixer: ^10.4.0
   axios: ^0.24.0
+  dayjs: ^1.10.7
   element-plus: ^1.1.0-beta.24
   eslint: ^8.1.0
   eslint-config-prettier: ^8.3.0
@@ -36,6 +37,7 @@ dependencies:
   '@iconify/iconify': 2.0.4
   '@iconify/json': 1.1.421
   axios: 0.24.0
+  dayjs: 1.10.7
   element-plus: 1.1.0-beta.24_vue@3.2.20
   pinia: 2.0.5_typescript@4.4.4+vue@3.2.20
   vite-plugin-purge-icons: 0.7.0_vite@2.6.13
