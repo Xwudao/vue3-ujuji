@@ -1,5 +1,5 @@
 import useHttp from '@/api/useHttp';
-import type { ListResp } from '@/api/types';
+import type { BasicResp, ListResp } from '@/api/types';
 
 export enum MsgType {
   COMMON,
@@ -21,5 +21,20 @@ export const reqLeaveMsg = (userID: number, msgType: MsgType, page: number, size
     url: `leave_msg/v1/${msgType}/${userID}`,
     method: 'get',
     params: { page, size },
+  });
+};
+export interface IReqMsgParam {
+  content: string;
+  nickname: string;
+  verify_str: string;
+  verify_id: string;
+  code?: number;
+  user_id: number;
+}
+export const reqAddMsg = (p: IReqMsgParam) => {
+  return useHttp<BasicResp<null>>({
+    url: `/leave_msg/v1`,
+    method: 'post',
+    data: { ...p },
   });
 };

@@ -4,9 +4,12 @@
   import useLeaveMsg from '@/hooks/api/useLeaveMsg';
   import useSiteSettingsStore from '@/store/hooks/useSiteSettingsStore';
   import { storeToRefs } from 'pinia';
-  import { MsgType } from '@/api/leaveMsgApi';
+  import type { IReqMsgParam } from '@/api/leaveMsgApi';
+  import { MsgType, reqAddMsg } from '@/api/leaveMsgApi';
   import MsgItem from '@/components/front/header/MsgItem.vue';
   import { watch } from 'vue';
+  import { ElMessage } from 'element-plus';
+  import { OK_CODE } from '@/app/keys';
 
   const visible = ref(false);
   const { imageID, refresh, image } = useVerify();
@@ -40,6 +43,44 @@
       refreshCommon();
     }
   });
+  //form
+  const formData = reactive<IReqMsgParam>({
+    code: -1,
+    user_id: settingsStore.user_id,
+    content: '',
+    nickname: '',
+    verify_id: imageID.value,
+    verify_str: '',
+  });
+  const handleSubmit = () => {
+    if (!formData.content) {
+      ElMessage.error('请输入内容');
+      console.log('fadf');
+      return;
+    }
+    if (!formData.nickname) {
+      ElMessage.error('请输入昵称');
+      return;
+    }
+    if (!formData.verify_str) {
+      ElMessage.error('请输入验证码');
+      return;
+    }
+    reqAddMsg(
+      Object.assign({}, formData, { user_id: settingsStore.user_id, verify_id: imageID.value })
+    )
+      .then(({ code, msg }) => {
+        if (code === OK_CODE) {
+          ElMessage.success(msg);
+          refreshCommon();
+          return;
+        }
+        ElMessage.error(msg);
+      })
+      .catch((err) => {
+        ElMessage.error(err.message);
+      });
+  };
 </script>
 
 <template>
@@ -47,12 +88,20 @@
   <el-dialog v-model:model-value="visible" width="400px" title="用戶留言" :modal="false">
     <div class="header">
       <div class="box">
-        <el-input placeholder="輸入留言" type="textarea" :autosize="{ minRows: 2 }" />
+        <el-input
+          v-model="formData.content"
+          placeholder="輸入留言"
+          type="textarea"
+          :autosize="{ minRows: 2 }"
+        />
       </div>
       <div class="verify flex space-x-2 mt-3">
-        <el-input size="small" class="flex-1" placeholder="暱稱" />
-        <el-input size="small" placeholder="驗證碼" class="flex-1" />
+        <el-input v-model="formData.nickname" size="small" class="flex-1" placeholder="昵称" />
+        <el-input v-model="formData.verify_str" size="small" placeholder="验证码" class="flex-1" />
         <img :src="image" alt="verify image" class="w-20 cursor-pointer rounded" @click="refresh" />
+      </div>
+      <div class="mt-3">
+        <el-button size="small" @click="handleSubmit">提交</el-button>
       </div>
     </div>
     <div class="border-t border-gray-300 my-3"></div>

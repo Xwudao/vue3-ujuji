@@ -1,5 +1,5 @@
 <script lang="ts" setup="setup">
-  import { formatDate } from '@/utils/date';
+  import { relativeTime } from '@/utils/date';
   import type { IMsgData } from '@/api/leaveMsgApi';
   const props = defineProps<{
     item: IMsgData;
@@ -23,7 +23,7 @@
     </p>
   </div>
   <div class="time text-right text-xs text-gray-600 mt-3">
-    <span>{{ formatDate(props.item.created_at) }}</span>
+    <span>{{ relativeTime(props.item.created_at) }}</span>
   </div>
 </template>
 

@@ -21,7 +21,7 @@
 </script>
 
 <template>
-  <div class="headers flex justify-between text-xs px-2">
+  <div class="headers flex justify-between text-sm px-2">
     <div class="left">
       <el-popover
         placement="bottom"
