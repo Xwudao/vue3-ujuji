@@ -125,3 +125,10 @@ export const reqWeather = (city: string) => {
     method: 'get',
   });
 };
+
+export const reqNews = () => {
+  return useHttp<BasicResp<string>>({
+    url: `/news/v1`,
+    method: 'get',
+  });
+};

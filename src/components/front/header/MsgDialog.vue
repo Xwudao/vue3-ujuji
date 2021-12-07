@@ -1,4 +1,5 @@
 <script lang="ts" setup="setup">
+  import { Edit } from '@element-plus/icons';
   import { reactive, ref, toRef } from 'vue';
   import useVerify from '@/hooks/api/useVerify';
   import useLeaveMsg from '@/hooks/api/useLeaveMsg';
@@ -84,13 +85,22 @@
 </script>
 
 <template>
-  <a href="#" @click.prevent="visible = true">留言</a>
-  <el-dialog v-model:model-value="visible" width="400px" title="用戶留言" :modal="false">
+  <a class="flex items-center space-x-0.5" href="#" @click.prevent="visible = true">
+    <el-icon :size="17"><edit /></el-icon>
+    <span>留言</span>
+  </a>
+  <el-dialog
+    v-model:model-value="visible"
+    width="400px"
+    title="留言板"
+    :append-to-body="true"
+    :modal="false"
+  >
     <div class="header">
       <div class="box">
         <el-input
           v-model="formData.content"
-          placeholder="輸入留言"
+          placeholder="输入留言"
           type="textarea"
           :autosize="{ minRows: 2 }"
         />

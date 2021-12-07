@@ -1,7 +1,7 @@
 import useWeatherStore from '@/store/hooks/useWeatherStore';
 import { ref, watch } from 'vue';
-import type { IWeatherData } from '@/api/common';
-import { reqWeather } from '@/api/common';
+import type { IWeatherData } from '@/api/commonApi';
+import { reqWeather } from '@/api/commonApi';
 
 const useWeather = () => {
   const weatherStore = useWeatherStore();

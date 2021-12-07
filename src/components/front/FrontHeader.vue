@@ -3,6 +3,7 @@
   import { computed, ref } from 'vue';
   import city from '@/assets/data/city.json';
   import MsgDialog from '@/components/front/header/MsgDialog.vue';
+  import NewsDialog from '@/components/front/header/NewsDialog.vue';
 
   const weatherStore = useWeatherStore();
   const showPopover = ref(false);
@@ -50,7 +51,7 @@
     </div>
     <div class="right">
       <ul class="flex space-x-2">
-        <li><a href="#">新闻</a></li>
+        <li><news-dialog /></li>
         <li><msg-dialog /></li>
         <li><a href="#">最新</a></li>
         <li><a href="#">设置</a></li>
