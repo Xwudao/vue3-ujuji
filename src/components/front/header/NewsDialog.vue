@@ -4,7 +4,7 @@
   import useNews from '@/hooks/api/useNews';
 
   const visible = ref(false);
-  const { refresh, news } = useNews();
+  const { refresh, news, loading } = useNews();
 
   const handleOpen = () => {
     refresh();
@@ -22,7 +22,7 @@
     :modal="false"
     @open="handleOpen"
   >
-    <ul>
+    <ul v-loading="loading">
       <li v-for="(item, i) in news" :key="i" class="py-1 border-b border-gray-300 border-dashed">
         {{ item }}
         <span v-if="i < news.length - 1">
@@ -31,7 +31,7 @@
             target="_blank"
             :href="`https://www.baidu.com/s?ie=UTF-8&wd=${encodeURIComponent(item)}`"
           >
-            百度详情
+            [百度详情]
           </a>
         </span>
       </li>

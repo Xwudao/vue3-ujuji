@@ -7,3 +7,6 @@ export const formatDate = (date: string) => {
 export const relativeTime = (date: string) => {
   return dayjs(date).fromNow();
 };
+export const formatDateYMD = (date: string) => {
+  return dayjs(date).format('YYYY-MM-DD');
+};

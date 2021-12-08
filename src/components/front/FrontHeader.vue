@@ -4,6 +4,8 @@
   import city from '@/assets/data/city.json';
   import MsgDialog from '@/components/front/header/MsgDialog.vue';
   import NewsDialog from '@/components/front/header/NewsDialog.vue';
+  import LatestLinkDialog from '@/components/front/header/LatestLinkDialog.vue';
+  import SettingBtn from '@/components/front/header/SettingBtn.vue';
 
   const weatherStore = useWeatherStore();
   const showPopover = ref(false);
@@ -53,8 +55,8 @@
       <ul class="flex space-x-2">
         <li><news-dialog /></li>
         <li><msg-dialog /></li>
-        <li><a href="#">最新</a></li>
-        <li><a href="#">设置</a></li>
+        <li><latest-link-dialog /></li>
+        <li><setting-btn /></li>
       </ul>
     </div>
   </div>

@@ -1,5 +1,6 @@
 import useHttp from '@/api/useHttp';
 import type { BasicResp } from '@/api/types';
+import exp from 'constants';
 
 export interface IWeatherData {
   errNo: string;
@@ -129,6 +130,24 @@ export const reqWeather = (city: string) => {
 export const reqNews = () => {
   return useHttp<BasicResp<string>>({
     url: `/news/v1`,
+    method: 'get',
+  });
+};
+
+export interface ILatestLink {
+  id: number;
+  icon: string;
+  box_id: number;
+  link: string;
+  title: string;
+  item_order: number;
+  description: string;
+  created_at: string;
+}
+
+export const reqLatestLinks = (userID: number, n = 15) => {
+  return useHttp<BasicResp<ILatestLink[]>>({
+    url: `link/v1/latest/${userID}?count=${n}`,
     method: 'get',
   });
 };
