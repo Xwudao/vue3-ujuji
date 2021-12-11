@@ -4,6 +4,7 @@ import useSiteSettingsStore from '@/store/hooks/useSiteSettingsStore';
 import useSearchConfigStore from '@/store/hooks/useSearchConfigStore';
 import useWeather from '@/hooks/api/useWeather';
 import useWeatherStore from '@/store/hooks/useWeatherStore';
+import useHeadLink from '@/hooks/useHeadLink';
 
 //hooks
 const useSiteData = () => {
@@ -20,10 +21,10 @@ const useSiteData = () => {
     (id) => {
       if (!id || id <= 0) return;
       userID.value = id!;
-      let str = JSON.parse(JSON.stringify(siteConfig.value));
-      console.log('srt', str);
       siteSettings.load(siteConfig.value);
       searchConfigStore.load(searchConfig.value);
+      //iconfont
+      useHeadLink('iconfont', 'link', siteConfig.value.icon_url || '');
     }
   );
   const { boxes, loading: loadingBoxes } = useSiteBoxes(userID);

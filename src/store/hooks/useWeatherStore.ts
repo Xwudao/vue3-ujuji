@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import type { IWeatherData } from '@/api/common';
+import type { IWeatherData } from '@/api/commonApi';
 import useStorage from '@/hooks/useStorage';
 
 interface WeatherStoreType {

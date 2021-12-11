@@ -93,8 +93,8 @@
     v-model:model-value="visible"
     width="400px"
     title="留言板"
-    :append-to-body="true"
-    :modal="false"
+    :append-to-body="false"
+    :modal="true"
   >
     <div class="header">
       <div class="box">

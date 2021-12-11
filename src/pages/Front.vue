@@ -21,8 +21,8 @@
   <div
     v-loading="loadingSiteConfig"
     class="front"
-    element-loading-text="Loading..."
-    element-loading-svg-view-box="-10, -10, 50, 50"
+    element-loading-text="loading..."
+    element-loading-spinner="el-icon-loading"
     element-loading-background="rgba(0, 0, 0, 0.8)"
   >
     <div class="bg-wrapper" />

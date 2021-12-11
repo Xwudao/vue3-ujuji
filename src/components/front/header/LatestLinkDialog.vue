@@ -3,8 +3,9 @@
   import AppIcon from '@/components/common/AppIcon.vue';
   import useLatestLink from '@/hooks/api/useLatestLink';
   import { formatDateYMD } from '@/utils/date';
+  import { Loading } from '@element-plus/icons';
   const visible = ref(false);
-  const { loading, refresh, links } = useLatestLink();
+  const { loading: loadingLink, refresh, links } = useLatestLink();
   const handleShow = () => {
     refresh();
   };
@@ -19,7 +20,10 @@
     @show="handleShow"
   >
     <template #default>
-      <ul v-loading="loading">
+      <div v-if="loadingLink" class="loading flex justify-center">
+        <el-icon class="is-loading" size="20"><loading /></el-icon>
+      </div>
+      <ul>
         <li v-for="(item, i) in links" :key="i">
           <a
             :href="item.link"
