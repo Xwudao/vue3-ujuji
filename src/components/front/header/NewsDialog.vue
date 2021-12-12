@@ -2,6 +2,7 @@
   import { ref } from 'vue';
   import AppIcon from '@/components/common/AppIcon.vue';
   import useNews from '@/hooks/api/useNews';
+  import AppSmallLoading from '@/components/common/AppSmallLoading.vue';
 
   const visible = ref(false);
   const { refresh, news, loading } = useNews();
@@ -22,7 +23,8 @@
     :modal="false"
     @open="handleOpen"
   >
-    <ul v-loading="loading">
+    <app-small-loading v-if="loading" />
+    <ul>
       <li v-for="(item, i) in news" :key="i" class="py-1 border-b border-gray-300 border-dashed">
         {{ item }}
         <span v-if="i < news.length - 1">

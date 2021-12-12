@@ -11,23 +11,23 @@
   import { watch } from 'vue';
   import { ElMessage } from 'element-plus';
   import { OK_CODE } from '@/app/keys';
+  import AppSmallLoading from '@/components/common/AppSmallLoading.vue';
 
   const visible = ref(false);
   const { imageID, refresh, image } = useVerify();
   const msgParam = reactive({ page: 1, size: 10 });
   const settingsStore = useSiteSettingsStore();
   const refSettingsStore = storeToRefs(settingsStore);
-  const { message: fixedMsg, refresh: refreshFix } = useLeaveMsg(
-    ref(0),
-    ref(0),
-    refSettingsStore.user_id,
-    MsgType.FIXED,
-    false
-  );
+  const {
+    loading: loadingFixed,
+    message: fixedMsg,
+    refresh: refreshFix,
+  } = useLeaveMsg(ref(0), ref(0), refSettingsStore.user_id, MsgType.FIXED, false);
   const {
     total,
     message: commonMsg,
     refresh: refreshCommon,
+    loading: loadingCommon,
   } = useLeaveMsg(
     toRef(msgParam, 'size'),
     toRef(msgParam, 'page'),
@@ -114,6 +114,7 @@
         <el-button size="small" @click="handleSubmit">提交</el-button>
       </div>
     </div>
+    <app-small-loading v-if="loadingFixed || loadingCommon" />
     <div class="border-t border-gray-300 my-3"></div>
     <div class="main">
       <ul class="items">

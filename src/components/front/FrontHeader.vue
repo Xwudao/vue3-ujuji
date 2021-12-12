@@ -48,6 +48,13 @@
         </template>
         <template #reference>
           <span class="cursor-pointer" @click="showPopover = true">{{ info }}</span>
+          <!--          <el-tooltip-->
+          <!--            class="item"-->
+          <!--            effect="light"-->
+          <!--            :content="weatherStore.detailWeather"-->
+          <!--            placement="bottom"-->
+          <!--          >-->
+          <!--          </el-tooltip>-->
         </template>
       </el-popover>
     </div>

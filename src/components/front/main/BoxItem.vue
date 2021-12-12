@@ -1,5 +1,5 @@
 <script lang="ts" setup="setup">
-  import { ref } from 'vue';
+  import { computed, ref } from 'vue';
   import type { IBoxesData, ILink } from '@/api/siteApi';
   import AppIcon from '@/components/common/AppIcon.vue';
   const props = defineProps<{
@@ -7,6 +7,14 @@
   }>();
   const emits = defineEmits(['expand']);
   const desc = ref('');
+  const orderByTime = ref(false);
+  const computedLink = computed(() => {
+    const links = JSON.parse(JSON.stringify(props.box.links)) as ILink[];
+    if (!orderByTime.value) return links || [];
+    return links.sort((item1, item2) => {
+      return new Date(item2.created_at).getTime() - new Date(item1.created_at).getTime();
+    });
+  });
   const handleEnter = (item: ILink) => {
     if (item.description) {
       desc.value = item.description;
@@ -22,7 +30,10 @@
     <div class="box-title">
       <i v-if="props.box.icon" class="iconfont mr-2" :class="[props.box.icon]"></i>
       <span>{{ props.box.title }}</span>
-      <div class="ctrls inline-flex space-x-1 absolute top-0 right-1">
+      <div class="ctrls inline-flex space-x-1 absolute top-0 right-1 text-sm">
+        <div class="cursor-pointer" @click="orderByTime = !orderByTime">
+          <app-icon class="icon" icon="clarity:date-line" />
+        </div>
         <div class="cursor-pointer" @click="emits('expand', props.box)">
           <app-icon icon="bx:bx-expand" />
         </div>
@@ -31,7 +42,7 @@
     <div class="box-desc">{{ desc }}</div>
     <div class="box-items">
       <a
-        v-for="(link, m) in props.box.links"
+        v-for="(link, m) in computedLink"
         :key="m"
         class="box-link"
         :href="link.link"
@@ -59,6 +70,10 @@
 
     .ctrls {
       @apply hidden transition-all;
+      color: var(--box-title-color);
+    }
+    .icon {
+      color: var(--box-title-color);
     }
   }
   .box-link {
@@ -72,7 +87,7 @@
     }
   }
   .box-desc {
-    @apply text-xs text-center truncate w-full h-3.5;
+    @apply text-xs text-center truncate w-full h-3.5 mb-0.5;
     color: var(--box-title-color);
   }
   .box-items {

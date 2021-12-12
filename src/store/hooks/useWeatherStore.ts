@@ -19,6 +19,13 @@ const useWeatherStore = defineStore({
       this.$state.city = city;
     },
   },
+  getters: {
+    detailWeather(): string {
+      let today = this.data.data?.weather.content.today;
+      if (!today) return '';
+      return `${today.time} ${today.wind}`;
+    },
+  },
 });
 
 const instance = useWeatherStore();

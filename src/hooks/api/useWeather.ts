@@ -15,6 +15,7 @@ const useWeather = () => {
         rawData.value = data;
         try {
           weather.value = JSON.parse(data);
+          console.log(weather.value);
         } catch (e) {}
       });
     },
