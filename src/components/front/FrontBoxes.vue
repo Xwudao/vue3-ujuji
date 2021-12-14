@@ -26,7 +26,7 @@
   //   }
   // };
   const showExpand = ref(false);
-  const showData = ref<IBoxesData | undefined>();
+  const showData = ref<IBoxesData>(null!);
   const handleExpand = (item: IBoxesData) => {
     showExpand.value = true;
     showData.value = item;

@@ -1,7 +1,7 @@
 <script lang="ts" setup="setup">
   import AppIcon from '@/components/common/AppIcon.vue';
   import useSearchConfigStore from '@/store/hooks/useSearchConfigStore';
-  import { computed, ref, watch } from 'vue';
+  import { computed, ref } from 'vue';
   import { jumpUrl } from '@/utils/url';
   import type { ILink } from '@/api/siteApi';
 
