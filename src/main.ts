@@ -5,7 +5,8 @@ import 'element-plus/dist/index.css';
 import router from '@/router';
 import { createPinia } from 'pinia';
 //iconify
-import '@purge-icons/generated'; // <-- This
+import '@purge-icons/generated';
+import { initSysStore } from '@/core/init'; // <-- This
 //pinia
 const pinia = createPinia();
 const app = createApp(App);
@@ -14,3 +15,4 @@ app.config.globalProperties.$ELEMENT = {
 };
 app.use(router).use(pinia);
 app.mount('#app');
+initSysStore();

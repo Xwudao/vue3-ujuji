@@ -5,6 +5,8 @@
   import { reqUserLogin } from '@/api/userApi';
   import { OK_CODE } from '@/app/keys';
   import { ElMessage } from 'element-plus';
+  import useUserStore from '@/store/hooks/useUserStore';
+  import { useRouter } from 'vue-router';
   const formData = reactive<ILoginData>({
     username: '',
     password: '',
@@ -17,12 +19,15 @@
     verify_str: [{ required: true, message: '验证码不能为空' }],
   };
   const { imageID, refresh, image } = useVerify();
+  const userStore = useUserStore();
+  const router = useRouter();
   const handleSubmit = () => {
     reqUserLogin(Object.assign({}, formData, { verify_id: imageID.value })).then(
       ({ code, data, msg }) => {
         if (code === OK_CODE) {
           ElMessage.success(msg);
-          console.log(data);
+          // userStore.load(data);
+          router.push({ name: 'Admin' });
         } else {
           ElMessage.error(msg);
         }
@@ -43,7 +48,7 @@
             <el-input v-model="formData.username" placeholder="输入用户名" />
           </el-form-item>
           <el-form-item lable="密码" prop="password">
-            <el-input v-model="formData.password" placeholder="输入密码" />
+            <el-input v-model="formData.password" type="password" placeholder="输入密码" />
           </el-form-item>
           <el-form-item lable="密码" prop="verify_str">
             <div class="flex">
