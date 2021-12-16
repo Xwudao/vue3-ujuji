@@ -1,6 +1,13 @@
 import useHttp from '@/api/useHttp';
 import type { BasicResp } from '@/api/types';
-
+export interface IRegisterData {
+  verify_id: string;
+  verify_code: string;
+  username: string;
+  email: string;
+  email_verify: string;
+  password: string;
+}
 export interface ILoginData {
   verify_id: string;
   verify_str: string;

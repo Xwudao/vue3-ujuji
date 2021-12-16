@@ -1,9 +1,11 @@
-import type { RouteMeta, RouteRecordRaw } from 'vue-router';
-type AppRouteRaw = RouteRecordRaw & { index: number; auth?: boolean };
-interface MetaInfo extends RouteMeta {
-  auth?: boolean;
-  title: string;
-  // navbarName: string;
-}
+// import type { RouteMeta, RouteRecordRaw } from 'vue-router';
+// export interface AppRouteRaw extends RouteRecordRaw {}
+// interface MetaInfo extends RouteMeta {
+//   auth?: boolean;
+//   title: string;
+//   // navbarName: string;
+// }
 
-export { MetaInfo, AppRouteRaw };
+// export { MetaInfo, AppRouteRaw };
+
+export {};

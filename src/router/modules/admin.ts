@@ -1,11 +1,10 @@
-import type { AppRouteRaw } from '@/router/types';
+import type { RouteRecordRaw } from 'vue-router';
 
-const routes: AppRouteRaw[] = [
+const routes: RouteRecordRaw[] = [
   {
     path: '/admin',
     name: 'Admin',
-    index: 1,
-    auth: true,
+    meta: { auth: true, index: 1 },
     component: () => import('@/pages/Admin.vue'),
   },
 ];
