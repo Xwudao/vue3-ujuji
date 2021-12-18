@@ -11,7 +11,7 @@
   const showPopover = ref(false);
   const cityVal = ref<string[]>([]);
   const info = computed(() => {
-    const i = weatherStore.data.data?.weather.content;
+    const i = weatherStore.data?.data?.weather.content;
     if (!i) return '';
     return `[${i?.city}] ${i?.today.condition} ${i?.today.temp}`;
   });

@@ -37,4 +37,11 @@ const reqUserLogin = (params: ILoginData) => {
     data: { ...params },
   });
 };
-export { reqUserLogin };
+const reqUserRegister = (params: IRegisterData) => {
+  return useHttp<BasicResp<null>>({
+    url: `/user/v1`,
+    method: 'post',
+    data: { ...params },
+  });
+};
+export { reqUserLogin, reqUserRegister };

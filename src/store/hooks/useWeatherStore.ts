@@ -34,6 +34,6 @@ instance.$subscribe((mutation, state) => {
   setItem(instance.$id, { ...state });
 });
 const init = getItem<Partial<WeatherStoreType>>(instance.$id);
-instance.$patch({ city: init?.city, data: init?.data });
+instance.$patch({ city: init?.city || '成都', data: init?.data });
 
 export default useWeatherStore;

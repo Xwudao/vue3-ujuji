@@ -2,6 +2,12 @@ import type { RouteRecordRaw } from 'vue-router';
 
 const routes: RouteRecordRaw[] = [
   {
+    path: '/find_pass',
+    name: 'FindPass',
+    meta: { auth: false },
+    component: () => import('@/pages/FindPass.vue'),
+  },
+  {
     path: '/register',
     name: 'Register',
     meta: { auth: false },

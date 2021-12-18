@@ -14,7 +14,7 @@
     verify_str: '',
     verify_id: '',
   });
-  const agree = ref(false);
+  const agree = ref(true);
   const rules = {
     username: [{ required: true, message: '用户名不能为空' }],
     password: [{ required: true, message: '密码不能为空' }],
@@ -55,7 +55,7 @@
           <span>
             <el-button type="text" @click="$router.push({ name: 'Register' })">立即注册</el-button>
             <el-button type="text" @click="$router.push({ name: 'Front' })">返回首页</el-button>
-            <el-button type="text">忘记密码</el-button>
+            <el-button type="text" @click="$router.push({ name: 'FindPass' })">忘记密码</el-button>
           </span>
         </div>
         <el-form

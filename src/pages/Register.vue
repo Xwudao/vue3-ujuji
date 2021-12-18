@@ -2,12 +2,12 @@
   import { reactive, ref } from 'vue';
   import useVerify from '@/hooks/api/useVerify';
   import type { IRegisterData } from '@/api/userApi';
-  import { reqUserLogin } from '@/api/userApi';
+  import { reqUserRegister } from '@/api/userApi';
   import { OK_CODE } from '@/app/keys';
   import { ElMessage } from 'element-plus';
-  import useUserStore from '@/store/hooks/useUserStore';
   import { useRouter } from 'vue-router';
   import { AgreeUrl } from '@/core/constant';
+  import { reqEmailVerify } from '@/api/verifyApi';
 
   const formData = reactive<IRegisterData>({
     username: '',
@@ -17,7 +17,7 @@
     verify_code: '',
     verify_id: '',
   });
-  const agree = ref(false);
+  const agree = ref(true);
   const rules = {
     username: [{ required: true, message: '用户名不能为空' }],
     password: [{ required: true, message: '密码不能为空' }],
@@ -26,7 +26,40 @@
     email_verify: [{ required: true, message: '邮箱验证码不能为空' }],
   };
   const { imageID, refresh, image } = useVerify();
-  const handleSubmit = () => {};
+  const formEl = ref<HTMLFormElement>(null!);
+  const router = useRouter();
+  const handleSubmit = () => {
+    if (!agree.value) {
+      ElMessage.info('请先同意协议');
+      return;
+    }
+    formEl.value.validate().then(async (ok: boolean) => {
+      if (!ok) return;
+      reqUserRegister(Object.assign(formData, { verify_id: imageID.value })).then(
+        ({ code, msg }) => {
+          if (code === OK_CODE) {
+            ElMessage.success(msg);
+            router.push({ name: 'Login' });
+            return;
+          }
+          ElMessage.error(msg);
+        }
+      );
+    });
+  };
+  const sendEmailVerify = () => {
+    if (!formData.email || !formData.verify_code) {
+      ElMessage.error('请先输入邮箱验证码或邮箱地址');
+      return;
+    }
+    reqEmailVerify(Object.assign(formData, { verify_id: imageID.value })).then(({ code, msg }) => {
+      if (code === OK_CODE) {
+        ElMessage.success(msg);
+        return;
+      }
+      ElMessage.error(msg);
+    });
+  };
 </script>
 
 <template>
@@ -38,7 +71,7 @@
           <span>
             <el-button type="text" @click="$router.push({ name: 'Login' })">立即登录</el-button>
             <el-button type="text" @click="$router.push({ name: 'Front' })">返回首页</el-button>
-            <el-button type="text">忘记密码</el-button>
+            <el-button type="text" @click="$router.push({ name: 'FindPass' })">忘记密码</el-button>
           </span>
         </div>
         <el-form
@@ -69,7 +102,14 @@
             </div>
           </el-form-item>
           <el-form-item lable="邮箱验证码" prop="email_verify">
-            <el-input v-model="formData.email_verify" placeholder="输入邮箱里的验证码" />
+            <div class="flex space-x-2">
+              <el-input
+                v-model="formData.email_verify"
+                class="flex-1"
+                placeholder="输入邮箱里的验证码"
+              />
+              <el-button class="" @click="sendEmailVerify">发送</el-button>
+            </div>
           </el-form-item>
           <el-form-item>
             <div class="flex items-center">
