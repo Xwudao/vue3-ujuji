@@ -3,6 +3,7 @@ import useStorage from '@/hooks/useStorage';
 import type { ILoginReturn } from '@/api/userApi';
 
 export const USER_KEY = 'user';
+const { setItem, getItem } = useStorage();
 const useUserStore = defineStore({
   id: USER_KEY,
   state: (): Partial<ILoginReturn> => {
@@ -23,11 +24,14 @@ const useUserStore = defineStore({
     load(data: Partial<ILoginReturn>) {
       this.$patch({ ...this.$state, ...data });
     },
+    logout() {
+      // this.$patch({});
+      setItem(this.$id, '');
+    },
   },
 });
 export const initUserStore = () => {
   const instance = useUserStore();
-  const { setItem, getItem } = useStorage();
   instance.$subscribe((mutation, state) => {
     setItem(instance.$id, { ...state });
   });
