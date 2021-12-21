@@ -6,6 +6,21 @@ const routes: RouteRecordRaw[] = [
     name: 'Admin',
     meta: { auth: true, index: 1 },
     component: () => import('@/pages/Admin.vue'),
+    redirect: { name: 'Dashboard' },
+    children: [
+      {
+        path: 'dashboard',
+        name: 'Dashboard',
+        meta: { auth: true, index: 1 },
+        component: () => import('@/pages/admin/Dashboard.vue'),
+      },
+      {
+        path: 'siteConfig',
+        name: 'SiteConfig',
+        meta: { auth: true, index: 1 },
+        component: () => import('@/pages/admin/SiteConfig.vue'),
+      },
+    ],
   },
 ];
 

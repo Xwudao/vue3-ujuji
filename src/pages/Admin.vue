@@ -3,6 +3,7 @@
   import AppIcon from '@/components/common/AppIcon.vue';
   import { useRouter } from 'vue-router';
   import useUserStore from '@/store/hooks/useUserStore';
+  import useMenus from '@/router/menus';
 
   const fold = ref(false);
   const handleFold = () => {
@@ -22,6 +23,7 @@
         break;
     }
   };
+  const { menus, activeIndex } = useMenus();
 </script>
 
 <template>
@@ -41,6 +43,7 @@
           <el-dropdown trigger="click" @command="handleCommand">
             <div class="flex items-center el-dropdown-link cursor-pointer">
               <el-avatar
+                :size="30"
                 src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"
               ></el-avatar>
               <span class="inline-block ml-1">
@@ -58,22 +61,45 @@
       </div>
     </div>
     <div class="main-cnt">
-      <div class="left-cnt" :class="{ fold }"></div>
+      <div class="left-cnt" :class="{ fold }">
+        <ul class="menu">
+          <li
+            v-for="(item, i) in menus"
+            :key="i"
+            class="menu-item"
+            :class="{ active: i === activeIndex }"
+          >
+            <router-link :to="{ name: item.routeName }">
+              <app-icon :icon="item.icon" class="text-lg" />
+              <span class="ml-2">
+                {{ item.name }}
+              </span>
+            </router-link>
+          </li>
+          <!--          <li v-for="i in 20" :key="i + 10" class="menu-item">-->
+          <!--            <router-link :to="{ name: 'Dashboard' }">-->
+          <!--              <app-icon icon="carbon:cloud-satellite-config" class="text-lg" />-->
+          <!--              <span class="ml-2">站点配置</span>-->
+          <!--            </router-link>-->
+          <!--          </li>-->
+        </ul>
+      </div>
       <div class="right-cnt">
-        <!--        <router-view />-->
+        <router-view />
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+  @import '../assets/styles/mixin';
   $header-height: 4rem;
   $left-width: 13rem;
   .admin {
     @apply h-full w-full;
   }
   .header {
-    @apply flex items-center px-2 border-b border-gray-100 shadow-md justify-between;
+    @apply flex items-center px-2 border-b border-gray-200 justify-between;
     height: $header-height;
 
     .header-left {
@@ -96,14 +122,31 @@
     height: calc(100% - #{$header-height});
 
     .left-cnt {
-      @apply bg-green-200 h-full transition-all;
+      @apply h-full transition-all border-r border-gray-200;
       width: $left-width;
       &.fold {
         @apply w-0 transition-all;
       }
+
+      .menu {
+        @apply py-1 h-full;
+        @include scroll();
+        .menu-item {
+          @apply px-1 pt-0.5 text-lg text-gray-700;
+          &.active {
+            a {
+              @apply text-indigo-400 bg-gray-200;
+            }
+          }
+          a {
+            @apply block w-full px-2 py-1 rounded flex items-center space-x-2;
+            @apply hover:bg-gray-200 hover:text-indigo-400;
+          }
+        }
+      }
     }
     .right-cnt {
-      @apply bg-indigo-200 h-full flex-1;
+      @apply h-full flex-1 p-1.5;
       //width: calc(100% - #{$left-width});
     }
   }
