@@ -108,9 +108,9 @@
         @apply flex items-center;
       }
       .brand {
-        @apply ml-3 rounded bg-gray-100 px-9 py-1 select-none;
+        @apply ml-3 rounded bg-gray-50 px-4 py-1 select-none;
         span {
-          @apply font-bold text-base text-gray-700;
+          @apply font-bold text-lg text-gray-700;
         }
       }
     }
@@ -126,21 +126,24 @@
       width: $left-width;
       &.fold {
         @apply w-0 transition-all;
+        & > .menu {
+          @apply w-0 transition-all;
+        }
       }
 
       .menu {
-        @apply py-1 h-full;
+        @apply py-1 h-full transition-all w-full truncate;
         @include scroll();
         .menu-item {
           @apply px-1 pt-0.5 text-lg text-gray-700;
           &.active {
             a {
-              @apply text-indigo-400 bg-gray-200;
+              @apply text-indigo-400 bg-gray-100;
             }
           }
           a {
             @apply block w-full px-2 py-1 rounded flex items-center space-x-2;
-            @apply hover:bg-gray-200 hover:text-indigo-400;
+            @apply hover:bg-gray-100 hover:text-indigo-400;
           }
         }
       }
