@@ -62,6 +62,12 @@
     </div>
     <div class="main-cnt">
       <div class="left-cnt" :class="{ fold }">
+        <div class="mobile-ctrl">
+          <span>优聚集</span>
+          <div class="flex items-center" @click="handleFold">
+            <app-icon icon="fa-solid:times" class="text-lg" />
+          </div>
+        </div>
         <ul class="menu">
           <li
             v-for="(item, i) in menus"
@@ -94,7 +100,7 @@
 <style lang="scss" scoped>
   @import '../assets/styles/mixin';
   $header-height: 4rem;
-  $left-width: 13rem;
+  //$left-width: 13rem;
   .admin {
     @apply h-full w-full;
   }
@@ -122,17 +128,31 @@
     height: calc(100% - #{$header-height});
 
     .left-cnt {
-      @apply h-full transition-all border-r border-gray-200;
-      width: $left-width;
+      @apply h-full transition-all border-r border-gray-200 bg-white;
+      @apply fixed inset-0 w-3/4 shadow-md sm:relative sm:w-adminLeftWidth;
       &.fold {
         @apply w-0 transition-all;
-        & > .menu {
-          @apply w-0 transition-all;
+        & > .menu,
+        & > .mobile-ctrl {
+          @apply w-0 opacity-0 transition-all;
+        }
+        & > .mobile-ctrl {
+          @apply hidden;
+        }
+      }
+
+      .mobile-ctrl {
+        @apply h-10 sm:hidden block border-b border-gray-200 flex justify-between px-2 items-center;
+        @apply transition-all;
+        span {
+          &:first-child {
+            @apply font-bold text-lg;
+          }
         }
       }
 
       .menu {
-        @apply py-1 h-full transition-all w-full truncate;
+        @apply flex-1 py-1 h-full transition-all w-full truncate;
         @include scroll();
         .menu-item {
           @apply px-1 pt-0.5 text-lg text-gray-700;
