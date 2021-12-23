@@ -17,6 +17,11 @@ const menus: AdminMenus[] = [
     routeName: 'SiteConfig',
     icon: 'carbon:cloud-satellite-config',
   },
+  {
+    name: '留言管理',
+    routeName: 'MsgList',
+    icon: 'ant-design:message-outlined',
+  },
 ];
 
 const useMenus = () => {

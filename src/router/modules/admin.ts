@@ -9,6 +9,12 @@ const routes: RouteRecordRaw[] = [
     redirect: { name: 'Dashboard' },
     children: [
       {
+        path: 'msgList',
+        name: 'MsgList',
+        meta: { auth: true, index: 1 },
+        component: () => import('@/pages/admin/MsgList.vue'),
+      },
+      {
         path: 'dashboard',
         name: 'Dashboard',
         meta: { auth: true, index: 1 },

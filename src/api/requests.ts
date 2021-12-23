@@ -2,6 +2,8 @@ import axios from 'axios';
 // import { KEY_USER_ID, UserInfo } from '@/store/modules/useUserStore';
 import router from '@/router';
 import { NO_PERMISSION, OK_CODE } from '@/app/keys';
+import { USER_KEY } from '@/store/hooks/useUserStore';
+import type { ILoginReturn } from '@/api/userApi';
 
 const requests = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
@@ -12,12 +14,12 @@ const requests = axios.create({
 requests.interceptors.request.use((config) => {
   config = config || {};
   //pinia
-  // try {
-  //   const user = JSON.parse(localStorage.getItem(KEY_USER_ID) || '') as UserInfo;
-  //   if (user.token) {
-  //     config.headers!['Authorization'] = `Bearer ${user.token}`;
-  //   }
-  // } catch (e) {}
+  try {
+    const user = JSON.parse(localStorage.getItem(USER_KEY) || '') as Partial<ILoginReturn>;
+    if (user.token) {
+      config.headers!['Authorization'] = `Bearer ${user.token}`;
+    }
+  } catch (e) {}
   return config;
 });
 

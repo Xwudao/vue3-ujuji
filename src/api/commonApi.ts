@@ -151,3 +151,13 @@ export const reqLatestLinks = (userID: number, n = 15) => {
     method: 'get',
   });
 };
+export interface IStatisticsData {
+  no_read_msg: number;
+}
+
+export const reqStatisticsInfo = () => {
+  return useHttp<BasicResp<IStatisticsData>>({
+    url: `/statistics/auth/v1/all`,
+    method: 'get',
+  });
+};
