@@ -9,6 +9,12 @@ const routes: RouteRecordRaw[] = [
     redirect: { name: 'Dashboard' },
     children: [
       {
+        path: 'updateNote',
+        name: 'UpdateNote',
+        meta: { auth: true, index: 1 },
+        component: () => import('@/pages/admin/UpdateNote.vue'),
+      },
+      {
         path: 'msgList',
         name: 'MsgList',
         meta: { auth: true, index: 1 },

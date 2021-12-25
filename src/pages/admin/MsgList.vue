@@ -26,7 +26,7 @@
       prop: 'reply',
     },
   ];
-  const msgData = ref<IMsgInfo | {}>({});
+  const msgData = ref<IMsgInfo | any>({});
   const showRead = ref(false);
   const handleRead = (msg: IMsgInfo) => {
     msgData.value = msg;
@@ -57,19 +57,41 @@
       ElMessage.error(m);
     });
   };
+  //selection
+  const selected = ref<IMsgInfo[]>([]);
+  const handleSelectionChange = (val: IMsgInfo[]) => {
+    selected.value = val;
+  };
+  const handleDeleteBatch = () => {
+    selected.value.forEach((item) => {
+      handleDelete(item.id);
+    });
+    // refresh();
+  };
 </script>
 
 <template>
   <box-card>
     <template #title>留言管理</template>
+    <template #extra>
+      <el-popconfirm title="Are you sure to delete selected?" @confirm="handleDeleteBatch">
+        <template #reference>
+          <el-button :disabled="!selected.length" :icon="Delete" size="mini" type="danger">
+            批量删除
+          </el-button>
+        </template>
+      </el-popconfirm>
+    </template>
     <template #cnt>
-      <el-table v-loading="loading" :data="msg" border>
+      <el-table v-loading="loading" :data="msg" border @selection-change="handleSelectionChange">
+        <el-table-column type="selection" width="55" />
         <el-table-column
           v-for="(item, i) in cols"
           :key="i"
           :prop="item.prop"
           :label="item.label"
         ></el-table-column>
+
         <el-table-column label="状态">
           <template #default="{ row }">
             <div class="space-x-2">

@@ -22,6 +22,11 @@ const menus: AdminMenus[] = [
     routeName: 'MsgList',
     icon: 'ant-design:message-outlined',
   },
+  {
+    name: '更新日志',
+    routeName: 'UpdateNote',
+    icon: 'fluent:note-24-regular',
+  },
 ];
 
 const useMenus = () => {

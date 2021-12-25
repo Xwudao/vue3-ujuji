@@ -170,6 +170,7 @@
     }
     .right-cnt {
       @apply h-full flex-1 p-1.5 bg-gray-100;
+      @include scroll();
       //width: calc(100% - #{$left-width});
     }
   }
