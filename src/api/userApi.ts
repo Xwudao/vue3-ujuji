@@ -44,4 +44,19 @@ const reqUserRegister = (params: IRegisterData) => {
     data: { ...params },
   });
 };
-export { reqUserLogin, reqUserRegister };
+///user/auth/v1/token/refresh
+const reqRefreshToken = () => {
+  return useHttp<BasicResp<{ token: string }>>({
+    url: `/user/auth/v1/token/refresh`,
+    method: 'post',
+  });
+};
+///user/auth/v1/avatar
+
+// const reqUploadUserAvatar = () => {
+//   return useHttp({
+//     url: `/user/auth/v1/avatar`,
+//     method: 'post',
+//   });
+// };
+export { reqUserLogin, reqRefreshToken, reqUserRegister };

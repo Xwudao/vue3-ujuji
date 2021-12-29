@@ -1,5 +1,5 @@
 <script lang="ts" setup="setup">
-  import { ref } from 'vue';
+  import { computed, ref } from 'vue';
   import AppIcon from '@/components/common/AppIcon.vue';
   import { useRouter } from 'vue-router';
   import useUserStore from '@/store/hooks/useUserStore';
@@ -24,6 +24,9 @@
     }
   };
   const { menus, activeIndex } = useMenus();
+  const avatar = computed(() => {
+    return userStore.info?.avatar || '';
+  });
 </script>
 
 <template>
@@ -42,10 +45,7 @@
         <div class="avatar">
           <el-dropdown trigger="click" @command="handleCommand">
             <div class="flex items-center el-dropdown-link cursor-pointer">
-              <el-avatar
-                :size="30"
-                src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"
-              ></el-avatar>
+              <el-avatar :size="30" :src="avatar"></el-avatar>
               <span class="inline-block ml-1">
                 {{ userStore.info?.username || '' }}
               </span>

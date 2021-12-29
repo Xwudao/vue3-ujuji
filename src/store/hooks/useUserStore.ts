@@ -24,6 +24,13 @@ const useUserStore = defineStore({
     load(data: Partial<ILoginReturn>) {
       this.$patch({ ...this.$state, ...data });
     },
+    refreshToken(token: string) {
+      this.$state.info!.access_token = token;
+    },
+    changeAvatar(url: string) {
+      this.$state.info!.avatar = url;
+      // this.$patch({ ...this.$state });
+    },
     logout() {
       // this.$patch({});
       setItem(this.$id, '');
